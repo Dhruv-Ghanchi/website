@@ -1,0 +1,28 @@
+import { chromium } from '@playwright/test';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import path from 'node:path';
+const root=process.cwd();
+const data=JSON.parse(await readFile('reference/home.json','utf8'));
+console.log('IMAGES',JSON.stringify(data.images.map((i,n)=>({n,alt:i.alt,src:i.src,w:i.width,h:i.height})),null,2));
+const browser=await chromium.launch();
+const page=await browser.newPage({viewport:{width:1440,height:1000}});
+await page.goto('https://kora.framer.media/',{waitUntil:'networkidle'});
+await page.evaluate(()=>scrollTo(0,0));
+await page.waitForTimeout(1500);
+const structure=await page.evaluate(()=>[...document.querySelectorAll('[data-framer-name]')].filter(el=>{let r=el.getBoundingClientRect();return r.width>500&&r.height>180}).map(el=>{let r=el.getBoundingClientRect(),s=getComputedStyle(el);return {name:el.dataset.framerName,class:el.className,y:r.y,x:r.x,w:r.width,h:r.height,bg:s.backgroundColor,radius:s.borderRadius,position:s.position,transform:s.transform,backgroundImage:s.backgroundImage};}));
+await writeFile('reference/structure.json',JSON.stringify(structure,null,2));
+for(const [label,y] of [['statement',1500],['comparison',3500],['service-card',5600],['process-open',11700],['footer',24700]]){await page.evaluate(y=>scrollTo(0,y),y);await page.waitForTimeout(2000);await page.screenshot({path:`reference/${label}.png`});}
+await page.getByText('Growth Partnership',{exact:true}).first().click();
+await page.waitForTimeout(1000);
+console.log('PARTNERSHIP',await page.locator('[data-framer-name]').filter({has:page.getByText('Growth Partnership',{exact:true})}).last().innerText().catch(()=>''));
+await page.screenshot({path:'reference/pricing-partnership.png'});
+await page.getByRole('heading',{name:'Diagnose',exact:true}).scrollIntoViewIfNeeded();
+await page.waitForTimeout(700);
+console.log('PROCESS DOM',await page.getByRole('heading',{name:'Diagnose',exact:true}).evaluate(el=>el.parentElement.parentElement.parentElement.outerHTML.slice(0,16000)));
+await page.setViewportSize({width:390,height:844});
+await page.evaluate(()=>scrollTo(0,0));
+await page.waitForTimeout(1500);
+await page.screenshot({path:'reference/mobile-top.png'});
+console.log('MOBILE H1',await page.locator('h1').evaluate(el=>({font:getComputedStyle(el).fontSize,rect:el.getBoundingClientRect().toJSON()})));
+console.log('VIDEO IFRAMES',await page.locator('iframe').evaluateAll(els=>els.map(el=>({src:el.src,title:el.title}))));
+await browser.close();
