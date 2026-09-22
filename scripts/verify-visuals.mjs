@@ -4,14 +4,14 @@ import { mkdir, writeFile } from 'node:fs/promises';
 await mkdir('reference/local', { recursive: true });
 const browser = await chromium.launch();
 const reports = [];
-for (const width of [1440, 810, 390]) {
+for (const width of [1440, 1200, 810, 390]) {
   const page = await browser.newPage({ viewport: { width, height: width === 390 ? 844 : 1000 } });
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
-  await page.goto('http://localhost:3000/', { waitUntil: 'networkidle' });
+  await page.goto('http://localhost:3100/', { waitUntil: 'networkidle' });
   await page.waitForTimeout(1400);
   await page.screenshot({ path: `reference/local/hero-${width}.png` });
-  const sections = ['.comparison-scroll', '.services-section', '.service-card', '.process-section', '.team-section', '.testimonials-section', '.featured-case', '.pricing-section', '.faq-section', '.home-insights', '.contact-section', '.site-footer'];
+  const sections = ['.comparison-scroll', '.services-section', '.service-card', '.process-section', '.team-section', '.testimonials-section', '.featured-case', '.faq-section', '.home-insights', '.contact-section', '.site-footer'];
   for (const selector of sections) {
     const element = page.locator(selector).first();
     await element.evaluate(el => window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 120, behavior: 'instant' }));
@@ -33,7 +33,7 @@ for (const width of [1440, 810, 390]) {
   }).map(el => ({ tag: el.tagName, class: el.className, width: el.getBoundingClientRect().width, left: el.getBoundingClientRect().left })).slice(0, 20));
   reports.push({ width, errors, overflow, documentWidth: await page.evaluate(() => document.documentElement.scrollWidth) });
   if (width === 1440) {
-    await page.getByRole('button', { name: /Koraline Spencer Founder/ }).click();
+    await page.getByRole('button', { name: /Chandrakant B. Ghanchi Founder/ }).click();
     await page.waitForTimeout(700);
     await page.screenshot({ path: 'reference/local/team-dialog.png' });
     await page.keyboard.press('Escape');

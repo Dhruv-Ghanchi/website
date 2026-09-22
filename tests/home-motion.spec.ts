@@ -17,7 +17,7 @@ for (const width of [1440, 1200, 810, 390]) {
     await scrollTo(page, height + 1100);
     await expect(page.locator('.hero-statement')).toBeVisible();
     const words = page.locator('.hero-statement .statement-word');
-    await expect(words).toHaveCount(9);
+    await expect(words).toHaveCount(7);
     await expect(words.last()).toHaveCSS('opacity', '1');
     const statement = await page.locator('.hero-statement').boundingBox();
     expect(statement?.y).toBeCloseTo(0, 0);
@@ -46,7 +46,7 @@ test('footer scales with scroll, reverses, and animates navigation on hover and 
   await expect.poll(scale).toBeCloseTo(0.85, 2);
   await scrollTo(page, await page.evaluate(() => document.documentElement.scrollHeight));
   await expect.poll(scale).toBeCloseTo(1, 2);
-  const link = page.getByRole('navigation', { name: 'Footer navigation' }).getByRole('link', { name: 'Case studies', exact: true });
+  const link = page.getByRole('navigation', { name: 'Footer navigation' }).getByRole('link', { name: 'Services', exact: true });
   await link.hover();
   await expect(link.locator('.footer-nav-hover')).toHaveCSS('opacity', '1');
   await page.mouse.move(0, 0);
@@ -59,6 +59,8 @@ test('footer scales with scroll, reverses, and animates navigation on hover and 
 
 for (const width of [1440, 390]) {
   test(`reduced motion keeps all introduction content readable at ${width}px`, async ({ page }) => {
+    const hydrationErrors: string[] = [];
+    page.on('console', message => { if (message.type() === 'error' && /hydrat|server rendered/i.test(message.text())) hydrationErrors.push(message.text()); });
     await page.emulateMedia({ reducedMotion: 'reduce' });
     await page.setViewportSize({ width, height: 900 });
     await page.goto('/');
@@ -67,6 +69,8 @@ for (const width of [1440, 390]) {
     await expect(page.locator('.hero-scroll')).not.toHaveCSS('position', 'sticky');
     await expect(page.locator('.ticker-track')).toHaveCSS('animation-name', 'none');
     await expect(page.locator('.footer-card')).toHaveCSS('transform', 'none');
+    await expect(page.getByRole('button', { name: 'Subscribe to newsletter', exact: true })).toBeEnabled();
+    expect(hydrationErrors).toEqual([]);
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBe(width);
   });
 }

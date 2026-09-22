@@ -29,16 +29,17 @@ export async function POST(request: Request) {
     data = parsed as Record<string, unknown>;
   } catch { return reply('We could not read your request. Please try again.', 400); }
   if (data.website !== undefined && data.website !== '') return reply('Unable to accept this submission.', 400);
-  if (!text(data.name, 2, 100) || !text(data.email, 3, 254) || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email) || !text(data.challenge, 10, 3000) || data.consent !== true) return reply('Please enter your name, a valid email, your growth challenge, and agree to the terms of service.', 400);
+  if (!text(data.name, 2, 100) || !text(data.email, 3, 254) || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email) || !text(data.message, 10, 3000) || data.consent !== true) return reply('Please enter your name, a valid email, your enquiry, and agree to the terms of service.', 400);
   if (!Array.isArray(data.services) || data.services.length < 1 || data.services.length > services.length || new Set(data.services).size !== data.services.length || !data.services.every(id => typeof id === 'string' && services.some(service => service.id === id))) return reply('Please choose at least one valid service.', 400);
-  if (typeof data.revenue !== 'string' || !['Under $1M', '$1M–$5M', '$5M–$20M', '$20M+'].includes(data.revenue)) return reply('Please choose your annual revenue range.', 400);
+  if (!text(data.phone, 7, 25) || !/^[+0-9 ()-]+$/.test(data.phone) || data.phone.replace(/\D/g, '').length < 7) return reply('Please enter a valid phone number including your country code.', 400);
+  if (!text(data.goal, 0, 200)) return reply('Please keep your financial goal under 200 characters.', 400);
   let destination: URL;
   try {
     destination = new URL(process.env.CONTACT_WEBHOOK_URL || '');
     if (destination.protocol !== 'https:' || destination.username || destination.password) return reply(unavailable, 503);
   } catch { return reply(unavailable, 503); }
   try {
-    const response = await fetch(destination, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name: data.name.trim(), email: data.email.trim(), services: data.services, revenue: data.revenue, challenge: data.challenge.trim(), consent: true }), signal: AbortSignal.timeout(10000), redirect: 'error', cache: 'no-store' });
+    const response = await fetch(destination, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name: data.name.trim(), email: data.email.trim(), services: data.services, phone: data.phone.trim(), goal: data.goal.trim(), message: data.message.trim(), consent: true }), signal: AbortSignal.timeout(10000), redirect: 'error', cache: 'no-store' });
     await response.body?.cancel();
     if (!response.ok) return reply('Your enquiry could not be sent. Please try again later.', 502);
     return reply('Your enquiry was sent. The team will be in touch to arrange a call.', 200);
