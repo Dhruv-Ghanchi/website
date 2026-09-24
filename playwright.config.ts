@@ -2,6 +2,7 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
+  globalSetup: require.resolve('./tests/global-setup.ts'),
   fullyParallel: true,
   timeout: 45000,
   expect: { timeout: 10000 },

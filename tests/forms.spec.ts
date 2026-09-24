@@ -154,15 +154,16 @@ test('contact preselects only valid service query values and lets visitors chang
   await expect(form.locator('input[name="services"]:checked')).toHaveCount(0);
 });
 
-test('contact and newsletter inherit root theme colors while the logo glyph stays white', async ({ page }) => {
+test('contact and newsletter inherit root theme colors; the real logo renders in the contact form', async ({ page }) => {
   await page.goto('/contact-us');
   await expect(page.getByRole('button', { name: 'Send enquiry', exact: true })).toBeEnabled();
   await page.evaluate(() => {
     document.documentElement.style.setProperty('--accent', '#123456');
     document.documentElement.style.setProperty('--ink', '#654321');
   });
-  await expect(page.locator('.contact-form .brand-mark')).toHaveCSS('color', 'rgb(255, 255, 255)');
-  await expect(page.locator('.contact-form .brand-mark')).toHaveCSS('background-color', 'rgb(18, 52, 86)');
+  // Kora's generic brand-mark glyph is intentionally replaced by the real Ghanchi
+  // logo image here (not a colorable SVG), so there is no glyph theming to assert.
+  await expect(page.locator('.contact-form .logo-mark')).toBeVisible();
   await expect(page.locator('.contact-form')).toHaveCSS('color', 'rgb(101, 67, 33)');
   await expect(page.locator('.newsletter-form-row button')).toHaveCSS('background-color', 'rgb(18, 52, 86)');
   await expect(page.locator('.newsletter-form')).toHaveCSS('color', 'rgb(101, 67, 33)');
@@ -242,10 +243,18 @@ test('API validation, configuration and delivery stay local with a mocked transp
   const originalFetch = globalThis.fetch;
   const originalContact = process.env.CONTACT_WEBHOOK_URL;
   const originalNewsletter = process.env.NEWSLETTER_WEBHOOK_URL;
+  const strapiUrl = process.env.STRAPI_URL || 'http://localhost:1337';
+  const isStrapiRequest = (input: RequestInfo | URL) => String(input instanceof Request ? input.url : input).startsWith(strapiUrl);
   let calls = 0;
   let upstreamStatus = 200;
   let lastInit: RequestInit | undefined;
-  globalThis.fetch = async (_input, init) => { calls++; lastInit = init; return new Response(null, { status: upstreamStatus }); };
+  // The route handler also calls Strapi internally (to validate submitted service
+  // IDs against the real service list) -- only the webhook transport is mocked here,
+  // so Strapi requests must pass through to the real dev server untouched.
+  globalThis.fetch = async (input, init) => {
+    if (isStrapiRequest(input)) return originalFetch(input, init);
+    calls++; lastInit = init; return new Response(null, { status: upstreamStatus });
+  };
   const request = (path: string, data: unknown, origin = 'http://localhost:3100') => new Request(`http://localhost:3100/api/${path}`, { method: 'POST', headers: { origin, 'Content-Type': 'application/json' }, body: JSON.stringify(data) });
   try {
     delete process.env.CONTACT_WEBHOOK_URL;
@@ -277,7 +286,10 @@ test('API validation, configuration and delivery stay local with a mocked transp
     upstreamStatus = 500;
     expect((await contactPOST(request('contact', validContact))).status).toBe(502);
     expect((await newsletterPOST(request('newsletter', { email: 'reader@example.test', consent: true }))).status).toBe(502);
-    globalThis.fetch = async () => { throw new DOMException('Timed out', 'TimeoutError'); };
+    globalThis.fetch = async (input, init) => {
+      if (isStrapiRequest(input)) return originalFetch(input, init);
+      throw new DOMException('Timed out', 'TimeoutError');
+    };
     expect((await contactPOST(request('contact', validContact))).status).toBe(502);
     expect((await newsletterPOST(request('newsletter', { email: 'reader@example.test', consent: true }))).status).toBe(502);
   } finally {

@@ -1,20 +1,13 @@
+import { readFileSync } from 'node:fs';
+import path from 'node:path';
 import { expect, test } from '@playwright/test';
+import type { FixtureData } from './fixture-data';
 
-const STRAPI_URL = process.env.STRAPI_URL || 'http://localhost:1337';
-async function fetchAll(path: string): Promise<{ id: number; slug?: string; title?: string; name?: string; url?: string | null }[]> {
-  const res = await fetch(`${STRAPI_URL}/api/${path}`);
-  const json = await res.json();
-  return json.data;
-}
-const [articles, legalPagesData, services, teamMembersData, newsletters] = await Promise.all([
-  fetchAll('articles?pagination[pageSize]=100'),
-  fetchAll('legal-pages?pagination[pageSize]=100'),
-  fetchAll('services?pagination[pageSize]=100'),
-  fetchAll('team-members?pagination[pageSize]=100'),
-  fetchAll('newsletters?pagination[pageSize]=200'),
-]);
-const legalPages = legalPagesData;
-const teamMembers = teamMembersData;
+// Fetched synchronously at module-load time (see global-setup.ts) rather than via
+// top-level await: Playwright's test-file loader require()s this module, which
+// cannot coexist with top-level await on an ESM graph.
+const fixturePath = path.join(__dirname, '.fixture-data.json');
+const { articles, legalPages, services, teamMembers, newsletters }: FixtureData = JSON.parse(readFileSync(fixturePath, 'utf-8'));
 
 const routes = ['/', '/about-us', '/about-us/awards', '/about-us/certificates', '/about-us/our-clients', '/about-us/testimonials', '/contact-us', '/online-services', '/newsletters', '/blog', '/services', ...articles.map(item => `/blog/${item.slug}`), ...services.map(item => `/services/${item.slug}`), ...legalPages.map(item => `/${item.slug}`)];
 for (const width of [1440, 1200, 810, 390]) {

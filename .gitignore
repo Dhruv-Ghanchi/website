@@ -9,3 +9,4 @@ playwright-report/
 graft/
 .devin/*.local.json
 ~$*
+tests/.fixture-data.json
