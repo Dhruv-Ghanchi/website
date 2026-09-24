@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Footer, Header, MotionProvider } from '@/components/site-shell';
 import { getLegalPages, getNavigation, getSiteSettings, getTeamMembers } from '@/lib/strapi';
+import { organizationJsonLd, websiteJsonLd } from '@/lib/structured-data';
 import './globals.css';
 import './inner.css';
 import './contact.css';
@@ -20,5 +21,8 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
     getNavigation(), getSiteSettings(), getLegalPages(), getTeamMembers(),
   ]);
   const founder = teamMembers[0];
-  return <html lang="en" data-scroll-behavior="smooth"><body><MotionProvider><Header navigation={navigation} founder={founder} siteSettings={siteSettings}/>{children}<Footer navigation={navigation} legalPages={legalPages} siteSettings={siteSettings} founder={founder}/></MotionProvider></body></html>;
+  const jsonLd = [organizationJsonLd(siteSettings), websiteJsonLd(siteSettings)];
+  return <html lang="en" data-scroll-behavior="smooth"><body>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+    <MotionProvider><Header navigation={navigation} founder={founder} siteSettings={siteSettings}/>{children}<Footer navigation={navigation} legalPages={legalPages} siteSettings={siteSettings} founder={founder}/></MotionProvider></body></html>;
 }
