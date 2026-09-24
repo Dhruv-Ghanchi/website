@@ -1,4 +1,4 @@
-import { services } from '@/lib/content';
+import { getServices } from '@/lib/strapi';
 
 const unavailable = 'This preview is not connected to a booking service yet. Please try again once booking is configured.';
 const reply = (message: string, status: number) => Response.json({ message }, { status, headers: { 'Cache-Control': 'no-store' } });
@@ -30,6 +30,7 @@ export async function POST(request: Request) {
   } catch { return reply('We could not read your request. Please try again.', 400); }
   if (data.website !== undefined && data.website !== '') return reply('Unable to accept this submission.', 400);
   if (!text(data.name, 2, 100) || !text(data.email, 3, 254) || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email) || !text(data.message, 10, 3000) || data.consent !== true) return reply('Please enter your name, a valid email, your enquiry, and agree to the terms of service.', 400);
+  const services = await getServices();
   if (!Array.isArray(data.services) || data.services.length < 1 || data.services.length > services.length || new Set(data.services).size !== data.services.length || !data.services.every(id => typeof id === 'string' && services.some(service => service.id === id))) return reply('Please choose at least one valid service.', 400);
   if (!text(data.phone, 7, 25) || !/^[+0-9 ()-]+$/.test(data.phone) || data.phone.replace(/\D/g, '').length < 7) return reply('Please enter a valid phone number including your country code.', 400);
   if (!text(data.goal, 0, 200)) return reply('Please keep your financial goal under 200 characters.', 400);

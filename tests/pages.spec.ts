@@ -1,7 +1,22 @@
 import { expect, test } from '@playwright/test';
-import { articles, legalPages, services, teamMembers, newsletters } from '../src/lib/content';
 
-const routes = ['/', '/about-us', '/about-us/awards', '/about-us/certificates', '/about-us/our-clients', '/about-us/testimonials', '/contact-us', '/online-services', '/newsletters', '/blog', '/services', ...articles.map(item => `/blog/${item.id}`), ...services.map(item => `/services/${item.id}`), ...legalPages.map(item => `/${item.id}`)];
+const STRAPI_URL = process.env.STRAPI_URL || 'http://localhost:1337';
+async function fetchAll(path: string): Promise<{ id: number; slug?: string; title?: string; name?: string; url?: string | null }[]> {
+  const res = await fetch(`${STRAPI_URL}/api/${path}`);
+  const json = await res.json();
+  return json.data;
+}
+const [articles, legalPagesData, services, teamMembersData, newsletters] = await Promise.all([
+  fetchAll('articles?pagination[pageSize]=100'),
+  fetchAll('legal-pages?pagination[pageSize]=100'),
+  fetchAll('services?pagination[pageSize]=100'),
+  fetchAll('team-members?pagination[pageSize]=100'),
+  fetchAll('newsletters?pagination[pageSize]=200'),
+]);
+const legalPages = legalPagesData;
+const teamMembers = teamMembersData;
+
+const routes = ['/', '/about-us', '/about-us/awards', '/about-us/certificates', '/about-us/our-clients', '/about-us/testimonials', '/contact-us', '/online-services', '/newsletters', '/blog', '/services', ...articles.map(item => `/blog/${item.slug}`), ...services.map(item => `/services/${item.slug}`), ...legalPages.map(item => `/${item.slug}`)];
 for (const width of [1440, 1200, 810, 390]) {
   test(`published pages, assets and overflow at ${width}px`, async ({ page }, testInfo) => {
     test.setTimeout(240000);

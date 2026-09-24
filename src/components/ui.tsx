@@ -28,12 +28,12 @@ export function Button({ children, href = '/contact-us', variant = 'mint', class
 export function BrandMark({ className = '' }: { className?: string }) {
   return <span className={`brand-mark ${className}`} aria-hidden="true"><svg viewBox="0 0 28 28" fill="none"><rect x="9" y="3" width="10" height="22" rx="5" stroke="currentColor" strokeWidth="1.8" transform="rotate(45 14 14)"/><rect x="9" y="3" width="10" height="22" rx="5" stroke="currentColor" strokeWidth="1.8" transform="rotate(-45 14 14)"/></svg></span>;
 }
-export function Logo({ light = false, link = true }: { light?: boolean; link?: boolean }) {
-  const content = <img src="/assets/logo-ghanchi.png" alt="Ghanchi Investments" className={`logo-mark ${light ? 'logo-mark-light' : ''}`} />;
-  return link ? <Link aria-label="Ghanchi Investments home" href="/" className="logo">{content}</Link> : <span className="logo">{content}</span>;
+export function Logo({ src, alt, light = false, link = true }: { src: string; alt: string; light?: boolean; link?: boolean }) {
+  const content = <img src={src} alt={alt} className={`logo-mark ${light ? 'logo-mark-light' : ''}`} />;
+  return link ? <Link aria-label={`${alt} home`} href="/" className="logo">{content}</Link> : <span className="logo">{content}</span>;
 }
-export function Person({ image, name, role, badge = false }: { image: string; name: string; role: string; badge?: boolean }) {
-  return <div className="person"><span className="person-image">{image ? <img src={image} alt={name} loading="lazy" /> : <span className="person-initials" aria-hidden="true">{name.split(' ').slice(0, 2).map(part => part[0]).join('')}</span>}{badge && <BrandMark />}</span><span><strong>{name}</strong><small>{role}</small></span></div>;
+export function Person({ image, name, role, badge = false, focalX = 50, focalY = 50 }: { image: string; name: string; role: string; badge?: boolean; focalX?: number; focalY?: number }) {
+  return <div className="person"><span className="person-image">{image ? <img src={image} alt={name} loading="lazy" style={{ objectPosition: `${focalX}% ${focalY}%` }} /> : <span className="person-initials" aria-hidden="true">{name.split(' ').slice(0, 2).map(part => part[0]).join('')}</span>}{badge && <BrandMark />}</span><span><strong>{name}</strong><small>{role}</small></span></div>;
 }
 export function Dots({ count = 5 }: { count?: number }) { return <span className="rating-dots" aria-hidden="true">{Array.from({ length: count }, (_, i) => <i key={i} />)}</span>; }
 export function ServiceIcon({ name, size = 18 }: { name: string; size?: number }) {
