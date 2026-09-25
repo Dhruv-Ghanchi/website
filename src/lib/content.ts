@@ -1,9 +1,9 @@
 export type RichTextBlock = { heading?: string; paragraphs: string[] };
 export type Testimonial = { id: string; quote: string; name: string; role: string; image: string; focalX: number; focalY: number; sourceUrl: string };
-export type Service = { id: string; title: string; icon: string; shortDesc: string; longDesc: string; deliverables: string[]; image: string; imageFocalX: number; imageFocalY: number; testimonial: Testimonial; sourceUrl: string };
+export type Service = { id: string; title: string; icon: string; shortDesc: string; longDesc: string; deliverables: string[]; image: string; imageAlt: string; imageFocalX: number; imageFocalY: number; testimonial: Testimonial; sourceUrl: string };
 export type TeamMember = { id: string; name: string; role: string; headshot: string; headshotFocalX: number; headshotFocalY: number; bio: string; socialLinks: { label: string; url: string }[] };
 export type Category = { id: string; name: string };
-export type Article = { id: string; title: string; coverImage: string; coverFocalX: number; coverFocalY: number; publishDate: string; content: RichTextBlock[]; categoryId: string; sourceUrl: string; editorialNote: string };
+export type Article = { id: string; title: string; coverImage: string; coverImageAlt: string; coverFocalX: number; coverFocalY: number; publishDate: string; content: RichTextBlock[]; categoryId: string; sourceUrl: string; editorialNote: string };
 export type Newsletter = { id: string; title: string; issueMonth: string; coverImage: string; url: string | null };
 export type GalleryItem = { id: string; title: string; image: string; sourceUrl: string };
 export type OnlineService = { id: string; title: string; description: string; url: string; type: 'internal' | 'external' };

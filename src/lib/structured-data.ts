@@ -48,7 +48,7 @@ export function articleJsonLd(article: {
     headline: article.title,
     image: article.coverImage ? [new URL(article.coverImage, SITE_URL).href] : undefined,
     datePublished: article.publishDate,
-    url,
+    url: new URL(url, SITE_URL).href,
     isBasedOn: article.sourceUrl || undefined,
   };
 }

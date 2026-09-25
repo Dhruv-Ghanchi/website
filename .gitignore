@@ -10,3 +10,5 @@ graft/
 .devin/*.local.json
 ~$*
 tests/.fixture-data.json
+docs/brand-authenticity-audit.zip
+docs/brand-authenticity-audit/evidence/screenshots/

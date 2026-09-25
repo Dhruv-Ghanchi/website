@@ -11,7 +11,7 @@
 .inner-page .inner-intro h1 { max-width: 1080px; font-size: clamp(52px, 5.56vw, 80px); line-height: 1.08; letter-spacing: -.055em; }
 .inner-page .inner-lead { color: var(--muted); max-width: 620px; font-size: 20px; line-height: 1.6; margin-top: 26px; letter-spacing: -.02em; }
 .inner-page .inner-eyebrow { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 24px; }
-.inner-page .inner-back { display: inline-flex; align-items: center; gap: 10px; font-size: 14px; margin-bottom: 36px; color: var(--muted); }
+.inner-page .inner-back { display: inline-flex; align-items: center; gap: 10px; font-size: 14px; padding-block: 6px; margin-bottom: 30px; color: var(--muted); }
 .inner-page .inner-back:hover { color: var(--ink); }
 .inner-page .inner-section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 32px; margin-bottom: 44px; }
 .inner-page .inner-section-heading h2 { font-size: clamp(36px, 3.4vw, 48px); line-height: 1.13; letter-spacing: -.045em; max-width: 700px; }
@@ -230,7 +230,7 @@
   .inner-page .inner-stats p { font-size: 12px; }
   .inner-page .inner-detail-header { padding-bottom: 32px; }
   .inner-page .inner-detail-header h1 { font-size: 40px; }
-  .inner-page .inner-back { margin-bottom: 28px; font-size: 13px; }
+  .inner-page .inner-back { margin-bottom: 22px; font-size: 13px; }
   .inner-page .inner-cover { height: 300px; border-radius: 22px; }
   .inner-page .inner-cover-wrap .inner-client-wordmark { border-radius: 22px; font-size: 42px; }
   .inner-page .inner-detail-grid { grid-template-columns: 1fr; gap: 45px; }

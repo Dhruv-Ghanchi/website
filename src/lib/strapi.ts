@@ -57,6 +57,7 @@ function mapService(raw: RawService): Service {
   return {
     id: raw.slug, title: raw.title, icon: raw.icon, shortDesc: raw.shortDesc, longDesc: raw.longDesc,
     deliverables: raw.deliverables.map(d => d.value), image: mediaUrl(raw.image),
+    imageAlt: raw.image?.alternativeText || `Illustrative ${raw.title.toLowerCase()} imagery`,
     imageFocalX: focal.x, imageFocalY: focal.y,
     testimonial: raw.testimonial ? mapTestimonial(raw.testimonial) : ({} as Testimonial),
     sourceUrl: raw.sourceUrl,
@@ -99,6 +100,7 @@ function mapArticle(raw: RawArticle): Article {
   const focal = mediaFocal(raw.coverImage);
   return {
     id: raw.slug, title: raw.title, coverImage: mediaUrl(raw.coverImage),
+    coverImageAlt: raw.coverImage?.alternativeText || 'Illustrative editorial photography',
     coverFocalX: focal.x, coverFocalY: focal.y, publishDate: raw.publishDate,
     content: blocksToRichText(raw.content), categoryId: raw.category?.slug || '', sourceUrl: raw.sourceUrl,
     editorialNote: raw.editorialNote,

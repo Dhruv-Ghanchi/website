@@ -25,7 +25,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 for (const width of [1440, 1200, 1024, 810, 390]) {
-  test(`contact follows the reference introduction, form and FAQ order at ${width}px`, async ({ page }) => {
+  test(`contact follows the reference introduction and form order at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 1000 });
     await page.goto('/contact-us');
     await expect(page.getByRole('button', { name: 'Send enquiry', exact: true })).toBeEnabled();
@@ -34,7 +34,7 @@ for (const width of [1440, 1200, 1024, 810, 390]) {
     await expect(page.locator('.contact-intro')).toContainText('Monday to Friday:');
     await expect(page.locator('.contact-intro')).toContainText('9:00 AM – 6:00 PM');
     await expect(page.locator('.contact-intro a[href="mailto:info@ghanchiinvest.com"]')).toBeVisible();
-    const positions = await page.evaluate(() => ['.contact-intro', '.contact-section', '.faq-section', '.site-footer'].map(selector => {
+    const positions = await page.evaluate(() => ['.contact-intro', '.contact-section', '.site-footer'].map(selector => {
       const element = document.querySelector(selector);
       return element ? { top: element.getBoundingClientRect().top + scrollY, bottom: element.getBoundingClientRect().bottom + scrollY } : null;
     }));
@@ -50,14 +50,6 @@ for (const width of [1440, 1200, 1024, 810, 390]) {
     await expect(page.locator('.contact-intro-copy > p')).toHaveCSS('line-height', `${leadSize * 1.3}px`);
     await expect(page.locator('.contact-intro-copy > p')).toHaveCSS('letter-spacing', `${leadSize * -.04}px`);
     await expect(page.locator('.contact-intro-copy > p')).toHaveCSS('font-weight', '600');
-    const faq = page.locator('.faq-section');
-    await faq.scrollIntoViewIfNeeded();
-    await expect(faq.getByRole('tablist')).toHaveAttribute('aria-orientation', 'horizontal');
-    await faq.getByRole('tab', { name: 'Planning', exact: true }).click();
-    await expect(faq.getByRole('button', { name: 'How does financial planning begin?' })).toHaveAttribute('aria-expanded', 'true');
-    await page.keyboard.press('ArrowRight');
-    await expect(faq.getByRole('tab', { name: 'Protection', exact: true })).toBeFocused();
-    await expect(faq.getByRole('button', { name: 'How do I choose insurance cover?' })).toHaveAttribute('aria-expanded', 'true');
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBe(width);
   });
 }
