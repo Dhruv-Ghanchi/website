@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-30",
+  "method": "Fresh Chromium contexts; live local Strapi; no production changes; no real form submissions",
+  "contactIntro": {
+    "viewport": "1440x900",
+    "waitAfterLoadMs": 2500,
+    "reduce": {"copyOpacity": 0, "detailsOpacity": 0, "copyTransform": "matrix(0.98, 0, 0, 0.98, 0, 20)", "detailsTransform": "matrix(1, 0, 0, 1, 0, 22)"},
+    "noPreference": {"copyOpacity": 1, "detailsOpacity": 1, "copyTransform": "none", "detailsTransform": "none"},
+    "evidence": "screenshots/readable-_contact-us-top.png",
+    "source": "src/components/contact.tsx:39-47; useReducedMotion SSR snapshot returns false in src/components/ui.tsx:15"
+  },
+  "contrast": {
+    "foreground": [255, 255, 250], "background": [118, 193, 67], "ratio": 2.208636168519844,
+    "normalTextThreshold": 4.5,
+    "selectors": [".button-mint", ".after-card", ".chart-bar-primary"],
+    "method": "WCAG sRGB relative luminance using computed colors in inspection.json; no opacity blending involved for these surfaces"
+  },
+  "reducedMotionVideos": {
+    "method": "Fresh prefers-reduced-motion:reduce contexts; scroll each video into view then wait 1200ms. Offscreen paused state is not proof of reduced-motion support.",
+    "viewports": ["1440x900", "390x844"],
+    "testimonial-bg": {"paused": false, "currentTimeApproxSeconds": 1.14, "autoplay": true, "controls": false, "display": "block"},
+    "contact-bg-video": {"paused": false, "currentTimeApproxSeconds": 1.15, "autoplay": true, "controls": false, "display": "block"}
+  },
+  "currentPublicCounts": {"services": 9, "testimonials": 11, "awardPhotos": 8, "certificateScans": 19, "newsletters": 19},
+  "processMedia": {"configured": true, "playsOnClick": true, "controlsAfterPlay": true, "textTracks": 0},
+  "statCounters": "15+, 1,200+, 12+, 5.0/5 after entering viewport in both normal and reduced motion; not stuck at zero",
+  "cmsGitStatusAfterStartup": "clean"
+}

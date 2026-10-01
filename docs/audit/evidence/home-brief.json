@@ -1,0 +1,866 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "height": 22541,
+    "scrollRange": 21641,
+    "brokenImages": 0,
+    "sections": [
+      {
+        "selector": ".site-header",
+        "top": 30,
+        "height": 60,
+        "headings": []
+      },
+      {
+        "selector": ".hero-scroll",
+        "top": 0,
+        "height": 900,
+        "headings": [
+          "A personal financial advisor for Navi Mumbai families, trusted since 2009. "
+        ]
+      },
+      {
+        "selector": ".hero-statement",
+        "top": 900,
+        "height": 900,
+        "headings": [
+          "Making goal-based financial advice accessible to all."
+        ]
+      },
+      {
+        "selector": ".hero-scroll-space",
+        "top": 1800,
+        "height": 900,
+        "headings": []
+      },
+      {
+        "selector": ".comparison-scroll",
+        "top": 2700,
+        "height": 3258,
+        "headings": [
+          "From scattered decisionsto one coordinated plan.",
+          "Financialdecisionsmade in isolation.",
+          "Every decisionaligned withyour goals."
+        ]
+      },
+      {
+        "selector": ".services-section",
+        "top": 5958,
+        "height": 6406,
+        "headings": [
+          "Services.",
+          "Your life goals. A plan built around you.",
+          "Protection for the people who depend on you.",
+          "Plan for healthcare, before you need it.",
+          "Invest with your goals in mind.",
+          "Make room for life after work.",
+          "Give their ambitions a financial plan.",
+          "Prepare for the unexpected.",
+          "Protect the things you have worked for.",
+          "Consider protection for your employees."
+        ]
+      },
+      {
+        "selector": ".process-section",
+        "top": 12364,
+        "height": 2107,
+        "headings": [
+          "Your goals come first. The plan follows.",
+          "Understand",
+          "How we work",
+          "How we work",
+          "Understand",
+          "Assess",
+          "Plan",
+          "Review",
+          "Personal advice. Ongoing support."
+        ]
+      },
+      {
+        "selector": ".team-section",
+        "top": 14471,
+        "height": 942,
+        "headings": [
+          "Meet your advisor. A personal partnership.",
+          "Recognition.Built on service.",
+          "Chandrakant B. Ghanchi"
+        ]
+      },
+      {
+        "selector": ".testimonials-section",
+        "top": 15413,
+        "height": 2152,
+        "headings": [
+          "Testimonials",
+          "“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”",
+          "Your goals are personal.Your plan should be too."
+        ]
+      },
+      {
+        "selector": ".featured-case",
+        "top": 17565,
+        "height": 843,
+        "headings": [
+          "A personal approach, for clients in India and abroad."
+        ]
+      },
+      {
+        "selector": ".faq-section",
+        "top": 18409,
+        "height": 888,
+        "headings": [
+          "FAQ",
+          "What does Ghanchi Investments do?",
+          "Who do you work with?",
+          "Where are you based?"
+        ]
+      },
+      {
+        "selector": ".home-insights",
+        "top": 19297,
+        "height": 729,
+        "headings": [
+          "Knowledge foryour next chapter.",
+          "Single Woman, Retiring Solo Is a Dream Retirement Life (but) With Proper Planning!",
+          "You Don’t Have to Be Rich to Retire Rich!"
+        ]
+      },
+      {
+        "selector": ".contact-section",
+        "top": 20026,
+        "height": 1216,
+        "headings": [
+          "Let’s planyour nextchapter."
+        ]
+      },
+      {
+        "selector": ".site-footer",
+        "top": 21242,
+        "height": 1299,
+        "headings": [
+          "Subscribe to our newsletter.",
+          "Making Goal-based customized Financial Advice accessible to all and spread Financial Literacy. Let’s plan your financial future together."
+        ]
+      }
+    ],
+    "details": [
+      {
+        "selector": ".trust-badge",
+        "top": 731,
+        "height": 60,
+        "text": "NA\nSJ\nRS\nVS\nMR\n\nTrusted by 1,200+ clients\n\n5.0/5 · Google rating on existing site"
+      },
+      {
+        "selector": ".hero-case",
+        "top": 625,
+        "height": 215,
+        "text": "Latest Newsletter\nLatest in archive\n\nNovember 2021 Newsletter\n\nRead edition\nNovember 2021 issue"
+      },
+      {
+        "selector": ".logo-ticker",
+        "top": 815,
+        "height": 25,
+        "text": "India\n•\nUAE\n•\nUSA\nIndia\n•\nUAE\n•\nUSA"
+      },
+      {
+        "selector": ".revenue-chart",
+        "top": 6484,
+        "height": 240,
+        "text": "Long-term goals\nRetirement & education\nToday’s needs\nProtection & cash flow\nUnderstand\nPlan\nImplement\nReview\n\nAn illustration of the planning journey — not a return forecast or performance comparison."
+      },
+      {
+        "selector": ".process-video",
+        "top": 13263,
+        "height": 743,
+        "text": "Our approach\nHow we work\n\nExplore the steps behind your plan"
+      },
+      {
+        "selector": ".recognition-card",
+        "top": 15088,
+        "height": 245,
+        "text": "Recognition.\nBuilt on service.\n\n\nExplore our awards and certificates archive, reflecting our journey in financial services.\n\nView Awards"
+      },
+      {
+        "selector": ".testimonial-feature",
+        "top": 15573,
+        "height": 927,
+        "text": "Testimonials\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”\n\nFrom our client testimonial archive.\n\nNA\nNeeta Agrawal\nSyntel\n5.0/5\n\nReported on our existing website. Not a live Google feed."
+      },
+      {
+        "selector": ".testimonial-list",
+        "top": 16480,
+        "height": 356,
+        "text": "“I want to make it short and sweet. Chandrakant is not an agent for me, nor I’m a client for him. I say this because he provides his valuable suggestion after good research to me not thinking of me as his client but as a FAMILY member and I too in return take it without questioning as I trust him with my family’s health.”\nSJ\nSumit Jain\nL&T Infotech\nMore client experiences\n“Thank you for all the financial planning help you provided for the last 6 yrs, Chandrakant is a great person and with great character. He is very trustworthy and provides excellent service. Chandrakant has made the process of dealing with financial planning easy and painless. This is a process I normally dread but he made it easy. He is a great man and I would recommend Chandrakant to any of my friends and family.”\nRS\nRanbir Singh\nUSA\nMore client experiences\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years. He is a very professional financial advisor who understands your need and provide you customised investment solutions. He would never push you to sell something rather guide you to invest wisely.”\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE\nMore client experiences"
+      },
+      {
+        "selector": ".stats-grid",
+        "top": 16915,
+        "height": 236,
+        "text": "0+\n\nYears of experience\n\n0+\n\nClients served\n\n0+\n\nAwards received\n\n0.0/5\n\nGoogle rating reported on our existing website"
+      },
+      {
+        "selector": ".founder-callout",
+        "top": 17151,
+        "height": 294,
+        "text": "Your goals are personal.\nYour plan should be too.\n\n\nLet’s start with a conversation.\n\nChandrakant B. Ghanchi\nFounder & Financial Planner\nTalk about your goals"
+      },
+      {
+        "selector": ".contact-section-stats",
+        "top": 21164,
+        "height": 55,
+        "text": "1,200+\nClients\nserved.\n\n15+\nYears of\nexperience.\n"
+      }
+    ]
+  },
+  {
+    "viewport": {
+      "width": 1200,
+      "height": 900
+    },
+    "height": 22332,
+    "scrollRange": 21432,
+    "brokenImages": 0,
+    "sections": [
+      {
+        "selector": ".site-header",
+        "top": 30,
+        "height": 60,
+        "headings": []
+      },
+      {
+        "selector": ".hero-scroll",
+        "top": 0,
+        "height": 900,
+        "headings": [
+          "A personal financial advisor for Navi Mumbai families, trusted since 2009. "
+        ]
+      },
+      {
+        "selector": ".hero-statement",
+        "top": 900,
+        "height": 900,
+        "headings": [
+          "Making goal-based financial advice accessible to all."
+        ]
+      },
+      {
+        "selector": ".hero-scroll-space",
+        "top": 1800,
+        "height": 900,
+        "headings": []
+      },
+      {
+        "selector": ".comparison-scroll",
+        "top": 2700,
+        "height": 3258,
+        "headings": [
+          "From scattered decisionsto one coordinated plan.",
+          "Financialdecisionsmade in isolation.",
+          "Every decisionaligned withyour goals."
+        ]
+      },
+      {
+        "selector": ".services-section",
+        "top": 5958,
+        "height": 6566,
+        "headings": [
+          "Services.",
+          "Your life goals. A plan built around you.",
+          "Protection for the people who depend on you.",
+          "Plan for healthcare, before you need it.",
+          "Invest with your goals in mind.",
+          "Make room for life after work.",
+          "Give their ambitions a financial plan.",
+          "Prepare for the unexpected.",
+          "Protect the things you have worked for.",
+          "Consider protection for your employees."
+        ]
+      },
+      {
+        "selector": ".process-section",
+        "top": 12524,
+        "height": 1963,
+        "headings": [
+          "Your goals come first. The plan follows.",
+          "Understand",
+          "How we work",
+          "How we work",
+          "Understand",
+          "Assess",
+          "Plan",
+          "Review",
+          "Personal advice. Ongoing support."
+        ]
+      },
+      {
+        "selector": ".team-section",
+        "top": 14487,
+        "height": 901,
+        "headings": [
+          "Meet your advisor. A personal partnership.",
+          "Recognition.Built on service.",
+          "Chandrakant B. Ghanchi"
+        ]
+      },
+      {
+        "selector": ".testimonials-section",
+        "top": 15388,
+        "height": 2111,
+        "headings": [
+          "Testimonials",
+          "“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”",
+          "Your goals are personal.Your plan should be too."
+        ]
+      },
+      {
+        "selector": ".featured-case",
+        "top": 17499,
+        "height": 785,
+        "headings": [
+          "A personal approach, for clients in India and abroad."
+        ]
+      },
+      {
+        "selector": ".faq-section",
+        "top": 18284,
+        "height": 892,
+        "headings": [
+          "FAQ",
+          "What does Ghanchi Investments do?",
+          "Who do you work with?",
+          "Where are you based?"
+        ]
+      },
+      {
+        "selector": ".home-insights",
+        "top": 19176,
+        "height": 640,
+        "headings": [
+          "Knowledge foryour next chapter.",
+          "Single Woman, Retiring Solo Is a Dream Retirement Life (but) With Proper Planning!",
+          "You Don’t Have to Be Rich to Retire Rich!"
+        ]
+      },
+      {
+        "selector": ".contact-section",
+        "top": 19816,
+        "height": 1258,
+        "headings": [
+          "Let’s planyour nextchapter."
+        ]
+      },
+      {
+        "selector": ".site-footer",
+        "top": 21073,
+        "height": 1259,
+        "headings": [
+          "Subscribe to our newsletter.",
+          "Making Goal-based customized Financial Advice accessible to all and spread Financial Literacy. Let’s plan your financial future together."
+        ]
+      }
+    ],
+    "details": [
+      {
+        "selector": ".trust-badge",
+        "top": 731,
+        "height": 60,
+        "text": "NA\nSJ\nRS\nVS\nMR\n\nTrusted by 1,200+ clients\n\n5.0/5 · Google rating on existing site"
+      },
+      {
+        "selector": ".hero-case",
+        "top": 625,
+        "height": 215,
+        "text": "Latest Newsletter\nLatest in archive\n\nNovember 2021 Newsletter\n\nRead edition\nNovember 2021 issue"
+      },
+      {
+        "selector": ".logo-ticker",
+        "top": 815,
+        "height": 25,
+        "text": "India\n•\nUAE\n•\nUSA\nIndia\n•\nUAE\n•\nUSA"
+      },
+      {
+        "selector": ".revenue-chart",
+        "top": 6464,
+        "height": 240,
+        "text": "Long-term goals\nRetirement & education\nToday’s needs\nProtection & cash flow\nUnderstand\nPlan\nImplement\nReview\n\nAn illustration of the planning journey — not a return forecast or performance comparison."
+      },
+      {
+        "selector": ".process-video",
+        "top": 13392,
+        "height": 630,
+        "text": "Our approach\nHow we work\n\nExplore the steps behind your plan"
+      },
+      {
+        "selector": ".recognition-card",
+        "top": 15063,
+        "height": 245,
+        "text": "Recognition.\nBuilt on service.\n\n\nExplore our awards and certificates archive, reflecting our journey in financial services.\n\nView Awards"
+      },
+      {
+        "selector": ".testimonial-feature",
+        "top": 15548,
+        "height": 907,
+        "text": "Testimonials\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”\n\nFrom our client testimonial archive.\n\nNA\nNeeta Agrawal\nSyntel\n5.0/5\n\nReported on our existing website. Not a live Google feed."
+      },
+      {
+        "selector": ".testimonial-list",
+        "top": 16434,
+        "height": 335,
+        "text": "“I want to make it short and sweet. Chandrakant is not an agent for me, nor I’m a client for him. I say this because he provides his valuable suggestion after good research to me not thinking of me as his client but as a FAMILY member and I too in return take it without questioning as I trust him with my family’s health.”\nSJ\nSumit Jain\nL&T Infotech\nMore client experiences\n“Thank you for all the financial planning help you provided for the last 6 yrs, Chandrakant is a great person and with great character. He is very trustworthy and provides excellent service. Chandrakant has made the process of dealing with financial planning easy and painless. This is a process I normally dread but he made it easy. He is a great man and I would recommend Chandrakant to any of my friends and family.”\nRS\nRanbir Singh\nUSA\nMore client experiences\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years. He is a very professional financial advisor who understands your need and provide you customised investment solutions. He would never push you to sell something rather guide you to invest wisely.”\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE\nMore client experiences"
+      },
+      {
+        "selector": ".stats-grid",
+        "top": 16849,
+        "height": 236,
+        "text": "0+\n\nYears of experience\n\n0+\n\nClients served\n\n0+\n\nAwards received\n\n0.0/5\n\nGoogle rating reported on our existing website"
+      },
+      {
+        "selector": ".founder-callout",
+        "top": 17085,
+        "height": 294,
+        "text": "Your goals are personal.\nYour plan should be too.\n\n\nLet’s start with a conversation.\n\nChandrakant B. Ghanchi\nFounder & Financial Planner\nTalk about your goals"
+      },
+      {
+        "selector": ".contact-section-stats",
+        "top": 20995,
+        "height": 55,
+        "text": "1,200+\nClients\nserved.\n\n15+\nYears of\nexperience.\n"
+      }
+    ]
+  },
+  {
+    "viewport": {
+      "width": 810,
+      "height": 1080
+    },
+    "height": 21409,
+    "scrollRange": 20329,
+    "brokenImages": 0,
+    "sections": [
+      {
+        "selector": ".site-header",
+        "top": 20,
+        "height": 68,
+        "headings": []
+      },
+      {
+        "selector": ".hero-scroll",
+        "top": 0,
+        "height": 1080,
+        "headings": [
+          "A personal financial advisor for Navi Mumbai families, trusted since 2009. "
+        ]
+      },
+      {
+        "selector": ".hero-statement",
+        "top": 1080,
+        "height": 1080,
+        "headings": [
+          "Making goal-based financial advice accessible to all."
+        ]
+      },
+      {
+        "selector": ".hero-scroll-space",
+        "top": 2160,
+        "height": 1080,
+        "headings": []
+      },
+      {
+        "selector": ".comparison-scroll",
+        "top": 3240,
+        "height": 891,
+        "headings": [
+          "From scattered decisionsto one coordinated plan.",
+          "Financialdecisionsmade in isolation.",
+          "Every decisionaligned withyour goals."
+        ]
+      },
+      {
+        "selector": ".services-section",
+        "top": 4131,
+        "height": 6575,
+        "headings": [
+          "Services.",
+          "Your life goals. A plan built around you.",
+          "Protection for the people who depend on you.",
+          "Plan for healthcare, before you need it.",
+          "Invest with your goals in mind.",
+          "Make room for life after work.",
+          "Give their ambitions a financial plan.",
+          "Prepare for the unexpected.",
+          "Protect the things you have worked for.",
+          "Consider protection for your employees."
+        ]
+      },
+      {
+        "selector": ".process-section",
+        "top": 10706,
+        "height": 1645,
+        "headings": [
+          "Your goals come first. The plan follows.",
+          "Understand",
+          "How we work",
+          "How we work",
+          "Understand",
+          "Assess",
+          "Plan",
+          "Review",
+          "Personal advice. Ongoing support."
+        ]
+      },
+      {
+        "selector": ".team-section",
+        "top": 12351,
+        "height": 651,
+        "headings": [
+          "Meet your advisor. A personal partnership.",
+          "Recognition.Built on service.",
+          "Chandrakant B. Ghanchi"
+        ]
+      },
+      {
+        "selector": ".testimonials-section",
+        "top": 13001,
+        "height": 2607,
+        "headings": [
+          "Testimonials",
+          "“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”",
+          "Your goals are personal.Your plan should be too."
+        ]
+      },
+      {
+        "selector": ".featured-case",
+        "top": 15609,
+        "height": 1214,
+        "headings": [
+          "A personal approach, for clients in India and abroad."
+        ]
+      },
+      {
+        "selector": ".faq-section",
+        "top": 16823,
+        "height": 831,
+        "headings": [
+          "FAQ",
+          "What does Ghanchi Investments do?",
+          "Who do you work with?",
+          "Where are you based?"
+        ]
+      },
+      {
+        "selector": ".home-insights",
+        "top": 17653,
+        "height": 879,
+        "headings": [
+          "Knowledge foryour next chapter.",
+          "Single Woman, Retiring Solo Is a Dream Retirement Life (but) With Proper Planning!",
+          "You Don’t Have to Be Rich to Retire Rich!"
+        ]
+      },
+      {
+        "selector": ".contact-section",
+        "top": 18532,
+        "height": 1727,
+        "headings": [
+          "Let’s planyour nextchapter."
+        ]
+      },
+      {
+        "selector": ".site-footer",
+        "top": 20258,
+        "height": 1150,
+        "headings": [
+          "Subscribe to our newsletter.",
+          "Making Goal-based customized Financial Advice accessible to all and spread Financial Literacy. Let’s plan your financial future together."
+        ]
+      }
+    ],
+    "details": [
+      {
+        "selector": ".trust-badge",
+        "top": 914,
+        "height": 57,
+        "text": "NA\nSJ\nRS\nVS\nMR\n\nTrusted by 1,200+ clients\n\n5.0/5 · Google rating on existing site"
+      },
+      {
+        "selector": ".hero-case",
+        "top": 795,
+        "height": 226,
+        "text": "Latest Newsletter\nLatest in archive\n\nNovember 2021 Newsletter\n\nRead edition\nNovember 2021 issue"
+      },
+      {
+        "selector": ".logo-ticker",
+        "top": 995,
+        "height": 25,
+        "text": "India\n•\nUAE\n•\nUSA\nIndia\n•\nUAE\n•\nUSA"
+      },
+      {
+        "selector": ".revenue-chart",
+        "top": 4516,
+        "height": 240,
+        "text": "Long-term goals\nRetirement & education\nToday’s needs\nProtection & cash flow\nUnderstand\nPlan\nImplement\nReview\n\nAn illustration of the planning journey — not a return forecast or performance comparison."
+      },
+      {
+        "selector": ".process-video",
+        "top": 11522,
+        "height": 422,
+        "text": "Our approach\nHow we work\n\nExplore the steps behind your plan"
+      },
+      {
+        "selector": ".recognition-card",
+        "top": 12797,
+        "height": 164,
+        "text": "Recognition.\nBuilt on service.\n\n\nExplore our awards and certificates archive, reflecting our journey in financial services.\n\nView Awards"
+      },
+      {
+        "selector": ".testimonial-feature",
+        "top": 13121,
+        "height": 763,
+        "text": "Testimonials\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”\n\nFrom our client testimonial archive.\n\nNA\nNeeta Agrawal\nSyntel\n5.0/5\n\nReported on our existing website. Not a live Google feed."
+      },
+      {
+        "selector": ".testimonial-list",
+        "top": 13864,
+        "height": 814,
+        "text": "“I want to make it short and sweet. Chandrakant is not an agent for me, nor I’m a client for him. I say this because he provides his valuable suggestion after good research to me not thinking of me as his client but as a FAMILY member and I too in return take it without questioning as I trust him with my family’s health.”\nSJ\nSumit Jain\nL&T Infotech\nMore client experiences\n“Thank you for all the financial planning help you provided for the last 6 yrs, Chandrakant is a great person and with great character. He is very trustworthy and provides excellent service. Chandrakant has made the process of dealing with financial planning easy and painless. This is a process I normally dread but he made it easy. He is a great man and I would recommend Chandrakant to any of my friends and family.”\nRS\nRanbir Singh\nUSA\nMore client experiences\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years. He is a very professional financial advisor who understands your need and provide you customised investment solutions. He would never push you to sell something rather guide you to invest wisely.”\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE\nMore client experiences"
+      },
+      {
+        "selector": ".stats-grid",
+        "top": 14728,
+        "height": 453,
+        "text": "0+\n\nYears of experience\n\n0+\n\nClients served\n\n0+\n\nAwards received\n\n0.0/5\n\nGoogle rating reported on our existing website"
+      },
+      {
+        "selector": ".founder-callout",
+        "top": 15181,
+        "height": 348,
+        "text": "Your goals are personal.\nYour plan should be too.\n\n\nLet’s start with a conversation.\n\nChandrakant B. Ghanchi\nFounder & Financial Planner\nTalk about your goals"
+      },
+      {
+        "selector": ".contact-section-stats",
+        "top": 20194,
+        "height": 55,
+        "text": "1,200+\nClients\nserved.\n\n15+\nYears of\nexperience.\n"
+      }
+    ]
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "height": 24272,
+    "scrollRange": 23428,
+    "brokenImages": 0,
+    "sections": [
+      {
+        "selector": ".site-header",
+        "top": 20,
+        "height": 68,
+        "headings": []
+      },
+      {
+        "selector": ".hero-scroll",
+        "top": 0,
+        "height": 1055,
+        "headings": [
+          "A personal financial advisor for Navi Mumbai families, trusted since 2009. "
+        ]
+      },
+      {
+        "selector": ".hero-statement",
+        "top": 1055,
+        "height": 230,
+        "headings": [
+          "Making goal-based financial advice accessible to all."
+        ]
+      },
+      {
+        "selector": ".hero-scroll-space",
+        "top": 0,
+        "height": 0,
+        "headings": []
+      },
+      {
+        "selector": ".comparison-scroll",
+        "top": 1285,
+        "height": 1387,
+        "headings": [
+          "From scattered decisionsto one coordinated plan.",
+          "Financialdecisionsmade in isolation.",
+          "Every decisionaligned withyour goals."
+        ]
+      },
+      {
+        "selector": ".services-section",
+        "top": 2672,
+        "height": 9696,
+        "headings": [
+          "Services.",
+          "Your life goals. A plan built around you.",
+          "Protection for the people who depend on you.",
+          "Plan for healthcare, before you need it.",
+          "Invest with your goals in mind.",
+          "Make room for life after work.",
+          "Give their ambitions a financial plan.",
+          "Prepare for the unexpected.",
+          "Protect the things you have worked for.",
+          "Consider protection for your employees."
+        ]
+      },
+      {
+        "selector": ".process-section",
+        "top": 12368,
+        "height": 1778,
+        "headings": [
+          "Your goals come first. The plan follows.",
+          "Understand",
+          "How we work",
+          "How we work",
+          "Understand",
+          "Assess",
+          "Plan",
+          "Review",
+          "Personal advice. Ongoing support."
+        ]
+      },
+      {
+        "selector": ".team-section",
+        "top": 14146,
+        "height": 710,
+        "headings": [
+          "Meet your advisor. A personal partnership.",
+          "Recognition.Built on service.",
+          "Chandrakant B. Ghanchi"
+        ]
+      },
+      {
+        "selector": ".testimonials-section",
+        "top": 14856,
+        "height": 2651,
+        "headings": [
+          "Testimonials",
+          "“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”",
+          "Your goals are personal.Your plan should be too."
+        ]
+      },
+      {
+        "selector": ".featured-case",
+        "top": 17507,
+        "height": 1215,
+        "headings": [
+          "A personal approach, for clients in India and abroad."
+        ]
+      },
+      {
+        "selector": ".faq-section",
+        "top": 18722,
+        "height": 789,
+        "headings": [
+          "FAQ",
+          "What does Ghanchi Investments do?",
+          "Who do you work with?",
+          "Where are you based?"
+        ]
+      },
+      {
+        "selector": ".home-insights",
+        "top": 19511,
+        "height": 1288,
+        "headings": [
+          "Knowledge foryour next chapter.",
+          "Single Woman, Retiring Solo Is a Dream Retirement Life (but) With Proper Planning!",
+          "You Don’t Have to Be Rich to Retire Rich!"
+        ]
+      },
+      {
+        "selector": ".contact-section",
+        "top": 20799,
+        "height": 1880,
+        "headings": [
+          "Let’s planyour nextchapter."
+        ]
+      },
+      {
+        "selector": ".site-footer",
+        "top": 22679,
+        "height": 1593,
+        "headings": [
+          "Subscribe to our newsletter.",
+          "Making Goal-based customized Financial Advice accessible to all and spread Financial Literacy. Let’s plan your financial future together."
+        ]
+      }
+    ],
+    "details": [
+      {
+        "selector": ".trust-badge",
+        "top": 490,
+        "height": 59,
+        "text": "NA\nSJ\nRS\nVS\nMR\n\nTrusted by 1,200+ clients\n\n5.0/5 · Google rating on existing site"
+      },
+      {
+        "selector": ".hero-case",
+        "top": 625,
+        "height": 400,
+        "text": "Latest Newsletter\nLatest in archive\n\nNovember 2021 Newsletter\n\nRead edition\nNovember 2021 issue"
+      },
+      {
+        "selector": ".logo-ticker",
+        "top": 580,
+        "height": 25,
+        "text": "India\n•\nUAE\n•\nUSA\nIndia\n•\nUAE\n•\nUSA"
+      },
+      {
+        "selector": ".revenue-chart",
+        "top": 3081,
+        "height": 225,
+        "text": "Long-term goals\nRetirement & education\nToday’s needs\nProtection & cash flow\nUnderstand\nPlan\nImplement\nReview\n\nAn illustration of the planning journey — not a return forecast or performance comparison."
+      },
+      {
+        "selector": ".process-video",
+        "top": 13174,
+        "height": 398,
+        "text": "Our approach\nHow we work\n\nExplore the steps behind your plan"
+      },
+      {
+        "selector": ".recognition-card",
+        "top": 14576,
+        "height": 255,
+        "text": "Recognition.Built on service.\n\nExplore our awards and certificates archive, reflecting our journey in financial services.\n\nView Awards"
+      },
+      {
+        "selector": ".testimonial-feature",
+        "top": 14961,
+        "height": 870,
+        "text": "Testimonials\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”\n\nFrom our client testimonial archive.\n\nNA\nNeeta Agrawal\nSyntel\n5.0/5\n\nReported on our existing website. Not a live Google feed."
+      },
+      {
+        "selector": ".testimonial-list",
+        "top": 15810,
+        "height": 922,
+        "text": "“I want to make it short and sweet. Chandrakant is not an agent for me, nor I’m a client for him. I say this because he provides his valuable suggestion after good research to me not thinking of me as his client but as a FAMILY member and I too in return take it without questioning as I trust him with my family’s health.”\nSJ\nSumit Jain\nL&T Infotech\nMore client experiences\n“Thank you for all the financial planning help you provided for the last 6 yrs, Chandrakant is a great person and with great character. He is very trustworthy and provides excellent service. Chandrakant has made the process of dealing with financial planning easy and painless. This is a process I normally dread but he made it easy. He is a great man and I would recommend Chandrakant to any of my friends and family.”\nRS\nRanbir Singh\nUSA\nMore client experiences\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years. He is a very professional financial advisor who understands your need and provide you customised investment solutions. He would never push you to sell something rather guide you to invest wisely.”\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE\nMore client experiences"
+      },
+      {
+        "selector": ".stats-grid",
+        "top": 16782,
+        "height": 327,
+        "text": "0+\n\nYears of experience\n\n0+\n\nClients served\n\n0+\n\nAwards received\n\n0.0/5\n\nGoogle rating reported on our existing website"
+      },
+      {
+        "selector": ".founder-callout",
+        "top": 17109,
+        "height": 333,
+        "text": "Your goals are personal.Your plan should be too.\n\nLet’s start with a conversation.\n\nChandrakant B. Ghanchi\nFounder & Financial Planner\nTalk about your goals"
+      },
+      {
+        "selector": ".contact-section-stats",
+        "top": 22637,
+        "height": 39,
+        "text": "1,200+\nClients\nserved.\n\n15+\nYears of\nexperience.\n"
+      }
+    ]
+  }
+]

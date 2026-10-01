@@ -1,0 +1,2172 @@
+{
+  "capturedAt": "2026-09-30T15:39:15.367Z",
+  "homepage": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "height": 22541,
+      "scrollRange": 21641,
+      "width": 1440,
+      "errors": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "selector": ".site-header",
+          "top": 30,
+          "height": 60,
+          "headings": [],
+          "words": 15
+        },
+        {
+          "selector": ".hero-scroll",
+          "top": 0,
+          "height": 900,
+          "headings": [
+            "A personal financial advisor for Navi Mumbai families, trusted since 2009. "
+          ],
+          "words": 65
+        },
+        {
+          "selector": ".hero-statement",
+          "top": 900,
+          "height": 900,
+          "headings": [
+            "Making goal-based financial advice accessible to all."
+          ],
+          "words": 7
+        },
+        {
+          "selector": ".hero-scroll-space",
+          "top": 1800,
+          "height": 900,
+          "headings": [],
+          "words": 1
+        },
+        {
+          "selector": ".comparison-scroll",
+          "top": 2700,
+          "height": 3258,
+          "headings": [
+            "From scattered decisionsto one coordinated plan.",
+            "Financialdecisionsmade in isolation.",
+            "Every decisionaligned withyour goals."
+          ],
+          "words": 66
+        },
+        {
+          "selector": ".services-section",
+          "top": 5958,
+          "height": 6406,
+          "headings": [
+            "Services.",
+            "Your life goals. A plan built around you.",
+            "Protection for the people who depend on you.",
+            "Plan for healthcare, before you need it.",
+            "Invest with your goals in mind.",
+            "Make room for life after work.",
+            "Give their ambitions a financial plan.",
+            "Prepare for the unexpected.",
+            "Protect the things you have worked for.",
+            "Consider protection for your employees."
+          ],
+          "words": 712
+        },
+        {
+          "selector": ".process-section",
+          "top": 12364,
+          "height": 2107,
+          "headings": [
+            "Your goals come first. The plan follows.",
+            "Understand",
+            "How we work",
+            "How we work",
+            "Understand",
+            "Assess",
+            "Plan",
+            "Review",
+            "Personal advice. Ongoing support."
+          ],
+          "words": 90
+        },
+        {
+          "selector": ".team-section",
+          "top": 14471,
+          "height": 942,
+          "headings": [
+            "Meet your advisor. A personal partnership.",
+            "Recognition.Built on service.",
+            "Chandrakant B. Ghanchi"
+          ],
+          "words": 31
+        },
+        {
+          "selector": ".testimonials-section",
+          "top": 15413,
+          "height": 2152,
+          "headings": [
+            "Testimonials",
+            "“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”",
+            "Your goals are personal.Your plan should be too."
+          ],
+          "words": 327
+        },
+        {
+          "selector": ".featured-case",
+          "top": 17565,
+          "height": 843,
+          "headings": [
+            "A personal approach, for clients in India and abroad."
+          ],
+          "words": 71
+        },
+        {
+          "selector": ".faq-section",
+          "top": 18409,
+          "height": 888,
+          "headings": [
+            "FAQ",
+            "What does Ghanchi Investments do?",
+            "Who do you work with?",
+            "Where are you based?"
+          ],
+          "words": 51
+        },
+        {
+          "selector": ".home-insights",
+          "top": 19297,
+          "height": 729,
+          "headings": [
+            "Knowledge foryour next chapter.",
+            "Single Woman, Retiring Solo Is a Dream Retirement Life (but) With Proper Planning!",
+            "You Don’t Have to Be Rich to Retire Rich!"
+          ],
+          "words": 48
+        },
+        {
+          "selector": ".contact-section",
+          "top": 20026,
+          "height": 1216,
+          "headings": [
+            "Let’s planyour nextchapter."
+          ],
+          "words": 131
+        },
+        {
+          "selector": ".site-footer",
+          "top": 21242,
+          "height": 1299,
+          "headings": [
+            "Subscribe to our newsletter.",
+            "Making Goal-based customized Financial Advice accessible to all and spread Financial Literacy. Let’s plan your financial future together."
+          ],
+          "words": 115
+        }
+      ],
+      "details": [
+        {
+          "selector": ".trust-badge",
+          "top": 731,
+          "height": 60,
+          "text": "NA\nSJ\nRS\nVS\nMR\n\nTrusted by 1,200+ clients\n\n5.0/5 · Google rating on existing site"
+        },
+        {
+          "selector": ".hero-case",
+          "top": 625,
+          "height": 215,
+          "text": "Latest Newsletter\nLatest in archive\n\nNovember 2021 Newsletter\n\nRead edition\nNovember 2021 issue"
+        },
+        {
+          "selector": ".logo-ticker",
+          "top": 815,
+          "height": 25,
+          "text": "India\n•\nUAE\n•\nUSA\nIndia\n•\nUAE\n•\nUSA"
+        },
+        {
+          "selector": ".revenue-chart",
+          "top": 6484,
+          "height": 240,
+          "text": "Long-term goals\nRetirement & education\nToday’s needs\nProtection & cash flow\nUnderstand\nPlan\nImplement\nReview\n\nAn illustration of the planning journey — not a return forecast or performance comparison."
+        },
+        {
+          "selector": ".service-list",
+          "top": 6844,
+          "height": 5400,
+          "text": "Financial Planning\n01\nYour life goals. A plan built around you.\n\nA personal financial plan connects your income, expenses, investments and debt with your short-term needs and long-term goals. We help you define your dreams, plan for them and review your progress.\n\nWhat we discuss\nUnderstand your financial situation\nGoal-based planning\nRisk and cash-flow assessment\nImplementation assistance\nAnnual review\nTalk about your goals\n\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones.”\n\nNA\nNeeta Agrawal\nSyntel\nLife Insurance\n02\nProtection for the people who depend on you.\n\nLife insurance helps provide financial protection for your family. We help you understand the available options in the context of your dependants, needs and financial goals.\n\nWhat we discuss\nFamily protection needs\nUnderstand policy options\nPremium considerations\nPolicy servicing\nClaim assistance\nTalk about your goals\n\n“Due to excellent knowledge of LIC and mediclaim, Chandrakant Ghanchi guided me and made me independent.”\n\nMR\nManju Rajvanshi\nSt. Xavier’s High School\nHealth Insurance\n03\nPlan for healthcare, before you need it.\n\nHealth insurance can help manage eligible medical expenses. Understand coverage, exclusions, waiting periods and policy conditions before choosing protection for yourself and your family.\n\nWhat we discuss\nCoverage needs\nFamily and individual options\nPolicy terms and exclusions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“I want to make it short and sweet.”\n\nSJ\nSumit Jain\nL&T Infotech\nMutual Funds\n04\nInvest with your goals in mind.\n\nExplore mutual funds with your time horizon, cash flow and risk appetite in mind. Mutual fund investments are subject to market risks; returns are not guaranteed.\n\nWhat we discuss\nInvestment goals\nRisk profile\nSIP and lump-sum options\nPortfolio review\nOnline account access\nTalk about your goals\n\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years.”\n\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE\nRetirement Planning\n05\nMake room for life after work.\n\nPlan for your future lifestyle, expenses and income needs. A customized retirement plan considers the resources you have today and the goals you want to work towards.\n\nWhat we discuss\nRetirement goals\nFuture expense planning\nIncome needs\nAvailable investment options\nAnnual review\nTalk about your goals\n\n“My wife and I came to you to discuss the options that were available for our future financial planning.”\n\nDS\nDeepak Salunkhe\nOberoi Realty\nChild Education Planning\n06\nGive their ambitions a financial plan.\n\nPrepare for your child’s future education needs with a goal-based approach that considers the time available, expected costs and your family’s finances.\n\nWhat we discuss\nEducation goals\nTime horizon\nCash-flow planning\nSuitable solutions\nProgress review\nTalk about your goals\nPersonal Accidental Policy\n07\nPrepare for the unexpected.\n\nUnderstand personal accident protection and the benefits available under policy terms for accidental injury, disability or death. Coverage depends on the selected policy.\n\nWhat we discuss\nProtection needs\nBenefit options\nPolicy exclusions\nDocumentation assistance\nClaim support\nTalk about your goals\n\n“It is so reassuring to know that all our insurance cover is now in place given the different elements involved.”\n\nBD\nBegum Dilshad\nHome Maker\nGeneral Insurance\n08\nProtect the things you have worked for.\n\nExplore insurance for your assets and other non-life risks. We help you understand your protection needs and the terms of the options available.\n\nWhat we discuss\nRisk assessment\nAvailable cover options\nPolicy conditions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“Once you are with Ghanch investments, rest assured you are financially in safe hands.”\n\nAS\nAaloak Singh Negi\nTCS\nEmployer Employee Insurance\n09\nConsider protection for your employees.\n\nExplore employer–employee insurance arrangements in the context of your business and employees’ needs. Eligibility, benefits and conditions depend on the selected policy.\n\nWhat we discuss\nBusiness needs\nEmployee protection\nPolicy structure\nDocumentation\nOngoing servicing\nTalk about your goals\n\n“The level of service and professionalism I’ve received from Ghanchi’s and the experienced professionals with them is unparalleled.”\n\nPS\nParvez Shaikh\nEast-west Freight Carriers Ltd"
+        },
+        {
+          "selector": ".service-card",
+          "top": 6884,
+          "height": 600,
+          "text": "Financial Planning\n01\nYour life goals. A plan built around you.\n\nA personal financial plan connects your income, expenses, investments and debt with your short-term needs and long-term goals. We help you define your dreams, plan for them and review your progress.\n\nWhat we discuss\nUnderstand your financial situation\nGoal-based planning\nRisk and cash-flow assessment\nImplementation assistance\nAnnual review\nTalk about your goals\n\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones.”\n\nNA\nNeeta Agrawal\nSyntel"
+        },
+        {
+          "selector": ".service-card",
+          "top": 7484,
+          "height": 600,
+          "text": "Life Insurance\n02\nProtection for the people who depend on you.\n\nLife insurance helps provide financial protection for your family. We help you understand the available options in the context of your dependants, needs and financial goals.\n\nWhat we discuss\nFamily protection needs\nUnderstand policy options\nPremium considerations\nPolicy servicing\nClaim assistance\nTalk about your goals\n\n“Due to excellent knowledge of LIC and mediclaim, Chandrakant Ghanchi guided me and made me independent.”\n\nMR\nManju Rajvanshi\nSt. Xavier’s High School"
+        },
+        {
+          "selector": ".service-card",
+          "top": 8084,
+          "height": 600,
+          "text": "Health Insurance\n03\nPlan for healthcare, before you need it.\n\nHealth insurance can help manage eligible medical expenses. Understand coverage, exclusions, waiting periods and policy conditions before choosing protection for yourself and your family.\n\nWhat we discuss\nCoverage needs\nFamily and individual options\nPolicy terms and exclusions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“I want to make it short and sweet.”\n\nSJ\nSumit Jain\nL&T Infotech"
+        },
+        {
+          "selector": ".service-card",
+          "top": 8684,
+          "height": 600,
+          "text": "Mutual Funds\n04\nInvest with your goals in mind.\n\nExplore mutual funds with your time horizon, cash flow and risk appetite in mind. Mutual fund investments are subject to market risks; returns are not guaranteed.\n\nWhat we discuss\nInvestment goals\nRisk profile\nSIP and lump-sum options\nPortfolio review\nOnline account access\nTalk about your goals\n\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years.”\n\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE"
+        },
+        {
+          "selector": ".service-card",
+          "top": 9284,
+          "height": 600,
+          "text": "Retirement Planning\n05\nMake room for life after work.\n\nPlan for your future lifestyle, expenses and income needs. A customized retirement plan considers the resources you have today and the goals you want to work towards.\n\nWhat we discuss\nRetirement goals\nFuture expense planning\nIncome needs\nAvailable investment options\nAnnual review\nTalk about your goals\n\n“My wife and I came to you to discuss the options that were available for our future financial planning.”\n\nDS\nDeepak Salunkhe\nOberoi Realty"
+        },
+        {
+          "selector": ".service-card",
+          "top": 9884,
+          "height": 600,
+          "text": "Child Education Planning\n06\nGive their ambitions a financial plan.\n\nPrepare for your child’s future education needs with a goal-based approach that considers the time available, expected costs and your family’s finances.\n\nWhat we discuss\nEducation goals\nTime horizon\nCash-flow planning\nSuitable solutions\nProgress review\nTalk about your goals"
+        },
+        {
+          "selector": ".service-card",
+          "top": 10484,
+          "height": 600,
+          "text": "Personal Accidental Policy\n07\nPrepare for the unexpected.\n\nUnderstand personal accident protection and the benefits available under policy terms for accidental injury, disability or death. Coverage depends on the selected policy.\n\nWhat we discuss\nProtection needs\nBenefit options\nPolicy exclusions\nDocumentation assistance\nClaim support\nTalk about your goals\n\n“It is so reassuring to know that all our insurance cover is now in place given the different elements involved.”\n\nBD\nBegum Dilshad\nHome Maker"
+        },
+        {
+          "selector": ".service-card",
+          "top": 11084,
+          "height": 600,
+          "text": "General Insurance\n08\nProtect the things you have worked for.\n\nExplore insurance for your assets and other non-life risks. We help you understand your protection needs and the terms of the options available.\n\nWhat we discuss\nRisk assessment\nAvailable cover options\nPolicy conditions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“Once you are with Ghanch investments, rest assured you are financially in safe hands.”\n\nAS\nAaloak Singh Negi\nTCS"
+        },
+        {
+          "selector": ".service-card",
+          "top": 11684,
+          "height": 600,
+          "text": "Employer Employee Insurance\n09\nConsider protection for your employees.\n\nExplore employer–employee insurance arrangements in the context of your business and employees’ needs. Eligibility, benefits and conditions depend on the selected policy.\n\nWhat we discuss\nBusiness needs\nEmployee protection\nPolicy structure\nDocumentation\nOngoing servicing\nTalk about your goals\n\n“The level of service and professionalism I’ve received from Ghanchi’s and the experienced professionals with them is unparalleled.”\n\nPS\nParvez Shaikh\nEast-west Freight Carriers Ltd"
+        },
+        {
+          "selector": ".process-video",
+          "top": 13263,
+          "height": 743,
+          "text": "Our approach\nHow we work\n\nExplore the steps behind your plan"
+        },
+        {
+          "selector": ".recognition-card",
+          "top": 15088,
+          "height": 245,
+          "text": "Recognition.\nBuilt on service.\n\n\nExplore our awards and certificates archive, reflecting our journey in financial services.\n\nView Awards"
+        },
+        {
+          "selector": ".testimonial-feature",
+          "top": 15573,
+          "height": 927,
+          "text": "Testimonials\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”\n\nFrom our client testimonial archive.\n\nNA\nNeeta Agrawal\nSyntel\n5.0/5\n\nReported on our existing website. Not a live Google feed."
+        },
+        {
+          "selector": ".testimonial-list",
+          "top": 16480,
+          "height": 356,
+          "text": "“I want to make it short and sweet. Chandrakant is not an agent for me, nor I’m a client for him. I say this because he provides his valuable suggestion after good research to me not thinking of me as his client but as a FAMILY member and I too in return take it without questioning as I trust him with my family’s health.”\nSJ\nSumit Jain\nL&T Infotech\nMore client experiences\n“Thank you for all the financial planning help you provided for the last 6 yrs, Chandrakant is a great person and with great character. He is very trustworthy and provides excellent service. Chandrakant has made the process of dealing with financial planning easy and painless. This is a process I normally dread but he made it easy. He is a great man and I would recommend Chandrakant to any of my friends and family.”\nRS\nRanbir Singh\nUSA\nMore client experiences\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years. He is a very professional financial advisor who understands your need and provide you customised investment solutions. He would never push you to sell something rather guide you to invest wisely.”\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE\nMore client experiences"
+        },
+        {
+          "selector": ".stats-grid",
+          "top": 16915,
+          "height": 236,
+          "text": "0+\n\nYears of experience\n\n0+\n\nClients served\n\n0+\n\nAwards received\n\n0.0/5\n\nGoogle rating reported on our existing website"
+        },
+        {
+          "selector": ".founder-callout",
+          "top": 17151,
+          "height": 294,
+          "text": "Your goals are personal.\nYour plan should be too.\n\n\nLet’s start with a conversation.\n\nChandrakant B. Ghanchi\nFounder & Financial Planner\nTalk about your goals"
+        },
+        {
+          "selector": ".contact-form",
+          "top": 20180,
+          "height": 915,
+          "text": "Tell us about your goals and the support you are looking for.\n\nWebsite\nName\nEmail\nPhone\nWhat services are you interested in?\nFinancial Planning\nLife Insurance\nHealth Insurance\nMutual Funds\nRetirement Planning\nChild Education Planning\nPersonal Accidental Policy\nGeneral Insurance\nEmployer Employee Insurance\nFinancial goal (optional)\nYour enquiry\nBy submitting, you consent to being contacted about this enquiry and accept our privacy policy and terms of service.\n\nLet’s start with a conversation.\nNo commitment required.\n\n\nSend enquiry"
+        },
+        {
+          "selector": ".contact-section-stats",
+          "top": 21164,
+          "height": 55,
+          "text": "1,200+\nClients\nserved.\n\n15+\nYears of\nexperience.\n"
+        }
+      ],
+      "aboveFold": [
+        {
+          "tag": "A",
+          "text": "",
+          "top": 43
+        },
+        {
+          "tag": "A",
+          "text": "Home",
+          "top": 42
+        },
+        {
+          "tag": "A",
+          "text": "About Us",
+          "top": 49
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "top": 44
+        },
+        {
+          "tag": "A",
+          "text": "Services",
+          "top": 49
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "top": 44
+        },
+        {
+          "tag": "A",
+          "text": "Online Services",
+          "top": 49
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "top": 44
+        },
+        {
+          "tag": "A",
+          "text": "Blog",
+          "top": 42
+        },
+        {
+          "tag": "A",
+          "text": "Contact Us",
+          "top": 42
+        },
+        {
+          "tag": "A",
+          "text": "",
+          "top": 38
+        },
+        {
+          "tag": "A",
+          "text": "Get in touch",
+          "top": 30
+        },
+        {
+          "tag": "H1",
+          "text": "A personal financial advisor\nfor Navi Mumbai families, trusted since 2009.",
+          "top": 160
+        },
+        {
+          "tag": "A",
+          "text": "Our Services",
+          "top": 509
+        },
+        {
+          "tag": "A",
+          "text": "Get in touch",
+          "top": 520
+        },
+        {
+          "tag": "DIV",
+          "text": "NA\nSJ\nRS\nVS\nMR\n\nTrusted by 1,200+ clients\n\n5.0/5 · Google rating on existing site",
+          "top": 731
+        },
+        {
+          "tag": "A",
+          "text": "Latest Newsletter\nLatest in archive\n\nNovember 2021 Newsletter\n\nRead edition\nNovember 2021 issue",
+          "top": 625
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1200,
+        "height": 900
+      },
+      "status": 200,
+      "height": 22332,
+      "scrollRange": 21432,
+      "width": 1200,
+      "errors": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "selector": ".site-header",
+          "top": 30,
+          "height": 60,
+          "headings": [],
+          "words": 15
+        },
+        {
+          "selector": ".hero-scroll",
+          "top": 0,
+          "height": 900,
+          "headings": [
+            "A personal financial advisor for Navi Mumbai families, trusted since 2009. "
+          ],
+          "words": 65
+        },
+        {
+          "selector": ".hero-statement",
+          "top": 900,
+          "height": 900,
+          "headings": [
+            "Making goal-based financial advice accessible to all."
+          ],
+          "words": 7
+        },
+        {
+          "selector": ".hero-scroll-space",
+          "top": 1800,
+          "height": 900,
+          "headings": [],
+          "words": 1
+        },
+        {
+          "selector": ".comparison-scroll",
+          "top": 2700,
+          "height": 3258,
+          "headings": [
+            "From scattered decisionsto one coordinated plan.",
+            "Financialdecisionsmade in isolation.",
+            "Every decisionaligned withyour goals."
+          ],
+          "words": 66
+        },
+        {
+          "selector": ".services-section",
+          "top": 5958,
+          "height": 6566,
+          "headings": [
+            "Services.",
+            "Your life goals. A plan built around you.",
+            "Protection for the people who depend on you.",
+            "Plan for healthcare, before you need it.",
+            "Invest with your goals in mind.",
+            "Make room for life after work.",
+            "Give their ambitions a financial plan.",
+            "Prepare for the unexpected.",
+            "Protect the things you have worked for.",
+            "Consider protection for your employees."
+          ],
+          "words": 712
+        },
+        {
+          "selector": ".process-section",
+          "top": 12524,
+          "height": 1963,
+          "headings": [
+            "Your goals come first. The plan follows.",
+            "Understand",
+            "How we work",
+            "How we work",
+            "Understand",
+            "Assess",
+            "Plan",
+            "Review",
+            "Personal advice. Ongoing support."
+          ],
+          "words": 90
+        },
+        {
+          "selector": ".team-section",
+          "top": 14487,
+          "height": 901,
+          "headings": [
+            "Meet your advisor. A personal partnership.",
+            "Recognition.Built on service.",
+            "Chandrakant B. Ghanchi"
+          ],
+          "words": 31
+        },
+        {
+          "selector": ".testimonials-section",
+          "top": 15388,
+          "height": 2111,
+          "headings": [
+            "Testimonials",
+            "“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”",
+            "Your goals are personal.Your plan should be too."
+          ],
+          "words": 327
+        },
+        {
+          "selector": ".featured-case",
+          "top": 17499,
+          "height": 785,
+          "headings": [
+            "A personal approach, for clients in India and abroad."
+          ],
+          "words": 71
+        },
+        {
+          "selector": ".faq-section",
+          "top": 18284,
+          "height": 892,
+          "headings": [
+            "FAQ",
+            "What does Ghanchi Investments do?",
+            "Who do you work with?",
+            "Where are you based?"
+          ],
+          "words": 51
+        },
+        {
+          "selector": ".home-insights",
+          "top": 19176,
+          "height": 640,
+          "headings": [
+            "Knowledge foryour next chapter.",
+            "Single Woman, Retiring Solo Is a Dream Retirement Life (but) With Proper Planning!",
+            "You Don’t Have to Be Rich to Retire Rich!"
+          ],
+          "words": 48
+        },
+        {
+          "selector": ".contact-section",
+          "top": 19816,
+          "height": 1258,
+          "headings": [
+            "Let’s planyour nextchapter."
+          ],
+          "words": 131
+        },
+        {
+          "selector": ".site-footer",
+          "top": 21073,
+          "height": 1259,
+          "headings": [
+            "Subscribe to our newsletter.",
+            "Making Goal-based customized Financial Advice accessible to all and spread Financial Literacy. Let’s plan your financial future together."
+          ],
+          "words": 115
+        }
+      ],
+      "details": [
+        {
+          "selector": ".trust-badge",
+          "top": 731,
+          "height": 60,
+          "text": "NA\nSJ\nRS\nVS\nMR\n\nTrusted by 1,200+ clients\n\n5.0/5 · Google rating on existing site"
+        },
+        {
+          "selector": ".hero-case",
+          "top": 625,
+          "height": 215,
+          "text": "Latest Newsletter\nLatest in archive\n\nNovember 2021 Newsletter\n\nRead edition\nNovember 2021 issue"
+        },
+        {
+          "selector": ".logo-ticker",
+          "top": 815,
+          "height": 25,
+          "text": "India\n•\nUAE\n•\nUSA\nIndia\n•\nUAE\n•\nUSA"
+        },
+        {
+          "selector": ".revenue-chart",
+          "top": 6464,
+          "height": 240,
+          "text": "Long-term goals\nRetirement & education\nToday’s needs\nProtection & cash flow\nUnderstand\nPlan\nImplement\nReview\n\nAn illustration of the planning journey — not a return forecast or performance comparison."
+        },
+        {
+          "selector": ".service-list",
+          "top": 6824,
+          "height": 5580,
+          "text": "Financial Planning\n01\nYour life goals. A plan built around you.\n\nA personal financial plan connects your income, expenses, investments and debt with your short-term needs and long-term goals. We help you define your dreams, plan for them and review your progress.\n\nWhat we discuss\nUnderstand your financial situation\nGoal-based planning\nRisk and cash-flow assessment\nImplementation assistance\nAnnual review\nTalk about your goals\n\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones.”\n\nNA\nNeeta Agrawal\nSyntel\nLife Insurance\n02\nProtection for the people who depend on you.\n\nLife insurance helps provide financial protection for your family. We help you understand the available options in the context of your dependants, needs and financial goals.\n\nWhat we discuss\nFamily protection needs\nUnderstand policy options\nPremium considerations\nPolicy servicing\nClaim assistance\nTalk about your goals\n\n“Due to excellent knowledge of LIC and mediclaim, Chandrakant Ghanchi guided me and made me independent.”\n\nMR\nManju Rajvanshi\nSt. Xavier’s High School\nHealth Insurance\n03\nPlan for healthcare, before you need it.\n\nHealth insurance can help manage eligible medical expenses. Understand coverage, exclusions, waiting periods and policy conditions before choosing protection for yourself and your family.\n\nWhat we discuss\nCoverage needs\nFamily and individual options\nPolicy terms and exclusions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“I want to make it short and sweet.”\n\nSJ\nSumit Jain\nL&T Infotech\nMutual Funds\n04\nInvest with your goals in mind.\n\nExplore mutual funds with your time horizon, cash flow and risk appetite in mind. Mutual fund investments are subject to market risks; returns are not guaranteed.\n\nWhat we discuss\nInvestment goals\nRisk profile\nSIP and lump-sum options\nPortfolio review\nOnline account access\nTalk about your goals\n\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years.”\n\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE\nRetirement Planning\n05\nMake room for life after work.\n\nPlan for your future lifestyle, expenses and income needs. A customized retirement plan considers the resources you have today and the goals you want to work towards.\n\nWhat we discuss\nRetirement goals\nFuture expense planning\nIncome needs\nAvailable investment options\nAnnual review\nTalk about your goals\n\n“My wife and I came to you to discuss the options that were available for our future financial planning.”\n\nDS\nDeepak Salunkhe\nOberoi Realty\nChild Education Planning\n06\nGive their ambitions a financial plan.\n\nPrepare for your child’s future education needs with a goal-based approach that considers the time available, expected costs and your family’s finances.\n\nWhat we discuss\nEducation goals\nTime horizon\nCash-flow planning\nSuitable solutions\nProgress review\nTalk about your goals\nPersonal Accidental Policy\n07\nPrepare for the unexpected.\n\nUnderstand personal accident protection and the benefits available under policy terms for accidental injury, disability or death. Coverage depends on the selected policy.\n\nWhat we discuss\nProtection needs\nBenefit options\nPolicy exclusions\nDocumentation assistance\nClaim support\nTalk about your goals\n\n“It is so reassuring to know that all our insurance cover is now in place given the different elements involved.”\n\nBD\nBegum Dilshad\nHome Maker\nGeneral Insurance\n08\nProtect the things you have worked for.\n\nExplore insurance for your assets and other non-life risks. We help you understand your protection needs and the terms of the options available.\n\nWhat we discuss\nRisk assessment\nAvailable cover options\nPolicy conditions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“Once you are with Ghanch investments, rest assured you are financially in safe hands.”\n\nAS\nAaloak Singh Negi\nTCS\nEmployer Employee Insurance\n09\nConsider protection for your employees.\n\nExplore employer–employee insurance arrangements in the context of your business and employees’ needs. Eligibility, benefits and conditions depend on the selected policy.\n\nWhat we discuss\nBusiness needs\nEmployee protection\nPolicy structure\nDocumentation\nOngoing servicing\nTalk about your goals\n\n“The level of service and professionalism I’ve received from Ghanchi’s and the experienced professionals with them is unparalleled.”\n\nPS\nParvez Shaikh\nEast-west Freight Carriers Ltd"
+        },
+        {
+          "selector": ".service-card",
+          "top": 6864,
+          "height": 620,
+          "text": "Financial Planning\n01\nYour life goals. A plan built around you.\n\nA personal financial plan connects your income, expenses, investments and debt with your short-term needs and long-term goals. We help you define your dreams, plan for them and review your progress.\n\nWhat we discuss\nUnderstand your financial situation\nGoal-based planning\nRisk and cash-flow assessment\nImplementation assistance\nAnnual review\nTalk about your goals\n\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones.”\n\nNA\nNeeta Agrawal\nSyntel"
+        },
+        {
+          "selector": ".service-card",
+          "top": 7484,
+          "height": 620,
+          "text": "Life Insurance\n02\nProtection for the people who depend on you.\n\nLife insurance helps provide financial protection for your family. We help you understand the available options in the context of your dependants, needs and financial goals.\n\nWhat we discuss\nFamily protection needs\nUnderstand policy options\nPremium considerations\nPolicy servicing\nClaim assistance\nTalk about your goals\n\n“Due to excellent knowledge of LIC and mediclaim, Chandrakant Ghanchi guided me and made me independent.”\n\nMR\nManju Rajvanshi\nSt. Xavier’s High School"
+        },
+        {
+          "selector": ".service-card",
+          "top": 8104,
+          "height": 620,
+          "text": "Health Insurance\n03\nPlan for healthcare, before you need it.\n\nHealth insurance can help manage eligible medical expenses. Understand coverage, exclusions, waiting periods and policy conditions before choosing protection for yourself and your family.\n\nWhat we discuss\nCoverage needs\nFamily and individual options\nPolicy terms and exclusions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“I want to make it short and sweet.”\n\nSJ\nSumit Jain\nL&T Infotech"
+        },
+        {
+          "selector": ".service-card",
+          "top": 8724,
+          "height": 620,
+          "text": "Mutual Funds\n04\nInvest with your goals in mind.\n\nExplore mutual funds with your time horizon, cash flow and risk appetite in mind. Mutual fund investments are subject to market risks; returns are not guaranteed.\n\nWhat we discuss\nInvestment goals\nRisk profile\nSIP and lump-sum options\nPortfolio review\nOnline account access\nTalk about your goals\n\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years.”\n\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE"
+        },
+        {
+          "selector": ".service-card",
+          "top": 9344,
+          "height": 620,
+          "text": "Retirement Planning\n05\nMake room for life after work.\n\nPlan for your future lifestyle, expenses and income needs. A customized retirement plan considers the resources you have today and the goals you want to work towards.\n\nWhat we discuss\nRetirement goals\nFuture expense planning\nIncome needs\nAvailable investment options\nAnnual review\nTalk about your goals\n\n“My wife and I came to you to discuss the options that were available for our future financial planning.”\n\nDS\nDeepak Salunkhe\nOberoi Realty"
+        },
+        {
+          "selector": ".service-card",
+          "top": 9964,
+          "height": 620,
+          "text": "Child Education Planning\n06\nGive their ambitions a financial plan.\n\nPrepare for your child’s future education needs with a goal-based approach that considers the time available, expected costs and your family’s finances.\n\nWhat we discuss\nEducation goals\nTime horizon\nCash-flow planning\nSuitable solutions\nProgress review\nTalk about your goals"
+        },
+        {
+          "selector": ".service-card",
+          "top": 10584,
+          "height": 620,
+          "text": "Personal Accidental Policy\n07\nPrepare for the unexpected.\n\nUnderstand personal accident protection and the benefits available under policy terms for accidental injury, disability or death. Coverage depends on the selected policy.\n\nWhat we discuss\nProtection needs\nBenefit options\nPolicy exclusions\nDocumentation assistance\nClaim support\nTalk about your goals\n\n“It is so reassuring to know that all our insurance cover is now in place given the different elements involved.”\n\nBD\nBegum Dilshad\nHome Maker"
+        },
+        {
+          "selector": ".service-card",
+          "top": 11204,
+          "height": 620,
+          "text": "General Insurance\n08\nProtect the things you have worked for.\n\nExplore insurance for your assets and other non-life risks. We help you understand your protection needs and the terms of the options available.\n\nWhat we discuss\nRisk assessment\nAvailable cover options\nPolicy conditions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“Once you are with Ghanch investments, rest assured you are financially in safe hands.”\n\nAS\nAaloak Singh Negi\nTCS"
+        },
+        {
+          "selector": ".service-card",
+          "top": 11824,
+          "height": 620,
+          "text": "Employer Employee Insurance\n09\nConsider protection for your employees.\n\nExplore employer–employee insurance arrangements in the context of your business and employees’ needs. Eligibility, benefits and conditions depend on the selected policy.\n\nWhat we discuss\nBusiness needs\nEmployee protection\nPolicy structure\nDocumentation\nOngoing servicing\nTalk about your goals\n\n“The level of service and professionalism I’ve received from Ghanchi’s and the experienced professionals with them is unparalleled.”\n\nPS\nParvez Shaikh\nEast-west Freight Carriers Ltd"
+        },
+        {
+          "selector": ".process-video",
+          "top": 13392,
+          "height": 630,
+          "text": "Our approach\nHow we work\n\nExplore the steps behind your plan"
+        },
+        {
+          "selector": ".recognition-card",
+          "top": 15063,
+          "height": 245,
+          "text": "Recognition.\nBuilt on service.\n\n\nExplore our awards and certificates archive, reflecting our journey in financial services.\n\nView Awards"
+        },
+        {
+          "selector": ".testimonial-feature",
+          "top": 15548,
+          "height": 907,
+          "text": "Testimonials\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”\n\nFrom our client testimonial archive.\n\nNA\nNeeta Agrawal\nSyntel\n5.0/5\n\nReported on our existing website. Not a live Google feed."
+        },
+        {
+          "selector": ".testimonial-list",
+          "top": 16434,
+          "height": 335,
+          "text": "“I want to make it short and sweet. Chandrakant is not an agent for me, nor I’m a client for him. I say this because he provides his valuable suggestion after good research to me not thinking of me as his client but as a FAMILY member and I too in return take it without questioning as I trust him with my family’s health.”\nSJ\nSumit Jain\nL&T Infotech\nMore client experiences\n“Thank you for all the financial planning help you provided for the last 6 yrs, Chandrakant is a great person and with great character. He is very trustworthy and provides excellent service. Chandrakant has made the process of dealing with financial planning easy and painless. This is a process I normally dread but he made it easy. He is a great man and I would recommend Chandrakant to any of my friends and family.”\nRS\nRanbir Singh\nUSA\nMore client experiences\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years. He is a very professional financial advisor who understands your need and provide you customised investment solutions. He would never push you to sell something rather guide you to invest wisely.”\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE\nMore client experiences"
+        },
+        {
+          "selector": ".stats-grid",
+          "top": 16849,
+          "height": 236,
+          "text": "0+\n\nYears of experience\n\n0+\n\nClients served\n\n0+\n\nAwards received\n\n0.0/5\n\nGoogle rating reported on our existing website"
+        },
+        {
+          "selector": ".founder-callout",
+          "top": 17085,
+          "height": 294,
+          "text": "Your goals are personal.\nYour plan should be too.\n\n\nLet’s start with a conversation.\n\nChandrakant B. Ghanchi\nFounder & Financial Planner\nTalk about your goals"
+        },
+        {
+          "selector": ".contact-form",
+          "top": 19971,
+          "height": 956,
+          "text": "Tell us about your goals and the support you are looking for.\n\nWebsite\nName\nEmail\nPhone\nWhat services are you interested in?\nFinancial Planning\nLife Insurance\nHealth Insurance\nMutual Funds\nRetirement Planning\nChild Education Planning\nPersonal Accidental Policy\nGeneral Insurance\nEmployer Employee Insurance\nFinancial goal (optional)\nYour enquiry\nBy submitting, you consent to being contacted about this enquiry and accept our privacy policy and terms of service.\n\nLet’s start with a conversation.\nNo commitment required.\n\n\nSend enquiry"
+        },
+        {
+          "selector": ".contact-section-stats",
+          "top": 20995,
+          "height": 55,
+          "text": "1,200+\nClients\nserved.\n\n15+\nYears of\nexperience.\n"
+        }
+      ],
+      "aboveFold": [
+        {
+          "tag": "A",
+          "text": "",
+          "top": 43
+        },
+        {
+          "tag": "A",
+          "text": "Home",
+          "top": 42
+        },
+        {
+          "tag": "A",
+          "text": "About Us",
+          "top": 49
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "top": 44
+        },
+        {
+          "tag": "A",
+          "text": "Services",
+          "top": 49
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "top": 44
+        },
+        {
+          "tag": "A",
+          "text": "Online Services",
+          "top": 49
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "top": 44
+        },
+        {
+          "tag": "A",
+          "text": "Blog",
+          "top": 42
+        },
+        {
+          "tag": "A",
+          "text": "Contact Us",
+          "top": 42
+        },
+        {
+          "tag": "A",
+          "text": "",
+          "top": 38
+        },
+        {
+          "tag": "A",
+          "text": "Get in touch",
+          "top": 30
+        },
+        {
+          "tag": "H1",
+          "text": "A personal financial advisor\nfor Navi Mumbai families, trusted since 2009.",
+          "top": 160
+        },
+        {
+          "tag": "A",
+          "text": "Our Services",
+          "top": 462
+        },
+        {
+          "tag": "A",
+          "text": "Get in touch",
+          "top": 473
+        },
+        {
+          "tag": "DIV",
+          "text": "NA\nSJ\nRS\nVS\nMR\n\nTrusted by 1,200+ clients\n\n5.0/5 · Google rating on existing site",
+          "top": 731
+        },
+        {
+          "tag": "A",
+          "text": "Latest Newsletter\nLatest in archive\n\nNovember 2021 Newsletter\n\nRead edition\nNovember 2021 issue",
+          "top": 625
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "status": 200,
+      "height": 21409,
+      "scrollRange": 20329,
+      "width": 810,
+      "errors": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "selector": ".site-header",
+          "top": 20,
+          "height": 68,
+          "headings": [],
+          "words": 3
+        },
+        {
+          "selector": ".hero-scroll",
+          "top": 0,
+          "height": 1080,
+          "headings": [
+            "A personal financial advisor for Navi Mumbai families, trusted since 2009. "
+          ],
+          "words": 65
+        },
+        {
+          "selector": ".hero-statement",
+          "top": 1080,
+          "height": 1080,
+          "headings": [
+            "Making goal-based financial advice accessible to all."
+          ],
+          "words": 7
+        },
+        {
+          "selector": ".hero-scroll-space",
+          "top": 2160,
+          "height": 1080,
+          "headings": [],
+          "words": 1
+        },
+        {
+          "selector": ".comparison-scroll",
+          "top": 3240,
+          "height": 891,
+          "headings": [
+            "From scattered decisionsto one coordinated plan.",
+            "Financialdecisionsmade in isolation.",
+            "Every decisionaligned withyour goals."
+          ],
+          "words": 66
+        },
+        {
+          "selector": ".services-section",
+          "top": 4131,
+          "height": 6575,
+          "headings": [
+            "Services.",
+            "Your life goals. A plan built around you.",
+            "Protection for the people who depend on you.",
+            "Plan for healthcare, before you need it.",
+            "Invest with your goals in mind.",
+            "Make room for life after work.",
+            "Give their ambitions a financial plan.",
+            "Prepare for the unexpected.",
+            "Protect the things you have worked for.",
+            "Consider protection for your employees."
+          ],
+          "words": 712
+        },
+        {
+          "selector": ".process-section",
+          "top": 10706,
+          "height": 1645,
+          "headings": [
+            "Your goals come first. The plan follows.",
+            "Understand",
+            "How we work",
+            "How we work",
+            "Understand",
+            "Assess",
+            "Plan",
+            "Review",
+            "Personal advice. Ongoing support."
+          ],
+          "words": 93
+        },
+        {
+          "selector": ".team-section",
+          "top": 12351,
+          "height": 651,
+          "headings": [
+            "Meet your advisor. A personal partnership.",
+            "Recognition.Built on service.",
+            "Chandrakant B. Ghanchi"
+          ],
+          "words": 31
+        },
+        {
+          "selector": ".testimonials-section",
+          "top": 13001,
+          "height": 2607,
+          "headings": [
+            "Testimonials",
+            "“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”",
+            "Your goals are personal.Your plan should be too."
+          ],
+          "words": 327
+        },
+        {
+          "selector": ".featured-case",
+          "top": 15609,
+          "height": 1214,
+          "headings": [
+            "A personal approach, for clients in India and abroad."
+          ],
+          "words": 71
+        },
+        {
+          "selector": ".faq-section",
+          "top": 16823,
+          "height": 831,
+          "headings": [
+            "FAQ",
+            "What does Ghanchi Investments do?",
+            "Who do you work with?",
+            "Where are you based?"
+          ],
+          "words": 51
+        },
+        {
+          "selector": ".home-insights",
+          "top": 17653,
+          "height": 879,
+          "headings": [
+            "Knowledge foryour next chapter.",
+            "Single Woman, Retiring Solo Is a Dream Retirement Life (but) With Proper Planning!",
+            "You Don’t Have to Be Rich to Retire Rich!"
+          ],
+          "words": 48
+        },
+        {
+          "selector": ".contact-section",
+          "top": 18532,
+          "height": 1727,
+          "headings": [
+            "Let’s planyour nextchapter."
+          ],
+          "words": 131
+        },
+        {
+          "selector": ".site-footer",
+          "top": 20258,
+          "height": 1150,
+          "headings": [
+            "Subscribe to our newsletter.",
+            "Making Goal-based customized Financial Advice accessible to all and spread Financial Literacy. Let’s plan your financial future together."
+          ],
+          "words": 115
+        }
+      ],
+      "details": [
+        {
+          "selector": ".trust-badge",
+          "top": 914,
+          "height": 57,
+          "text": "NA\nSJ\nRS\nVS\nMR\n\nTrusted by 1,200+ clients\n\n5.0/5 · Google rating on existing site"
+        },
+        {
+          "selector": ".hero-case",
+          "top": 795,
+          "height": 226,
+          "text": "Latest Newsletter\nLatest in archive\n\nNovember 2021 Newsletter\n\nRead edition\nNovember 2021 issue"
+        },
+        {
+          "selector": ".logo-ticker",
+          "top": 995,
+          "height": 25,
+          "text": "India\n•\nUAE\n•\nUSA\nIndia\n•\nUAE\n•\nUSA"
+        },
+        {
+          "selector": ".revenue-chart",
+          "top": 4516,
+          "height": 240,
+          "text": "Long-term goals\nRetirement & education\nToday’s needs\nProtection & cash flow\nUnderstand\nPlan\nImplement\nReview\n\nAn illustration of the planning journey — not a return forecast or performance comparison."
+        },
+        {
+          "selector": ".service-list",
+          "top": 4826,
+          "height": 5800,
+          "text": "Financial Planning\n01\nYour life goals. A plan built around you.\n\nA personal financial plan connects your income, expenses, investments and debt with your short-term needs and long-term goals. We help you define your dreams, plan for them and review your progress.\n\nWhat we discuss\nUnderstand your financial situation\nGoal-based planning\nRisk and cash-flow assessment\nImplementation assistance\nAnnual review\nTalk about your goals\n\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones.”\n\nNA\nNeeta Agrawal\nSyntel\nLife Insurance\n02\nProtection for the people who depend on you.\n\nLife insurance helps provide financial protection for your family. We help you understand the available options in the context of your dependants, needs and financial goals.\n\nWhat we discuss\nFamily protection needs\nUnderstand policy options\nPremium considerations\nPolicy servicing\nClaim assistance\nTalk about your goals\n\n“Due to excellent knowledge of LIC and mediclaim, Chandrakant Ghanchi guided me and made me independent.”\n\nMR\nManju Rajvanshi\nSt. Xavier’s High School\nHealth Insurance\n03\nPlan for healthcare, before you need it.\n\nHealth insurance can help manage eligible medical expenses. Understand coverage, exclusions, waiting periods and policy conditions before choosing protection for yourself and your family.\n\nWhat we discuss\nCoverage needs\nFamily and individual options\nPolicy terms and exclusions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“I want to make it short and sweet.”\n\nSJ\nSumit Jain\nL&T Infotech\nMutual Funds\n04\nInvest with your goals in mind.\n\nExplore mutual funds with your time horizon, cash flow and risk appetite in mind. Mutual fund investments are subject to market risks; returns are not guaranteed.\n\nWhat we discuss\nInvestment goals\nRisk profile\nSIP and lump-sum options\nPortfolio review\nOnline account access\nTalk about your goals\n\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years.”\n\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE\nRetirement Planning\n05\nMake room for life after work.\n\nPlan for your future lifestyle, expenses and income needs. A customized retirement plan considers the resources you have today and the goals you want to work towards.\n\nWhat we discuss\nRetirement goals\nFuture expense planning\nIncome needs\nAvailable investment options\nAnnual review\nTalk about your goals\n\n“My wife and I came to you to discuss the options that were available for our future financial planning.”\n\nDS\nDeepak Salunkhe\nOberoi Realty\nChild Education Planning\n06\nGive their ambitions a financial plan.\n\nPrepare for your child’s future education needs with a goal-based approach that considers the time available, expected costs and your family’s finances.\n\nWhat we discuss\nEducation goals\nTime horizon\nCash-flow planning\nSuitable solutions\nProgress review\nTalk about your goals\nPersonal Accidental Policy\n07\nPrepare for the unexpected.\n\nUnderstand personal accident protection and the benefits available under policy terms for accidental injury, disability or death. Coverage depends on the selected policy.\n\nWhat we discuss\nProtection needs\nBenefit options\nPolicy exclusions\nDocumentation assistance\nClaim support\nTalk about your goals\n\n“It is so reassuring to know that all our insurance cover is now in place given the different elements involved.”\n\nBD\nBegum Dilshad\nHome Maker\nGeneral Insurance\n08\nProtect the things you have worked for.\n\nExplore insurance for your assets and other non-life risks. We help you understand your protection needs and the terms of the options available.\n\nWhat we discuss\nRisk assessment\nAvailable cover options\nPolicy conditions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“Once you are with Ghanch investments, rest assured you are financially in safe hands.”\n\nAS\nAaloak Singh Negi\nTCS\nEmployer Employee Insurance\n09\nConsider protection for your employees.\n\nExplore employer–employee insurance arrangements in the context of your business and employees’ needs. Eligibility, benefits and conditions depend on the selected policy.\n\nWhat we discuss\nBusiness needs\nEmployee protection\nPolicy structure\nDocumentation\nOngoing servicing\nTalk about your goals\n\n“The level of service and professionalism I’ve received from Ghanchi’s and the experienced professionals with them is unparalleled.”\n\nPS\nParvez Shaikh\nEast-west Freight Carriers Ltd"
+        },
+        {
+          "selector": ".service-card",
+          "top": 4866,
+          "height": 600,
+          "text": "Financial Planning\n01\nYour life goals. A plan built around you.\n\nA personal financial plan connects your income, expenses, investments and debt with your short-term needs and long-term goals. We help you define your dreams, plan for them and review your progress.\n\nWhat we discuss\nUnderstand your financial situation\nGoal-based planning\nRisk and cash-flow assessment\nImplementation assistance\nAnnual review\nTalk about your goals\n\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones.”\n\nNA\nNeeta Agrawal\nSyntel"
+        },
+        {
+          "selector": ".service-card",
+          "top": 5516,
+          "height": 600,
+          "text": "Life Insurance\n02\nProtection for the people who depend on you.\n\nLife insurance helps provide financial protection for your family. We help you understand the available options in the context of your dependants, needs and financial goals.\n\nWhat we discuss\nFamily protection needs\nUnderstand policy options\nPremium considerations\nPolicy servicing\nClaim assistance\nTalk about your goals\n\n“Due to excellent knowledge of LIC and mediclaim, Chandrakant Ghanchi guided me and made me independent.”\n\nMR\nManju Rajvanshi\nSt. Xavier’s High School"
+        },
+        {
+          "selector": ".service-card",
+          "top": 6166,
+          "height": 600,
+          "text": "Health Insurance\n03\nPlan for healthcare, before you need it.\n\nHealth insurance can help manage eligible medical expenses. Understand coverage, exclusions, waiting periods and policy conditions before choosing protection for yourself and your family.\n\nWhat we discuss\nCoverage needs\nFamily and individual options\nPolicy terms and exclusions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“I want to make it short and sweet.”\n\nSJ\nSumit Jain\nL&T Infotech"
+        },
+        {
+          "selector": ".service-card",
+          "top": 6816,
+          "height": 600,
+          "text": "Mutual Funds\n04\nInvest with your goals in mind.\n\nExplore mutual funds with your time horizon, cash flow and risk appetite in mind. Mutual fund investments are subject to market risks; returns are not guaranteed.\n\nWhat we discuss\nInvestment goals\nRisk profile\nSIP and lump-sum options\nPortfolio review\nOnline account access\nTalk about your goals\n\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years.”\n\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE"
+        },
+        {
+          "selector": ".service-card",
+          "top": 7466,
+          "height": 600,
+          "text": "Retirement Planning\n05\nMake room for life after work.\n\nPlan for your future lifestyle, expenses and income needs. A customized retirement plan considers the resources you have today and the goals you want to work towards.\n\nWhat we discuss\nRetirement goals\nFuture expense planning\nIncome needs\nAvailable investment options\nAnnual review\nTalk about your goals\n\n“My wife and I came to you to discuss the options that were available for our future financial planning.”\n\nDS\nDeepak Salunkhe\nOberoi Realty"
+        },
+        {
+          "selector": ".service-card",
+          "top": 8116,
+          "height": 600,
+          "text": "Child Education Planning\n06\nGive their ambitions a financial plan.\n\nPrepare for your child’s future education needs with a goal-based approach that considers the time available, expected costs and your family’s finances.\n\nWhat we discuss\nEducation goals\nTime horizon\nCash-flow planning\nSuitable solutions\nProgress review\nTalk about your goals"
+        },
+        {
+          "selector": ".service-card",
+          "top": 8766,
+          "height": 600,
+          "text": "Personal Accidental Policy\n07\nPrepare for the unexpected.\n\nUnderstand personal accident protection and the benefits available under policy terms for accidental injury, disability or death. Coverage depends on the selected policy.\n\nWhat we discuss\nProtection needs\nBenefit options\nPolicy exclusions\nDocumentation assistance\nClaim support\nTalk about your goals\n\n“It is so reassuring to know that all our insurance cover is now in place given the different elements involved.”\n\nBD\nBegum Dilshad\nHome Maker"
+        },
+        {
+          "selector": ".service-card",
+          "top": 9416,
+          "height": 600,
+          "text": "General Insurance\n08\nProtect the things you have worked for.\n\nExplore insurance for your assets and other non-life risks. We help you understand your protection needs and the terms of the options available.\n\nWhat we discuss\nRisk assessment\nAvailable cover options\nPolicy conditions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“Once you are with Ghanch investments, rest assured you are financially in safe hands.”\n\nAS\nAaloak Singh Negi\nTCS"
+        },
+        {
+          "selector": ".service-card",
+          "top": 10066,
+          "height": 600,
+          "text": "Employer Employee Insurance\n09\nConsider protection for your employees.\n\nExplore employer–employee insurance arrangements in the context of your business and employees’ needs. Eligibility, benefits and conditions depend on the selected policy.\n\nWhat we discuss\nBusiness needs\nEmployee protection\nPolicy structure\nDocumentation\nOngoing servicing\nTalk about your goals\n\n“The level of service and professionalism I’ve received from Ghanchi’s and the experienced professionals with them is unparalleled.”\n\nPS\nParvez Shaikh\nEast-west Freight Carriers Ltd"
+        },
+        {
+          "selector": ".process-video",
+          "top": 11522,
+          "height": 422,
+          "text": "Our approach\nHow we work\n\nExplore the steps behind your plan"
+        },
+        {
+          "selector": ".recognition-card",
+          "top": 12797,
+          "height": 164,
+          "text": "Recognition.\nBuilt on service.\n\n\nExplore our awards and certificates archive, reflecting our journey in financial services.\n\nView Awards"
+        },
+        {
+          "selector": ".testimonial-feature",
+          "top": 13121,
+          "height": 763,
+          "text": "Testimonials\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”\n\nFrom our client testimonial archive.\n\nNA\nNeeta Agrawal\nSyntel\n5.0/5\n\nReported on our existing website. Not a live Google feed."
+        },
+        {
+          "selector": ".testimonial-list",
+          "top": 13864,
+          "height": 814,
+          "text": "“I want to make it short and sweet. Chandrakant is not an agent for me, nor I’m a client for him. I say this because he provides his valuable suggestion after good research to me not thinking of me as his client but as a FAMILY member and I too in return take it without questioning as I trust him with my family’s health.”\nSJ\nSumit Jain\nL&T Infotech\nMore client experiences\n“Thank you for all the financial planning help you provided for the last 6 yrs, Chandrakant is a great person and with great character. He is very trustworthy and provides excellent service. Chandrakant has made the process of dealing with financial planning easy and painless. This is a process I normally dread but he made it easy. He is a great man and I would recommend Chandrakant to any of my friends and family.”\nRS\nRanbir Singh\nUSA\nMore client experiences\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years. He is a very professional financial advisor who understands your need and provide you customised investment solutions. He would never push you to sell something rather guide you to invest wisely.”\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE\nMore client experiences"
+        },
+        {
+          "selector": ".stats-grid",
+          "top": 14728,
+          "height": 453,
+          "text": "0+\n\nYears of experience\n\n0+\n\nClients served\n\n0+\n\nAwards received\n\n0.0/5\n\nGoogle rating reported on our existing website"
+        },
+        {
+          "selector": ".founder-callout",
+          "top": 15181,
+          "height": 348,
+          "text": "Your goals are personal.\nYour plan should be too.\n\n\nLet’s start with a conversation.\n\nChandrakant B. Ghanchi\nFounder & Financial Planner\nTalk about your goals"
+        },
+        {
+          "selector": ".contact-form",
+          "top": 19286,
+          "height": 869,
+          "text": "Tell us about your goals and the support you are looking for.\n\nWebsite\nName\nEmail\nPhone\nWhat services are you interested in?\nFinancial Planning\nLife Insurance\nHealth Insurance\nMutual Funds\nRetirement Planning\nChild Education Planning\nPersonal Accidental Policy\nGeneral Insurance\nEmployer Employee Insurance\nFinancial goal (optional)\nYour enquiry\nBy submitting, you consent to being contacted about this enquiry and accept our privacy policy and terms of service.\n\nLet’s start with a conversation.\nNo commitment required.\n\n\nSend enquiry"
+        },
+        {
+          "selector": ".contact-section-stats",
+          "top": 20194,
+          "height": 55,
+          "text": "1,200+\nClients\nserved.\n\n15+\nYears of\nexperience.\n"
+        }
+      ],
+      "aboveFold": [
+        {
+          "tag": "A",
+          "text": "",
+          "top": 37
+        },
+        {
+          "tag": "A",
+          "text": "",
+          "top": 32
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "top": 36
+        },
+        {
+          "tag": "H1",
+          "text": "A personal financial advisor\nfor Navi Mumbai families, trusted since 2009.",
+          "top": 160
+        },
+        {
+          "tag": "A",
+          "text": "Our Services",
+          "top": 442
+        },
+        {
+          "tag": "A",
+          "text": "Get in touch",
+          "top": 452
+        },
+        {
+          "tag": "DIV",
+          "text": "NA\nSJ\nRS\nVS\nMR\n\nTrusted by 1,200+ clients\n\n5.0/5 · Google rating on existing site",
+          "top": 914
+        },
+        {
+          "tag": "A",
+          "text": "Latest Newsletter\nLatest in archive\n\nNovember 2021 Newsletter\n\nRead edition\nNovember 2021 issue",
+          "top": 795
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "height": 24272,
+      "scrollRange": 23428,
+      "width": 390,
+      "errors": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "selector": ".site-header",
+          "top": 20,
+          "height": 68,
+          "headings": [],
+          "words": 3
+        },
+        {
+          "selector": ".hero-scroll",
+          "top": 0,
+          "height": 1055,
+          "headings": [
+            "A personal financial advisor for Navi Mumbai families, trusted since 2009. "
+          ],
+          "words": 65
+        },
+        {
+          "selector": ".hero-statement",
+          "top": 1055,
+          "height": 230,
+          "headings": [
+            "Making goal-based financial advice accessible to all."
+          ],
+          "words": 7
+        },
+        {
+          "selector": ".hero-scroll-space",
+          "top": 0,
+          "height": 0,
+          "headings": [],
+          "words": 1
+        },
+        {
+          "selector": ".comparison-scroll",
+          "top": 1285,
+          "height": 1387,
+          "headings": [
+            "From scattered decisionsto one coordinated plan.",
+            "Financialdecisionsmade in isolation.",
+            "Every decisionaligned withyour goals."
+          ],
+          "words": 66
+        },
+        {
+          "selector": ".services-section",
+          "top": 2672,
+          "height": 9696,
+          "headings": [
+            "Services.",
+            "Your life goals. A plan built around you.",
+            "Protection for the people who depend on you.",
+            "Plan for healthcare, before you need it.",
+            "Invest with your goals in mind.",
+            "Make room for life after work.",
+            "Give their ambitions a financial plan.",
+            "Prepare for the unexpected.",
+            "Protect the things you have worked for.",
+            "Consider protection for your employees."
+          ],
+          "words": 712
+        },
+        {
+          "selector": ".process-section",
+          "top": 12368,
+          "height": 1778,
+          "headings": [
+            "Your goals come first. The plan follows.",
+            "Understand",
+            "How we work",
+            "How we work",
+            "Understand",
+            "Assess",
+            "Plan",
+            "Review",
+            "Personal advice. Ongoing support."
+          ],
+          "words": 93
+        },
+        {
+          "selector": ".team-section",
+          "top": 14146,
+          "height": 710,
+          "headings": [
+            "Meet your advisor. A personal partnership.",
+            "Recognition.Built on service.",
+            "Chandrakant B. Ghanchi"
+          ],
+          "words": 30
+        },
+        {
+          "selector": ".testimonials-section",
+          "top": 14856,
+          "height": 2651,
+          "headings": [
+            "Testimonials",
+            "“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”",
+            "Your goals are personal.Your plan should be too."
+          ],
+          "words": 326
+        },
+        {
+          "selector": ".featured-case",
+          "top": 17507,
+          "height": 1215,
+          "headings": [
+            "A personal approach, for clients in India and abroad."
+          ],
+          "words": 71
+        },
+        {
+          "selector": ".faq-section",
+          "top": 18722,
+          "height": 789,
+          "headings": [
+            "FAQ",
+            "What does Ghanchi Investments do?",
+            "Who do you work with?",
+            "Where are you based?"
+          ],
+          "words": 51
+        },
+        {
+          "selector": ".home-insights",
+          "top": 19511,
+          "height": 1288,
+          "headings": [
+            "Knowledge foryour next chapter.",
+            "Single Woman, Retiring Solo Is a Dream Retirement Life (but) With Proper Planning!",
+            "You Don’t Have to Be Rich to Retire Rich!"
+          ],
+          "words": 48
+        },
+        {
+          "selector": ".contact-section",
+          "top": 20799,
+          "height": 1880,
+          "headings": [
+            "Let’s planyour nextchapter."
+          ],
+          "words": 131
+        },
+        {
+          "selector": ".site-footer",
+          "top": 22679,
+          "height": 1593,
+          "headings": [
+            "Subscribe to our newsletter.",
+            "Making Goal-based customized Financial Advice accessible to all and spread Financial Literacy. Let’s plan your financial future together."
+          ],
+          "words": 115
+        }
+      ],
+      "details": [
+        {
+          "selector": ".trust-badge",
+          "top": 490,
+          "height": 59,
+          "text": "NA\nSJ\nRS\nVS\nMR\n\nTrusted by 1,200+ clients\n\n5.0/5 · Google rating on existing site"
+        },
+        {
+          "selector": ".hero-case",
+          "top": 625,
+          "height": 400,
+          "text": "Latest Newsletter\nLatest in archive\n\nNovember 2021 Newsletter\n\nRead edition\nNovember 2021 issue"
+        },
+        {
+          "selector": ".logo-ticker",
+          "top": 580,
+          "height": 25,
+          "text": "India\n•\nUAE\n•\nUSA\nIndia\n•\nUAE\n•\nUSA"
+        },
+        {
+          "selector": ".revenue-chart",
+          "top": 3081,
+          "height": 225,
+          "text": "Long-term goals\nRetirement & education\nToday’s needs\nProtection & cash flow\nUnderstand\nPlan\nImplement\nReview\n\nAn illustration of the planning journey — not a return forecast or performance comparison."
+        },
+        {
+          "selector": ".service-list",
+          "top": 3361,
+          "height": 8941,
+          "text": "Financial Planning\n01\nYour life goals. A plan built around you.\n\nA personal financial plan connects your income, expenses, investments and debt with your short-term needs and long-term goals. We help you define your dreams, plan for them and review your progress.\n\nWhat we discuss\nUnderstand your financial situation\nGoal-based planning\nRisk and cash-flow assessment\nImplementation assistance\nAnnual review\nTalk about your goals\n\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones.”\n\nNA\nNeeta Agrawal\nSyntel\nLife Insurance\n02\nProtection for the people who depend on you.\n\nLife insurance helps provide financial protection for your family. We help you understand the available options in the context of your dependants, needs and financial goals.\n\nWhat we discuss\nFamily protection needs\nUnderstand policy options\nPremium considerations\nPolicy servicing\nClaim assistance\nTalk about your goals\n\n“Due to excellent knowledge of LIC and mediclaim, Chandrakant Ghanchi guided me and made me independent.”\n\nMR\nManju Rajvanshi\nSt. Xavier’s High School\nHealth Insurance\n03\nPlan for healthcare, before you need it.\n\nHealth insurance can help manage eligible medical expenses. Understand coverage, exclusions, waiting periods and policy conditions before choosing protection for yourself and your family.\n\nWhat we discuss\nCoverage needs\nFamily and individual options\nPolicy terms and exclusions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“I want to make it short and sweet.”\n\nSJ\nSumit Jain\nL&T Infotech\nMutual Funds\n04\nInvest with your goals in mind.\n\nExplore mutual funds with your time horizon, cash flow and risk appetite in mind. Mutual fund investments are subject to market risks; returns are not guaranteed.\n\nWhat we discuss\nInvestment goals\nRisk profile\nSIP and lump-sum options\nPortfolio review\nOnline account access\nTalk about your goals\n\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years.”\n\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE\nRetirement Planning\n05\nMake room for life after work.\n\nPlan for your future lifestyle, expenses and income needs. A customized retirement plan considers the resources you have today and the goals you want to work towards.\n\nWhat we discuss\nRetirement goals\nFuture expense planning\nIncome needs\nAvailable investment options\nAnnual review\nTalk about your goals\n\n“My wife and I came to you to discuss the options that were available for our future financial planning.”\n\nDS\nDeepak Salunkhe\nOberoi Realty\nChild Education Planning\n06\nGive their ambitions a financial plan.\n\nPrepare for your child’s future education needs with a goal-based approach that considers the time available, expected costs and your family’s finances.\n\nWhat we discuss\nEducation goals\nTime horizon\nCash-flow planning\nSuitable solutions\nProgress review\nTalk about your goals\nPersonal Accidental Policy\n07\nPrepare for the unexpected.\n\nUnderstand personal accident protection and the benefits available under policy terms for accidental injury, disability or death. Coverage depends on the selected policy.\n\nWhat we discuss\nProtection needs\nBenefit options\nPolicy exclusions\nDocumentation assistance\nClaim support\nTalk about your goals\n\n“It is so reassuring to know that all our insurance cover is now in place given the different elements involved.”\n\nBD\nBegum Dilshad\nHome Maker\nGeneral Insurance\n08\nProtect the things you have worked for.\n\nExplore insurance for your assets and other non-life risks. We help you understand your protection needs and the terms of the options available.\n\nWhat we discuss\nRisk assessment\nAvailable cover options\nPolicy conditions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“Once you are with Ghanch investments, rest assured you are financially in safe hands.”\n\nAS\nAaloak Singh Negi\nTCS\nEmployer Employee Insurance\n09\nConsider protection for your employees.\n\nExplore employer–employee insurance arrangements in the context of your business and employees’ needs. Eligibility, benefits and conditions depend on the selected policy.\n\nWhat we discuss\nBusiness needs\nEmployee protection\nPolicy structure\nDocumentation\nOngoing servicing\nTalk about your goals\n\n“The level of service and professionalism I’ve received from Ghanchi’s and the experienced professionals with them is unparalleled.”\n\nPS\nParvez Shaikh\nEast-west Freight Carriers Ltd"
+        },
+        {
+          "selector": ".service-card",
+          "top": 3401,
+          "height": 989,
+          "text": "Financial Planning\n01\nYour life goals. A plan built around you.\n\nA personal financial plan connects your income, expenses, investments and debt with your short-term needs and long-term goals. We help you define your dreams, plan for them and review your progress.\n\nWhat we discuss\nUnderstand your financial situation\nGoal-based planning\nRisk and cash-flow assessment\nImplementation assistance\nAnnual review\nTalk about your goals\n\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones.”\n\nNA\nNeeta Agrawal\nSyntel"
+        },
+        {
+          "selector": ".service-card",
+          "top": 4431,
+          "height": 1026,
+          "text": "Life Insurance\n02\nProtection for the people who depend on you.\n\nLife insurance helps provide financial protection for your family. We help you understand the available options in the context of your dependants, needs and financial goals.\n\nWhat we discuss\nFamily protection needs\nUnderstand policy options\nPremium considerations\nPolicy servicing\nClaim assistance\nTalk about your goals\n\n“Due to excellent knowledge of LIC and mediclaim, Chandrakant Ghanchi guided me and made me independent.”\n\nMR\nManju Rajvanshi\nSt. Xavier’s High School"
+        },
+        {
+          "selector": ".service-card",
+          "top": 5496,
+          "height": 962,
+          "text": "Health Insurance\n03\nPlan for healthcare, before you need it.\n\nHealth insurance can help manage eligible medical expenses. Understand coverage, exclusions, waiting periods and policy conditions before choosing protection for yourself and your family.\n\nWhat we discuss\nCoverage needs\nFamily and individual options\nPolicy terms and exclusions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“I want to make it short and sweet.”\n\nSJ\nSumit Jain\nL&T Infotech"
+        },
+        {
+          "selector": ".service-card",
+          "top": 6498,
+          "height": 941,
+          "text": "Mutual Funds\n04\nInvest with your goals in mind.\n\nExplore mutual funds with your time horizon, cash flow and risk appetite in mind. Mutual fund investments are subject to market risks; returns are not guaranteed.\n\nWhat we discuss\nInvestment goals\nRisk profile\nSIP and lump-sum options\nPortfolio review\nOnline account access\nTalk about your goals\n\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years.”\n\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE"
+        },
+        {
+          "selector": ".service-card",
+          "top": 7479,
+          "height": 941,
+          "text": "Retirement Planning\n05\nMake room for life after work.\n\nPlan for your future lifestyle, expenses and income needs. A customized retirement plan considers the resources you have today and the goals you want to work towards.\n\nWhat we discuss\nRetirement goals\nFuture expense planning\nIncome needs\nAvailable investment options\nAnnual review\nTalk about your goals\n\n“My wife and I came to you to discuss the options that were available for our future financial planning.”\n\nDS\nDeepak Salunkhe\nOberoi Realty"
+        },
+        {
+          "selector": ".service-card",
+          "top": 8460,
+          "height": 941,
+          "text": "Child Education Planning\n06\nGive their ambitions a financial plan.\n\nPrepare for your child’s future education needs with a goal-based approach that considers the time available, expected costs and your family’s finances.\n\nWhat we discuss\nEducation goals\nTime horizon\nCash-flow planning\nSuitable solutions\nProgress review\nTalk about your goals"
+        },
+        {
+          "selector": ".service-card",
+          "top": 9441,
+          "height": 941,
+          "text": "Personal Accidental Policy\n07\nPrepare for the unexpected.\n\nUnderstand personal accident protection and the benefits available under policy terms for accidental injury, disability or death. Coverage depends on the selected policy.\n\nWhat we discuss\nProtection needs\nBenefit options\nPolicy exclusions\nDocumentation assistance\nClaim support\nTalk about your goals\n\n“It is so reassuring to know that all our insurance cover is now in place given the different elements involved.”\n\nBD\nBegum Dilshad\nHome Maker"
+        },
+        {
+          "selector": ".service-card",
+          "top": 10421,
+          "height": 941,
+          "text": "General Insurance\n08\nProtect the things you have worked for.\n\nExplore insurance for your assets and other non-life risks. We help you understand your protection needs and the terms of the options available.\n\nWhat we discuss\nRisk assessment\nAvailable cover options\nPolicy conditions\nRenewal assistance\nClaim support\nTalk about your goals\n\n“Once you are with Ghanch investments, rest assured you are financially in safe hands.”\n\nAS\nAaloak Singh Negi\nTCS"
+        },
+        {
+          "selector": ".service-card",
+          "top": 11402,
+          "height": 941,
+          "text": "Employer Employee Insurance\n09\nConsider protection for your employees.\n\nExplore employer–employee insurance arrangements in the context of your business and employees’ needs. Eligibility, benefits and conditions depend on the selected policy.\n\nWhat we discuss\nBusiness needs\nEmployee protection\nPolicy structure\nDocumentation\nOngoing servicing\nTalk about your goals\n\n“The level of service and professionalism I’ve received from Ghanchi’s and the experienced professionals with them is unparalleled.”\n\nPS\nParvez Shaikh\nEast-west Freight Carriers Ltd"
+        },
+        {
+          "selector": ".process-video",
+          "top": 13174,
+          "height": 398,
+          "text": "Our approach\nHow we work\n\nExplore the steps behind your plan"
+        },
+        {
+          "selector": ".recognition-card",
+          "top": 14576,
+          "height": 255,
+          "text": "Recognition.Built on service.\n\nExplore our awards and certificates archive, reflecting our journey in financial services.\n\nView Awards"
+        },
+        {
+          "selector": ".testimonial-feature",
+          "top": 14961,
+          "height": 870,
+          "text": "Testimonials\n“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”\n\nFrom our client testimonial archive.\n\nNA\nNeeta Agrawal\nSyntel\n5.0/5\n\nReported on our existing website. Not a live Google feed."
+        },
+        {
+          "selector": ".testimonial-list",
+          "top": 15810,
+          "height": 922,
+          "text": "“I want to make it short and sweet. Chandrakant is not an agent for me, nor I’m a client for him. I say this because he provides his valuable suggestion after good research to me not thinking of me as his client but as a FAMILY member and I too in return take it without questioning as I trust him with my family’s health.”\nSJ\nSumit Jain\nL&T Infotech\nMore client experiences\n“Thank you for all the financial planning help you provided for the last 6 yrs, Chandrakant is a great person and with great character. He is very trustworthy and provides excellent service. Chandrakant has made the process of dealing with financial planning easy and painless. This is a process I normally dread but he made it easy. He is a great man and I would recommend Chandrakant to any of my friends and family.”\nRS\nRanbir Singh\nUSA\nMore client experiences\n“I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years. He is a very professional financial advisor who understands your need and provide you customised investment solutions. He would never push you to sell something rather guide you to invest wisely.”\nVS\nVikram Sawant\nSenior Planner, Max Fashion, Landmark Group, Dubai, UAE\nMore client experiences"
+        },
+        {
+          "selector": ".stats-grid",
+          "top": 16782,
+          "height": 327,
+          "text": "0+\n\nYears of experience\n\n0+\n\nClients served\n\n0+\n\nAwards received\n\n0.0/5\n\nGoogle rating reported on our existing website"
+        },
+        {
+          "selector": ".founder-callout",
+          "top": 17109,
+          "height": 333,
+          "text": "Your goals are personal.Your plan should be too.\n\nLet’s start with a conversation.\n\nChandrakant B. Ghanchi\nFounder & Financial Planner\nTalk about your goals"
+        },
+        {
+          "selector": ".contact-form",
+          "top": 21420,
+          "height": 1186,
+          "text": "Tell us about your goals and the support you are looking for.\n\nWebsite\nName\nEmail\nPhone\nWhat services are you interested in?\nFinancial Planning\nLife Insurance\nHealth Insurance\nMutual Funds\nRetirement Planning\nChild Education Planning\nPersonal Accidental Policy\nGeneral Insurance\nEmployer Employee Insurance\nFinancial goal (optional)\nYour enquiry\nBy submitting, you consent to being contacted about this enquiry and accept our privacy policy and terms of service.\n\nLet’s start with a conversation.\nNo commitment required.\n\n\nSend enquiry"
+        },
+        {
+          "selector": ".contact-section-stats",
+          "top": 22637,
+          "height": 39,
+          "text": "1,200+\nClients\nserved.\n\n15+\nYears of\nexperience.\n"
+        }
+      ],
+      "aboveFold": [
+        {
+          "tag": "A",
+          "text": "",
+          "top": 37
+        },
+        {
+          "tag": "A",
+          "text": "",
+          "top": 32
+        },
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "top": 36
+        },
+        {
+          "tag": "H1",
+          "text": "A personal financial advisor for\nNavi Mumbai families, trusted since 2009.",
+          "top": 130
+        },
+        {
+          "tag": "A",
+          "text": "Our Services",
+          "top": 406
+        },
+        {
+          "tag": "A",
+          "text": "Get in touch",
+          "top": 417
+        },
+        {
+          "tag": "DIV",
+          "text": "NA\nSJ\nRS\nVS\nMR\n\nTrusted by 1,200+ clients\n\n5.0/5 · Google rating on existing site",
+          "top": 490
+        },
+        {
+          "tag": "A",
+          "text": "Latest Newsletter\nLatest in archive\n\nNovember 2021 Newsletter\n\nRead edition\nNovember 2021 issue",
+          "top": 625
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/",
+      "title": "Ghanchi Investments — Plan. Protect. Invest.",
+      "h1": [
+        "A personal financial advisor\nfor Navi Mumbai families, trusted since 2009."
+      ],
+      "height": 22541,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/",
+      "mobile": {
+        "height": 24272,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "A personal financial advisor\nfor Navi Mumbai families, trusted since 2009.",
+        "Making goal-based financial advice\naccessible to all.",
+        "From scattered decisions\nto one coordinated plan.",
+        "Financial\ndecisions\nmade in isolation.\n",
+        "Every decision\naligned with\nyour goals.\n",
+        "Services.",
+        "Your life goals. A plan built around you.",
+        "Protection for the people who depend on you.",
+        "Plan for healthcare, before you need it.",
+        "Invest with your goals in mind.",
+        "Make room for life after work.",
+        "Give their ambitions a financial plan.",
+        "Prepare for the unexpected.",
+        "Protect the things you have worked for.",
+        "Consider protection for your employees.",
+        "Your goals come first. The plan follows.",
+        "Understand",
+        "How we work",
+        "How we work",
+        "Understand",
+        "Assess",
+        "Plan",
+        "Review",
+        "Personal advice. Ongoing support.",
+        "Meet your advisor. A personal partnership.",
+        "Recognition.\nBuilt on service.\n",
+        "Chandrakant B. Ghanchi",
+        "Testimonials",
+        "“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.”",
+        "Your goals are personal.\nYour plan should be too.\n",
+        "A personal approach, for clients in India and abroad.",
+        "FAQ",
+        "What does Ghanchi Investments do?",
+        "Who do you work with?",
+        "Where are you based?",
+        "Knowledge for\nyour next chapter.",
+        "Single Woman, Retiring Solo Is a Dream Retirement Life (but) With Proper Planning!",
+        "You Don’t Have to Be Rich to Retire Rich!",
+        "Let’s plan\nyour next\nchapter.\n"
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/about-us/awards",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/about-us/awards",
+      "title": "Awards | Ghanchi Investments",
+      "h1": [
+        "Awards"
+      ],
+      "height": 3482,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/about-us/awards",
+      "mobile": {
+        "height": 5788,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Awards",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/about-us/certificates",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/about-us/certificates",
+      "title": "Certificates | Ghanchi Investments",
+      "h1": [
+        "Certificates"
+      ],
+      "height": 5120,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/about-us/certificates",
+      "mobile": {
+        "height": 10232,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Certificates",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/about-us/our-clients",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/about-us/our-clients",
+      "title": "Our Clients | Ghanchi Investments",
+      "h1": [
+        "Our Clients"
+      ],
+      "height": 3481,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/about-us/our-clients",
+      "mobile": {
+        "height": 4946,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Our Clients",
+        "HNIs",
+        "Business owners",
+        "NRIs",
+        "Entrepreneurs",
+        "Software engineers",
+        "Advocates",
+        "Doctors",
+        "Architects",
+        "CEOs & CFOs",
+        "India · UAE · USA",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/about-us/testimonials",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/about-us/testimonials",
+      "title": "Testimonials | Ghanchi Investments",
+      "h1": [
+        "Testimonials"
+      ],
+      "height": 9608,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/about-us/testimonials",
+      "mobile": {
+        "height": 12064,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Testimonials",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/about-us",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/about-us",
+      "title": "About Us | Ghanchi Investments",
+      "h1": [
+        "Your goals. Our commitment."
+      ],
+      "height": 5778,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/about-us",
+      "mobile": {
+        "height": 7753,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Your goals. Our commitment.",
+        "Helping you achieve\nyour financial goals.\n",
+        "What we value.",
+        "Trust & integrity",
+        "Focus",
+        "Excellence",
+        "Consistency",
+        "“Making Goal-based customized Financial Advice accessible to all and spread Financial Literacy.”",
+        "Awards",
+        "Certificates",
+        "Our Clients",
+        "Testimonials",
+        "Learn with us.",
+        "Single Woman, Retiring Solo Is a Dream Retirement Life (but) With Proper Planning!",
+        "You Don’t Have to Be Rich to Retire Rich!",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/services",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/services",
+      "title": "Services | Ghanchi Investments",
+      "h1": [
+        "Plan. Protect. Invest."
+      ],
+      "height": 3392,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/services",
+      "mobile": {
+        "height": 5535,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Plan. Protect. Invest.",
+        "Financial Planning",
+        "Life Insurance",
+        "Health Insurance",
+        "Mutual Funds",
+        "Retirement Planning",
+        "Child Education Planning",
+        "Personal Accidental Policy",
+        "General Insurance",
+        "Employer Employee Insurance",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/online-services",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/online-services",
+      "title": "Online Services | Ghanchi Investments",
+      "h1": [
+        "Online Services."
+      ],
+      "height": 3711,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/online-services",
+      "mobile": {
+        "height": 5894,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Online Services.",
+        "Newsletters",
+        "LIC Registered User",
+        "LIC Pay Premium Direct",
+        "Fundz Bazar",
+        "NJ E-Wealth Account",
+        "NJ Client Desk",
+        "Niva Bupa Renewal",
+        "Star Health Renewal",
+        "HDFC Ergo Renewal",
+        "Android App",
+        "iOS App",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/blog",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/blog",
+      "title": "Blog | Ghanchi Investments",
+      "h1": [
+        "Financial knowledge."
+      ],
+      "height": 3005,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/blog",
+      "mobile": {
+        "height": 3039,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Financial knowledge.",
+        "Single Woman, Retiring Solo Is a Dream Retirement Life (but) With Proper Planning!",
+        "You Don’t Have to Be Rich to Retire Rich!"
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/contact-us",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/contact-us",
+      "title": "Contact Us | Ghanchi Investments",
+      "h1": [
+        "Contact."
+      ],
+      "height": 3292,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/contact-us",
+      "mobile": {
+        "height": 4072,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Contact.",
+        "Let’s plan\nyour next\nchapter.\n"
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/newsletters",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/newsletters",
+      "title": "Newsletters | Ghanchi Investments",
+      "h1": [
+        "Newsletters."
+      ],
+      "height": 3729,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/newsletters",
+      "mobile": {
+        "height": 6244,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Newsletters.",
+        "November 2021 Newsletter",
+        "October 2021 Newsletter",
+        "September 2021 Newsletter",
+        "August 2021 Newsletter",
+        "July 2021 Newsletter",
+        "June 2021 Newsletter",
+        "May 2021 Newsletter",
+        "April 2021 Newsletter",
+        "March 2021 Newsletter",
+        "February 2021 Newsletter",
+        "January 2021 Newsletter",
+        "December 2020 Newsletter",
+        "November 2020 Newsletter",
+        "October 2020 Newsletter",
+        "September 2020 Newsletter",
+        "August 2020 Newsletter",
+        "July 2020 Newsletter",
+        "June 2020 Newsletter",
+        "May 2020 Newsletter",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/services/financial-planning",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/services/financial-planning",
+      "title": "Financial Planning | Ghanchi Investments",
+      "h1": [
+        "Financial Planning."
+      ],
+      "height": 4609,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/services/financial-planning",
+      "mobile": {
+        "height": 6146,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Financial Planning.",
+        "A clear path forward.",
+        "Connected expertise.",
+        "Life Insurance",
+        "Health Insurance",
+        "Mutual Funds",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/services/life-insurance",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/services/life-insurance",
+      "title": "Life Insurance | Ghanchi Investments",
+      "h1": [
+        "Life Insurance."
+      ],
+      "height": 4455,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/services/life-insurance",
+      "mobile": {
+        "height": 5777,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Life Insurance.",
+        "A clear path forward.",
+        "Connected expertise.",
+        "Financial Planning",
+        "Health Insurance",
+        "Mutual Funds",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/services/health-insurance",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/services/health-insurance",
+      "title": "Health Insurance | Ghanchi Investments",
+      "h1": [
+        "Health Insurance."
+      ],
+      "height": 4609,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/services/health-insurance",
+      "mobile": {
+        "height": 6110,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Health Insurance.",
+        "A clear path forward.",
+        "Connected expertise.",
+        "Financial Planning",
+        "Life Insurance",
+        "Mutual Funds",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/services/mutual-funds",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/services/mutual-funds",
+      "title": "Mutual Funds | Ghanchi Investments",
+      "h1": [
+        "Mutual Funds."
+      ],
+      "height": 4609,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/services/mutual-funds",
+      "mobile": {
+        "height": 6005,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Mutual Funds.",
+        "A clear path forward.",
+        "Connected expertise.",
+        "Financial Planning",
+        "Life Insurance",
+        "Health Insurance",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/services/retirement-planning",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/services/retirement-planning",
+      "title": "Retirement Planning | Ghanchi Investments",
+      "h1": [
+        "Retirement Planning."
+      ],
+      "height": 4865,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/services/retirement-planning",
+      "mobile": {
+        "height": 6519,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Retirement Planning.",
+        "A clear path forward.",
+        "Connected expertise.",
+        "Financial Planning",
+        "Life Insurance",
+        "Health Insurance",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/services/child-education-planning",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/services/child-education-planning",
+      "title": "Child Education Planning | Ghanchi Investments",
+      "h1": [
+        "Child Education Planning."
+      ],
+      "height": 3827,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/services/child-education-planning",
+      "mobile": {
+        "height": 5218,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Child Education Planning.",
+        "A clear path forward.",
+        "Connected expertise.",
+        "Financial Planning",
+        "Life Insurance",
+        "Health Insurance",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/services/personal-accidental-policy",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/services/personal-accidental-policy",
+      "title": "Personal Accidental Policy | Ghanchi Investments",
+      "h1": [
+        "Personal Accidental Policy."
+      ],
+      "height": 4660,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/services/personal-accidental-policy",
+      "mobile": {
+        "height": 6206,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Personal Accidental Policy.",
+        "A clear path forward.",
+        "Connected expertise.",
+        "Financial Planning",
+        "Life Insurance",
+        "Health Insurance",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/services/general-insurance",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/services/general-insurance",
+      "title": "General Insurance | Ghanchi Investments",
+      "h1": [
+        "General Insurance."
+      ],
+      "height": 4711,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/services/general-insurance",
+      "mobile": {
+        "height": 6227,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "General Insurance.",
+        "A clear path forward.",
+        "Connected expertise.",
+        "Financial Planning",
+        "Life Insurance",
+        "Health Insurance",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/services/employer-employee-insurance",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/services/employer-employee-insurance",
+      "title": "Employer Employee Insurance | Ghanchi Investments",
+      "h1": [
+        "Employer Employee Insurance."
+      ],
+      "height": 4865,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/services/employer-employee-insurance",
+      "mobile": {
+        "height": 6644,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Employer Employee Insurance.",
+        "A clear path forward.",
+        "Connected expertise.",
+        "Financial Planning",
+        "Life Insurance",
+        "Health Insurance",
+        "Let’s plan for what matters to you."
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/blog/single-woman-retiring-solo-is-a-dream-retirement-life-but-with-proper-planning",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/blog/single-woman-retiring-solo-is-a-dream-retirement-life-but-with-proper-planning",
+      "title": "Single Woman, Retiring Solo Is a Dream Retirement Life (but) With Proper Planning! | Ghanchi Investments",
+      "h1": [
+        "Single Woman, Retiring Solo Is a Dream Retirement Life (but) With Proper Planning!"
+      ],
+      "height": 4389,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/blog/single-woman-retiring-solo-is-a-dream-retirement-life-but-with-proper-planning",
+      "mobile": {
+        "height": 4602,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Single Woman, Retiring Solo Is a Dream Retirement Life (but) With Proper Planning!",
+        "Plan for more than everyday bills",
+        "Healthcare and independence",
+        "A plan tailored to you",
+        "Keep exploring.",
+        "You Don’t Have to Be Rich to Retire Rich!"
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/blog/you-dont-have-to-be-rich-to-retire-rich",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/blog/you-dont-have-to-be-rich-to-retire-rich",
+      "title": "You Don’t Have to Be Rich to Retire Rich! | Ghanchi Investments",
+      "h1": [
+        "You Don’t Have to Be Rich to Retire Rich!"
+      ],
+      "height": 4344,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/blog/you-dont-have-to-be-rich-to-retire-rich",
+      "mobile": {
+        "height": 4537,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "You Don’t Have to Be Rich to Retire Rich!",
+        "Think about income after work",
+        "Start with your own circumstances",
+        "Take the next step",
+        "Keep exploring.",
+        "Single Woman, Retiring Solo Is a Dream Retirement Life (but) With Proper Planning!"
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/privacy-policy",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/privacy-policy",
+      "title": "Privacy Policy | Ghanchi Investments",
+      "h1": [
+        "Privacy Policy."
+      ],
+      "height": 2201,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/privacy-policy",
+      "robots": "noindex, follow",
+      "mobile": {
+        "height": 2590,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Privacy Policy.",
+        "Information you share",
+        "Owner review required"
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/terms-of-service",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/terms-of-service",
+      "title": "Terms of Service | Ghanchi Investments",
+      "h1": [
+        "Terms of Service."
+      ],
+      "height": 2169,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/terms-of-service",
+      "robots": "noindex, follow",
+      "mobile": {
+        "height": 2446,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Terms of Service.",
+        "General information",
+        "Owner review required"
+      ],
+      "brokenImages": []
+    },
+    {
+      "route": "/disclaimer",
+      "status": 200,
+      "finalUrl": "http://localhost:3100/disclaimer",
+      "title": "Disclaimer | Ghanchi Investments",
+      "h1": [
+        "Disclaimer."
+      ],
+      "height": 2397,
+      "width": 1440,
+      "canonical": "https://ghanchiinvest.com/disclaimer",
+      "robots": "noindex, follow",
+      "mobile": {
+        "height": 2802,
+        "width": 390
+      },
+      "errors": [],
+      "headings": [
+        "Disclaimer.",
+        "Investments and insurance",
+        "Archive and testimonials",
+        "Before launch"
+      ],
+      "brokenImages": []
+    }
+  ]
+}

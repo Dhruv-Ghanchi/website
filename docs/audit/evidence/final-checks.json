@@ -1,0 +1,92 @@
+{
+  "interactions": [
+    {
+      "width": 1440,
+      "firstQuote": {
+        "top": 7918,
+        "text": "“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones.”\n\nNA\nNeeta Agrawal\nSyntel"
+      },
+      "phases": "pass",
+      "video": "pass",
+      "founderDialogAndFocus": "pass",
+      "testimonial": "pass",
+      "faq": "pass"
+    },
+    {
+      "width": 1200,
+      "firstQuote": {
+        "top": 7918,
+        "text": "“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones.”\n\nNA\nNeeta Agrawal\nSyntel"
+      },
+      "phases": "pass",
+      "video": "pass",
+      "founderDialogAndFocus": "pass",
+      "testimonial": "pass",
+      "faq": "pass"
+    },
+    {
+      "width": 810,
+      "firstQuote": {
+        "top": 5016,
+        "text": "“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones.”\n\nNA\nNeeta Agrawal\nSyntel"
+      },
+      "phases": "pass",
+      "video": "pass",
+      "founderDialogAndFocus": "pass",
+      "testimonial": "pass",
+      "faq": "pass"
+    },
+    {
+      "width": 390,
+      "firstQuote": {
+        "top": 4166,
+        "text": "“Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones.”\n\nNA\nNeeta Agrawal\nSyntel"
+      },
+      "phases": "pass",
+      "video": "pass",
+      "founderDialogAndFocus": "pass",
+      "testimonial": "pass",
+      "faq": "pass"
+    }
+  ],
+  "legacyArticles": [
+    {
+      "route": "/insights/single-woman-retiring-solo-is-a-dream-retirement-life-but-with-proper-planning",
+      "status": 308,
+      "location": "/blog/single-woman-retiring-solo-is-a-dream-retirement-life-but-with-proper-planning"
+    },
+    {
+      "route": "/insights/you-dont-have-to-be-rich-to-retire-rich",
+      "status": 308,
+      "location": "/blog/you-dont-have-to-be-rich-to-retire-rich"
+    }
+  ],
+  "reducedContact": [
+    {
+      "width": 1440,
+      "containers": [
+        {
+          "class": "contact-intro-copy",
+          "opacity": "0"
+        },
+        {
+          "class": "contact-intro-details",
+          "opacity": "0"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "containers": [
+        {
+          "class": "contact-intro-copy",
+          "opacity": "0"
+        },
+        {
+          "class": "contact-intro-details",
+          "opacity": "0"
+        }
+      ]
+    }
+  ]
+}

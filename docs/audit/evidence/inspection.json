@@ -1,0 +1,379 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "overflow": false,
+      "height": 18921
+    },
+    {
+      "route": "/about-us/awards",
+      "overflow": false,
+      "height": 3482
+    },
+    {
+      "route": "/about-us/certificates",
+      "overflow": false,
+      "height": 5120
+    },
+    {
+      "route": "/about-us/our-clients",
+      "overflow": false,
+      "height": 3481
+    },
+    {
+      "route": "/about-us/testimonials",
+      "overflow": false,
+      "height": 9608
+    },
+    {
+      "route": "/about-us",
+      "overflow": false,
+      "height": 5778
+    },
+    {
+      "route": "/services",
+      "overflow": false,
+      "height": 3392
+    },
+    {
+      "route": "/online-services",
+      "overflow": false,
+      "height": 3711
+    },
+    {
+      "route": "/blog",
+      "overflow": false,
+      "height": 3005
+    },
+    {
+      "route": "/contact-us",
+      "overflow": false,
+      "height": 3292
+    },
+    {
+      "route": "/newsletters",
+      "overflow": false,
+      "height": 3729
+    },
+    {
+      "route": "/services/financial-planning",
+      "overflow": false,
+      "height": 4609
+    },
+    {
+      "route": "/services/life-insurance",
+      "overflow": false,
+      "height": 4455
+    },
+    {
+      "route": "/services/health-insurance",
+      "overflow": false,
+      "height": 4609
+    },
+    {
+      "route": "/services/mutual-funds",
+      "overflow": false,
+      "height": 4609
+    },
+    {
+      "route": "/services/retirement-planning",
+      "overflow": false,
+      "height": 4865
+    },
+    {
+      "route": "/services/child-education-planning",
+      "overflow": false,
+      "height": 3827
+    },
+    {
+      "route": "/services/personal-accidental-policy",
+      "overflow": false,
+      "height": 4660
+    },
+    {
+      "route": "/services/general-insurance",
+      "overflow": false,
+      "height": 4711
+    },
+    {
+      "route": "/services/employer-employee-insurance",
+      "overflow": false,
+      "height": 4865
+    },
+    {
+      "route": "/blog/single-woman-retiring-solo-is-a-dream-retirement-life-but-with-proper-planning",
+      "overflow": false,
+      "height": 4389
+    },
+    {
+      "route": "/blog/you-dont-have-to-be-rich-to-retire-rich",
+      "overflow": false,
+      "height": 4344
+    },
+    {
+      "route": "/privacy-policy",
+      "overflow": false,
+      "height": 2201
+    },
+    {
+      "route": "/terms-of-service",
+      "overflow": false,
+      "height": 2169
+    },
+    {
+      "route": "/disclaimer",
+      "overflow": false,
+      "height": 2397
+    }
+  ],
+  "interactions": {
+    "reducedMotionStats": "15+\n\nYears of experience\n\n1,200+\n\nClients served\n\n12+\n\nAwards received\n\n5.0/5\n\nGoogle rating reported on our existing website",
+    "processVideos": 1,
+    "processVideoState": {
+      "paused": false,
+      "controls": true,
+      "readyState": 4,
+      "tracks": 0
+    },
+    "reducedBackgroundVideos": [
+      {
+        "class": "testimonial-bg",
+        "paused": true,
+        "loop": true,
+        "muted": true,
+        "controls": false
+      },
+      {
+        "class": "contact-bg-video",
+        "paused": true,
+        "loop": true,
+        "muted": true,
+        "controls": false
+      }
+    ],
+    "colors": [
+      {
+        "selector": "button button-mint",
+        "color": "rgb(255, 255, 250)",
+        "background": "rgb(118, 193, 67)",
+        "fontSize": "15px",
+        "fontWeight": "600"
+      },
+      {
+        "selector": "comparison-card after-card",
+        "color": "rgb(255, 255, 250)",
+        "background": "rgb(118, 193, 67)",
+        "fontSize": "15px",
+        "fontWeight": "500"
+      },
+      {
+        "selector": "chart-bar chart-bar-primary",
+        "color": "rgb(255, 255, 250)",
+        "background": "rgb(118, 193, 67)",
+        "fontSize": "13px",
+        "fontWeight": "500"
+      },
+      {
+        "selector": "button button-mint",
+        "color": "rgb(255, 255, 250)",
+        "background": "rgb(118, 193, 67)",
+        "fontSize": "15px",
+        "fontWeight": "500"
+      },
+      {
+        "selector": "button button-mint",
+        "color": "rgb(255, 255, 250)",
+        "background": "rgb(118, 193, 67)",
+        "fontSize": "15px",
+        "fontWeight": "500"
+      },
+      {
+        "selector": "button button-mint",
+        "color": "rgb(255, 255, 250)",
+        "background": "rgb(118, 193, 67)",
+        "fontSize": "15px",
+        "fontWeight": "500"
+      },
+      {
+        "selector": "button button-mint",
+        "color": "rgb(255, 255, 250)",
+        "background": "rgb(118, 193, 67)",
+        "fontSize": "15px",
+        "fontWeight": "500"
+      },
+      {
+        "selector": "button button-mint",
+        "color": "rgb(255, 255, 250)",
+        "background": "rgb(118, 193, 67)",
+        "fontSize": "15px",
+        "fontWeight": "500"
+      },
+      {
+        "selector": "button button-mint",
+        "color": "rgb(255, 255, 250)",
+        "background": "rgb(118, 193, 67)",
+        "fontSize": "15px",
+        "fontWeight": "500"
+      },
+      {
+        "selector": "button button-mint",
+        "color": "rgb(255, 255, 250)",
+        "background": "rgb(118, 193, 67)",
+        "fontSize": "15px",
+        "fontWeight": "500"
+      },
+      {
+        "selector": "button button-mint",
+        "color": "rgb(255, 255, 250)",
+        "background": "rgb(118, 193, 67)",
+        "fontSize": "15px",
+        "fontWeight": "500"
+      },
+      {
+        "selector": "button button-mint",
+        "color": "rgb(255, 255, 250)",
+        "background": "rgb(118, 193, 67)",
+        "fontSize": "15px",
+        "fontWeight": "500"
+      },
+      {
+        "selector": "button button-mint",
+        "color": "rgb(255, 255, 250)",
+        "background": "rgb(118, 193, 67)",
+        "fontSize": "15px",
+        "fontWeight": "600"
+      },
+      {
+        "selector": "team-section rounded-section section-space",
+        "color": "rgb(36, 69, 120)",
+        "background": "rgb(118, 193, 67)",
+        "fontSize": "15px",
+        "fontWeight": "500"
+      },
+      {
+        "selector": "contact-form",
+        "color": "rgb(36, 69, 120)",
+        "background": "rgba(245, 248, 240, 0.38)",
+        "fontSize": "15px",
+        "fontWeight": "500"
+      }
+    ],
+    "normalMotionStats": "15+\n\nYears of experience\n\n1,200+\n\nClients served\n\n12+\n\nAwards received\n\n5.0/5\n\nGoogle rating reported on our existing website",
+    "mobileServiceLink": true,
+    "escapeFocus": "Open navigation"
+  },
+  "redirects": [
+    {
+      "route": "/about",
+      "status": 308,
+      "location": "/about-us"
+    },
+    {
+      "route": "/contact?service=health-insurance",
+      "status": 308,
+      "location": "/contact-us?service=health-insurance"
+    },
+    {
+      "route": "/insights",
+      "status": 308,
+      "location": "/blog"
+    },
+    {
+      "route": "/cases",
+      "status": 308,
+      "location": "/about-us/our-clients"
+    },
+    {
+      "route": "/cases/not-a-published-case",
+      "status": 404,
+      "location": null
+    },
+    {
+      "route": "/awards",
+      "status": 308,
+      "location": "/about-us/awards"
+    },
+    {
+      "route": "/certificates",
+      "status": 308,
+      "location": "/about-us/certificates"
+    },
+    {
+      "route": "/our-clients",
+      "status": 308,
+      "location": "/about-us/our-clients"
+    },
+    {
+      "route": "/testimonials",
+      "status": 308,
+      "location": "/about-us/testimonials"
+    },
+    {
+      "route": "/financial-planning",
+      "status": 308,
+      "location": "/services/financial-planning"
+    },
+    {
+      "route": "/life-insurance",
+      "status": 308,
+      "location": "/services/life-insurance"
+    },
+    {
+      "route": "/health-insurance",
+      "status": 308,
+      "location": "/services/health-insurance"
+    },
+    {
+      "route": "/employer-employee-insurance",
+      "status": 308,
+      "location": "/services/employer-employee-insurance"
+    },
+    {
+      "route": "/mutual-funds",
+      "status": 308,
+      "location": "/services/mutual-funds"
+    },
+    {
+      "route": "/retirement-planning",
+      "status": 308,
+      "location": "/services/retirement-planning"
+    },
+    {
+      "route": "/general-insurance",
+      "status": 308,
+      "location": "/services/general-insurance"
+    },
+    {
+      "route": "/child-education-planning",
+      "status": 308,
+      "location": "/services/child-education-planning"
+    },
+    {
+      "route": "/personal-accidental-policy",
+      "status": 308,
+      "location": "/services/personal-accidental-policy"
+    },
+    {
+      "route": "/not-a-real-page",
+      "status": 404,
+      "location": null
+    },
+    {
+      "route": "/blog?category=not-a-category",
+      "status": 200,
+      "location": null
+    },
+    {
+      "route": "/robots.txt",
+      "status": 200,
+      "location": null,
+      "body": "User-Agent: *\nDisallow: /\n\n"
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://ghanchiinvest.com/</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/about-us</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/about-us/awards</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/about-us/certificates</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/about-us/our-clients</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/about-us/testimonials</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/services</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/online-services</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/newsletters</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/blog</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/contact-us</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/services/financial-planning</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/services/life-insurance</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/services/health-insurance</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/services/mutual-funds</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/services/retirement-planning</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/services/child-education-planning</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/services/personal-accidental-policy</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/services/general-insurance</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/services/employer-employee-insurance</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/blog/single-woman-retiring-solo-is-a-dream-retirement-life-but-with-proper-planning</loc>\n</url>\n<url>\n<loc>https://ghanchiinvest.com/blog/you-dont-have-to-be-rich-to-retire-rich</loc>\n</url>\n</urlset>\n"
+    }
+  ]
+}

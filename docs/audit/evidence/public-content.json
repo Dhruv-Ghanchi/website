@@ -1,0 +1,2299 @@
+{
+  "site-setting": {
+    "id": 9,
+    "documentId": "uyyl5f9zcneh05fmvi31e3e5",
+    "siteName": "Ghanchi Investments",
+    "tagline": "Insurance & Investment Consultancy",
+    "vision": "Making Goal-based customized Financial Advice accessible to all and spread Financial Literacy.",
+    "ratingValue": 5,
+    "ratingMax": 5,
+    "ratingNote": "Reported on our existing website. Not a live Google feed.",
+    "footerDisclosure": "Mutual fund investments are subject to market risks. Read all scheme-related documents carefully. Insurance benefits are subject to policy terms.",
+    "heroOverlayOpacity": 0.4,
+    "createdAt": "2026-09-23T16:34:17.358Z",
+    "updatedAt": "2026-09-25T17:10:36.457Z",
+    "publishedAt": "2026-09-25T17:10:36.477Z",
+    "headerCtaLabel": "Get in touch",
+    "footerWordmark": "ghanchi",
+    "footerSocialsLabel": "Socials",
+    "footerLegalLabel": "Legal",
+    "footerNavigationLabel": "Navigation",
+    "skipLinkLabel": "Skip to content",
+    "siteMetaTitle": "Ghanchi Investments — Plan. Protect. Invest.",
+    "siteMetaDescription": "Personalized financial planning, insurance and investment support from Ghanchi Investments, Navi Mumbai. Serving 1,200+ clients in India and abroad.",
+    "siteTitleTemplate": "%s | Ghanchi Investments",
+    "faqHeading": "FAQ",
+    "moreQuestionsLabel": "More questions?",
+    "moreQuestionsSubtext": "Reach out anytime.",
+    "talkLinkLabel": "Let’s talk",
+    "logoAlt": "Ghanchi Investments",
+    "stats": [
+      {
+        "id": 41,
+        "value": 15,
+        "suffix": "+",
+        "label": "Years of experience",
+        "decimals": 0
+      },
+      {
+        "id": 42,
+        "value": 1200,
+        "suffix": "+",
+        "label": "Clients served",
+        "decimals": 0
+      },
+      {
+        "id": 43,
+        "value": 12,
+        "suffix": "+",
+        "label": "Awards received",
+        "decimals": 0
+      },
+      {
+        "id": 44,
+        "value": 5,
+        "suffix": "/5",
+        "label": "Google rating reported on our existing website",
+        "decimals": 1
+      }
+    ],
+    "clientLocations": [
+      {
+        "id": 404,
+        "value": "India"
+      },
+      {
+        "id": 405,
+        "value": "UAE"
+      },
+      {
+        "id": 406,
+        "value": "USA"
+      }
+    ]
+  },
+  "home-page": {
+    "id": 5,
+    "documentId": "q09hjjj6wwmdmvuvo65k7jy4",
+    "heroHeading": "A personal financial advisor for Navi Mumbai families, trusted since 2009.",
+    "heroSubheading": "Ghanchi Investments helps families plan, protect, and invest with confidence.",
+    "statementText": "Making goal-based financial advice accessible to all.",
+    "servicesIntro": "Your goals deserve more than isolated decisions. We bring planning, protection and investing together around your life. Personalized solutions based on your needs, risk appetite and cash flows.",
+    "processHeading": "Your goals come first. The plan follows.",
+    "processSubheading": "A personal approach from the first conversation to your annual review.",
+    "operatingHeading": "Personal advice. Ongoing support.",
+    "teamHeading": "Meet your advisor. A personal partnership.",
+    "createdAt": "2026-09-23T16:34:17.393Z",
+    "updatedAt": "2026-09-25T06:30:55.861Z",
+    "publishedAt": "2026-09-25T06:30:55.888Z",
+    "teamIntroLinkLabel": "Our introduction",
+    "phases": [
+      {
+        "id": 17,
+        "title": "Understand",
+        "icon": "search",
+        "text": "We start with your goals and objectives, your current situation and the concerns you want to address."
+      },
+      {
+        "id": 18,
+        "title": "Assess",
+        "icon": "network",
+        "text": "We consider your risk appetite, income, expenses and cash flows before recommending a way forward."
+      },
+      {
+        "id": 19,
+        "title": "Plan",
+        "icon": "layers",
+        "text": "We customize solutions around your specific needs rather than offering advice in isolation."
+      },
+      {
+        "id": 20,
+        "title": "Review",
+        "icon": "shield",
+        "text": "We assist with implementing recommendations and conduct an annual review to revisit your plan."
+      }
+    ],
+    "operatingItems": [
+      {
+        "id": 13,
+        "icon": "monitor",
+        "title": "Online access.",
+        "text": "Access investment accounts, insurance renewal portals and newsletters from one place."
+      },
+      {
+        "id": 14,
+        "icon": "refresh",
+        "title": "Annual review.",
+        "text": "Revisit your goals and finances as your life changes."
+      },
+      {
+        "id": 15,
+        "icon": "headphones",
+        "title": "Personal service.",
+        "text": "Get assistance with implementation, policy servicing and claims."
+      }
+    ],
+    "comparisonBefore": [
+      {
+        "id": 301,
+        "value": "Goals planned but never implemented."
+      },
+      {
+        "id": 302,
+        "value": "Insurance coverage that leaves gaps."
+      },
+      {
+        "id": 303,
+        "value": "Investments scattered without a strategy."
+      },
+      {
+        "id": 304,
+        "value": "Retirement approached without a clear plan."
+      }
+    ],
+    "comparisonAfter": [
+      {
+        "id": 305,
+        "value": "Every goal backed by a clear plan."
+      },
+      {
+        "id": 306,
+        "value": "Protection considered for the family."
+      },
+      {
+        "id": 307,
+        "value": "A portfolio aligned with risk profile."
+      },
+      {
+        "id": 308,
+        "value": "A retirement plan reviewed as needs change."
+      }
+    ],
+    "heroCta": {
+      "id": 4,
+      "primaryLabel": "Our Services",
+      "secondaryLabel": "Get in touch"
+    },
+    "trustBadge": {
+      "id": 4,
+      "badgeText": "Trusted by 1,200+ clients",
+      "ratingContext": "Google rating on existing site"
+    },
+    "newsletterCard": {
+      "id": 4,
+      "badgeLabel": "Latest Newsletter",
+      "latestLabel": "Latest in archive",
+      "issueSuffixLabel": "issue",
+      "readLabel": "Read edition"
+    },
+    "comparisonCopy": {
+      "id": 5,
+      "headingLine1": "From scattered decisions",
+      "headingLine2": "to one coordinated plan.",
+      "beforeLabel": "Before",
+      "beforeHeading": "Financial\ndecisions\nmade in isolation.",
+      "afterLabel": "After",
+      "afterHeading": "Every decision\naligned with\nyour goals."
+    },
+    "hiringCopy": {
+      "id": 4,
+      "heading": "Recognition.\nBuilt on service.",
+      "text": "Explore our awards and certificates archive, reflecting our journey in financial services.",
+      "buttonLabel": "View Awards"
+    },
+    "founderCallout": {
+      "id": 4,
+      "heading": "Your goals are personal.\nYour plan should be too.",
+      "text": "Let’s start with a conversation.",
+      "buttonLabel": "Talk about your goals"
+    },
+    "featuredCase": {
+      "id": 4,
+      "eyebrow": "Serving clients since 2009",
+      "heading": "A personal approach, for clients in India and abroad.",
+      "focusLabel": "Our focus",
+      "focusValue": "Your goals",
+      "clientsLabel": "Our clients",
+      "clientsValue": "Individuals & families",
+      "reviewLabel": "Review",
+      "reviewValue": "Annually",
+      "servicesLabel": "Planning around your life",
+      "buttonLabel": "Meet Our Clients"
+    },
+    "insightsCopy": {
+      "id": 4,
+      "headingLine1": "Knowledge for",
+      "headingLine2": "your next chapter.",
+      "text": "Financial education from our archive. Original dates are retained.",
+      "buttonLabel": "View All"
+    },
+    "processVideoCopy": {
+      "id": 3,
+      "approachLabel": "Our approach",
+      "heading": "How we work",
+      "subtext": "Explore the steps behind your plan",
+      "watchAriaLabel": "Watch how we work",
+      "notConnectedText": "Our process video is not connected yet. Explore our approach below or visit our financial education videos.",
+      "watchVideosLabel": "Watch our videos"
+    },
+    "sections": []
+  },
+  "contact-page": {
+    "id": 4,
+    "documentId": "mq72m6pxo6nh2o8lbyydsfby",
+    "officeHoursLabel": "Office Hours",
+    "officeHoursText": "Monday to Friday:\n9:00 AM – 6:00 PM",
+    "sectionHeading": "Let’s plan\nyour next\nchapter.",
+    "createdAt": "2026-09-24T05:02:22.098Z",
+    "updatedAt": "2026-09-24T05:23:48.293Z",
+    "publishedAt": "2026-09-24T05:23:48.309Z",
+    "stats": [
+      {
+        "id": 23,
+        "value": 1200,
+        "suffix": "+",
+        "label": "Clients\nserved.",
+        "decimals": 0
+      },
+      {
+        "id": 24,
+        "value": 15,
+        "suffix": "+",
+        "label": "Years of\nexperience.",
+        "decimals": 0
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": 38,
+      "documentId": "z3c0tewpuwlgvi4u312uo6ob",
+      "title": "Financial Planning",
+      "slug": "financial-planning",
+      "icon": "chart",
+      "shortDesc": "Your life goals. A plan built around you.",
+      "longDesc": "A personal financial plan connects your income, expenses, investments and debt with your short-term needs and long-term goals. We help you define your dreams, plan for them and review your progress.",
+      "order": 0,
+      "sourceUrl": "https://ghanchiinvest.com/services/financial-planning/",
+      "createdAt": "2026-09-23T16:34:07.388Z",
+      "updatedAt": "2026-09-25T06:33:32.334Z",
+      "publishedAt": "2026-09-25T06:33:32.341Z",
+      "deliverables": [
+        {
+          "id": 355,
+          "value": "Understand your financial situation"
+        },
+        {
+          "id": 356,
+          "value": "Goal-based planning"
+        },
+        {
+          "id": 357,
+          "value": "Risk and cash-flow assessment"
+        },
+        {
+          "id": 358,
+          "value": "Implementation assistance"
+        },
+        {
+          "id": 359,
+          "value": "Annual review"
+        }
+      ],
+      "image": {
+        "id": 1,
+        "documentId": "bfxe9zr6kwrm8p7fb4uc9l6e",
+        "name": "ghanchi-service-financial-planning.png",
+        "alternativeText": "Financial advisor reviewing a client's financial goals plan",
+        "caption": null,
+        "focalPoint": {
+          "x": 50,
+          "y": 50
+        },
+        "width": 687,
+        "height": 1024,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_ghanchi-service-financial-planning.png",
+            "hash": "thumbnail_ghanchi_service_financial_planning_bf620834c3",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 105,
+            "height": 156,
+            "size": 44.9,
+            "sizeInBytes": 44904,
+            "url": "/uploads/thumbnail_ghanchi_service_financial_planning_bf620834c3.png"
+          },
+          "small": {
+            "name": "small_ghanchi-service-financial-planning.png",
+            "hash": "small_ghanchi_service_financial_planning_bf620834c3",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 335,
+            "height": 500,
+            "size": 392.55,
+            "sizeInBytes": 392552,
+            "url": "/uploads/small_ghanchi_service_financial_planning_bf620834c3.png"
+          },
+          "medium": {
+            "name": "medium_ghanchi-service-financial-planning.png",
+            "hash": "medium_ghanchi_service_financial_planning_bf620834c3",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 503,
+            "height": 750,
+            "size": 850.05,
+            "sizeInBytes": 850049,
+            "url": "/uploads/medium_ghanchi_service_financial_planning_bf620834c3.png"
+          },
+          "large": {
+            "name": "large_ghanchi-service-financial-planning.png",
+            "hash": "large_ghanchi_service_financial_planning_bf620834c3",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 671,
+            "height": 1000,
+            "size": 1416.69,
+            "sizeInBytes": 1416691,
+            "url": "/uploads/large_ghanchi_service_financial_planning_bf620834c3.png"
+          }
+        },
+        "hash": "ghanchi_service_financial_planning_bf620834c3",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 326.74,
+        "url": "/uploads/ghanchi_service_financial_planning_bf620834c3.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2026-09-23T16:34:07.352Z",
+        "updatedAt": "2026-09-24T18:41:07.852Z",
+        "publishedAt": "2026-09-23T16:34:07.352Z"
+      },
+      "testimonial": {
+        "id": 34,
+        "documentId": "pppdrjxk63jk4i5raor4pszw",
+        "name": "Neeta Agrawal",
+        "role": "Syntel",
+        "quote": "Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.",
+        "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+        "featured": true,
+        "createdAt": "2026-09-23T16:34:06.418Z",
+        "updatedAt": "2026-09-24T18:06:59.242Z",
+        "publishedAt": "2026-09-24T18:06:59.250Z",
+        "order": 0,
+        "verificationState": "unreviewed"
+      }
+    },
+    {
+      "id": 30,
+      "documentId": "oqai4esxmdnox2dhzvr56w2j",
+      "title": "Life Insurance",
+      "slug": "life-insurance",
+      "icon": "shield",
+      "shortDesc": "Protection for the people who depend on you.",
+      "longDesc": "Life insurance helps provide financial protection for your family. We help you understand the available options in the context of your dependants, needs and financial goals.",
+      "order": 1,
+      "sourceUrl": "https://ghanchiinvest.com/services/life-insurance/",
+      "createdAt": "2026-09-23T16:34:08.337Z",
+      "updatedAt": "2026-09-25T06:33:25.506Z",
+      "publishedAt": "2026-09-25T06:33:25.532Z",
+      "deliverables": [
+        {
+          "id": 315,
+          "value": "Family protection needs"
+        },
+        {
+          "id": 316,
+          "value": "Understand policy options"
+        },
+        {
+          "id": 317,
+          "value": "Premium considerations"
+        },
+        {
+          "id": 318,
+          "value": "Policy servicing"
+        },
+        {
+          "id": 319,
+          "value": "Claim assistance"
+        }
+      ],
+      "image": {
+        "id": 2,
+        "documentId": "jc75s4rplo3kiu9lxlqgjjv4",
+        "name": "ghanchi-service-life-insurance.png",
+        "alternativeText": "Illustrative life insurance and savings growth imagery",
+        "caption": null,
+        "focalPoint": null,
+        "width": 768,
+        "height": 1376,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_ghanchi-service-life-insurance.png",
+            "hash": "thumbnail_ghanchi_service_life_insurance_9847e4f1a2",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 87,
+            "height": 156,
+            "size": 37.05,
+            "sizeInBytes": 37046,
+            "url": "/uploads/thumbnail_ghanchi_service_life_insurance_9847e4f1a2.png"
+          },
+          "small": {
+            "name": "small_ghanchi-service-life-insurance.png",
+            "hash": "small_ghanchi_service_life_insurance_9847e4f1a2",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 279,
+            "height": 500,
+            "size": 339.15,
+            "sizeInBytes": 339147,
+            "url": "/uploads/small_ghanchi_service_life_insurance_9847e4f1a2.png"
+          },
+          "medium": {
+            "name": "medium_ghanchi-service-life-insurance.png",
+            "hash": "medium_ghanchi_service_life_insurance_9847e4f1a2",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 419,
+            "height": 750,
+            "size": 741.91,
+            "sizeInBytes": 741905,
+            "url": "/uploads/medium_ghanchi_service_life_insurance_9847e4f1a2.png"
+          },
+          "large": {
+            "name": "large_ghanchi-service-life-insurance.png",
+            "hash": "large_ghanchi_service_life_insurance_9847e4f1a2",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 558,
+            "height": 1000,
+            "size": 1288.26,
+            "sizeInBytes": 1288264,
+            "url": "/uploads/large_ghanchi_service_life_insurance_9847e4f1a2.png"
+          }
+        },
+        "hash": "ghanchi_service_life_insurance_9847e4f1a2",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 493.43,
+        "url": "/uploads/ghanchi_service_life_insurance_9847e4f1a2.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2026-09-23T16:34:08.302Z",
+        "updatedAt": "2026-09-24T18:41:06.723Z",
+        "publishedAt": "2026-09-23T16:34:08.302Z"
+      },
+      "testimonial": {
+        "id": 38,
+        "documentId": "uujvbafvxgrp11bd2q8pft2a",
+        "name": "Manju Rajvanshi",
+        "role": "St. Xavier’s High School",
+        "quote": "Due to excellent knowledge of LIC and mediclaim, Chandrakant Ghanchi guided me and made me independent. I have excellent LIC and mediclaim cover.",
+        "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+        "featured": false,
+        "createdAt": "2026-09-23T16:34:06.507Z",
+        "updatedAt": "2026-09-24T18:06:59.349Z",
+        "publishedAt": "2026-09-24T18:06:59.353Z",
+        "order": 4,
+        "verificationState": "unreviewed"
+      }
+    },
+    {
+      "id": 31,
+      "documentId": "edeiy12untrqbjpxiz9o0l34",
+      "title": "Health Insurance",
+      "slug": "health-insurance",
+      "icon": "heart",
+      "shortDesc": "Plan for healthcare, before you need it.",
+      "longDesc": "Health insurance can help manage eligible medical expenses. Understand coverage, exclusions, waiting periods and policy conditions before choosing protection for yourself and your family.",
+      "order": 2,
+      "sourceUrl": "https://ghanchiinvest.com/services/health-insurance/",
+      "createdAt": "2026-09-23T16:34:09.068Z",
+      "updatedAt": "2026-09-25T06:33:25.596Z",
+      "publishedAt": "2026-09-25T06:33:25.607Z",
+      "deliverables": [
+        {
+          "id": 320,
+          "value": "Coverage needs"
+        },
+        {
+          "id": 321,
+          "value": "Family and individual options"
+        },
+        {
+          "id": 322,
+          "value": "Policy terms and exclusions"
+        },
+        {
+          "id": 323,
+          "value": "Renewal assistance"
+        },
+        {
+          "id": 324,
+          "value": "Claim support"
+        }
+      ],
+      "image": {
+        "id": 3,
+        "documentId": "at2wdgluntajysv65lucawbj",
+        "name": "ghanchi-service-health-insurance.png",
+        "alternativeText": "Illustrative health insurance planning imagery",
+        "caption": null,
+        "focalPoint": null,
+        "width": 768,
+        "height": 1376,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_ghanchi-service-health-insurance.png",
+            "hash": "thumbnail_ghanchi_service_health_insurance_8f94d994fe",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 87,
+            "height": 156,
+            "size": 37.79,
+            "sizeInBytes": 37787,
+            "url": "/uploads/thumbnail_ghanchi_service_health_insurance_8f94d994fe.png"
+          },
+          "small": {
+            "name": "small_ghanchi-service-health-insurance.png",
+            "hash": "small_ghanchi_service_health_insurance_8f94d994fe",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 279,
+            "height": 500,
+            "size": 327.92,
+            "sizeInBytes": 327919,
+            "url": "/uploads/small_ghanchi_service_health_insurance_8f94d994fe.png"
+          },
+          "medium": {
+            "name": "medium_ghanchi-service-health-insurance.png",
+            "hash": "medium_ghanchi_service_health_insurance_8f94d994fe",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 419,
+            "height": 750,
+            "size": 700.2,
+            "sizeInBytes": 700199,
+            "url": "/uploads/medium_ghanchi_service_health_insurance_8f94d994fe.png"
+          },
+          "large": {
+            "name": "large_ghanchi-service-health-insurance.png",
+            "hash": "large_ghanchi_service_health_insurance_8f94d994fe",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 558,
+            "height": 1000,
+            "size": 1194.93,
+            "sizeInBytes": 1194928,
+            "url": "/uploads/large_ghanchi_service_health_insurance_8f94d994fe.png"
+          }
+        },
+        "hash": "ghanchi_service_health_insurance_8f94d994fe",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 474.28,
+        "url": "/uploads/ghanchi_service_health_insurance_8f94d994fe.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2026-09-23T16:34:09.036Z",
+        "updatedAt": "2026-09-24T18:41:07.274Z",
+        "publishedAt": "2026-09-23T16:34:09.036Z"
+      },
+      "testimonial": {
+        "id": 35,
+        "documentId": "j4h2vd7pl38th0z6tn7u6rwy",
+        "name": "Sumit Jain",
+        "role": "L&T Infotech",
+        "quote": "I want to make it short and sweet. Chandrakant is not an agent for me, nor I’m a client for him. I say this because he provides his valuable suggestion after good research to me not thinking of me as his client but as a FAMILY member and I too in return take it without questioning as I trust him with my family’s health.",
+        "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+        "featured": false,
+        "createdAt": "2026-09-23T16:34:06.441Z",
+        "updatedAt": "2026-09-24T18:06:59.275Z",
+        "publishedAt": "2026-09-24T18:06:59.279Z",
+        "order": 1,
+        "verificationState": "unreviewed"
+      }
+    },
+    {
+      "id": 32,
+      "documentId": "le069fgkowf7col3mz2bmzk5",
+      "title": "Mutual Funds",
+      "slug": "mutual-funds",
+      "icon": "trending",
+      "shortDesc": "Invest with your goals in mind.",
+      "longDesc": "Explore mutual funds with your time horizon, cash flow and risk appetite in mind. Mutual fund investments are subject to market risks; returns are not guaranteed.",
+      "order": 3,
+      "sourceUrl": "https://ghanchiinvest.com/services/mutual-funds/",
+      "createdAt": "2026-09-23T16:34:09.341Z",
+      "updatedAt": "2026-09-25T06:33:25.650Z",
+      "publishedAt": "2026-09-25T06:33:25.665Z",
+      "deliverables": [
+        {
+          "id": 325,
+          "value": "Investment goals"
+        },
+        {
+          "id": 326,
+          "value": "Risk profile"
+        },
+        {
+          "id": 327,
+          "value": "SIP and lump-sum options"
+        },
+        {
+          "id": 328,
+          "value": "Portfolio review"
+        },
+        {
+          "id": 329,
+          "value": "Online account access"
+        }
+      ],
+      "image": {
+        "id": 4,
+        "documentId": "azsk3r5qz9igxtn82zw4y0s1",
+        "name": "Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "focalPoint": null,
+        "width": 2400,
+        "height": 1800,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg",
+            "hash": "thumbnail_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 208,
+            "height": 156,
+            "size": 6.23,
+            "sizeInBytes": 6229,
+            "url": "/uploads/thumbnail_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470.jpg"
+          },
+          "medium": {
+            "name": "medium_Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg",
+            "hash": "medium_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 750,
+            "height": 563,
+            "size": 43.68,
+            "sizeInBytes": 43676,
+            "url": "/uploads/medium_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470.jpg"
+          },
+          "small": {
+            "name": "small_Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg",
+            "hash": "small_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 500,
+            "height": 375,
+            "size": 23.32,
+            "sizeInBytes": 23319,
+            "url": "/uploads/small_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470.jpg"
+          },
+          "large": {
+            "name": "large_Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg",
+            "hash": "large_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 1000,
+            "height": 750,
+            "size": 70.38,
+            "sizeInBytes": 70383,
+            "url": "/uploads/large_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470.jpg"
+          }
+        },
+        "hash": "Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 354.06,
+        "url": "/uploads/Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2026-09-23T16:34:09.306Z",
+        "updatedAt": "2026-09-23T16:34:09.306Z",
+        "publishedAt": "2026-09-23T16:34:09.306Z"
+      },
+      "testimonial": {
+        "id": 37,
+        "documentId": "g2tps8j90fancodut7wma0vw",
+        "name": "Vikram Sawant",
+        "role": "Senior Planner, Max Fashion, Landmark Group, Dubai, UAE",
+        "quote": "I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years. He is a very professional financial advisor who understands your need and provide you customised investment solutions. He would never push you to sell something rather guide you to invest wisely.",
+        "sourceUrl": "https://ghanchiinvest.com/",
+        "featured": false,
+        "createdAt": "2026-09-23T16:34:06.485Z",
+        "updatedAt": "2026-09-24T18:06:59.324Z",
+        "publishedAt": "2026-09-24T18:06:59.328Z",
+        "order": 3,
+        "verificationState": "unreviewed"
+      }
+    },
+    {
+      "id": 33,
+      "documentId": "vozld26psgu7lvvhkb4n878q",
+      "title": "Retirement Planning",
+      "slug": "retirement-planning",
+      "icon": "piggy",
+      "shortDesc": "Make room for life after work.",
+      "longDesc": "Plan for your future lifestyle, expenses and income needs. A customized retirement plan considers the resources you have today and the goals you want to work towards.",
+      "order": 4,
+      "sourceUrl": "https://ghanchiinvest.com/services/retirement-planning/",
+      "createdAt": "2026-09-23T16:34:09.597Z",
+      "updatedAt": "2026-09-25T06:33:25.710Z",
+      "publishedAt": "2026-09-25T06:33:25.723Z",
+      "deliverables": [
+        {
+          "id": 330,
+          "value": "Retirement goals"
+        },
+        {
+          "id": 331,
+          "value": "Future expense planning"
+        },
+        {
+          "id": 332,
+          "value": "Income needs"
+        },
+        {
+          "id": 333,
+          "value": "Available investment options"
+        },
+        {
+          "id": 334,
+          "value": "Annual review"
+        }
+      ],
+      "image": {
+        "id": 5,
+        "documentId": "qa152bm0baxar26i0pav8x45",
+        "name": "qkntRVyDFXSavXk2fE20yVB6CU.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "focalPoint": null,
+        "width": 2413,
+        "height": 1609,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_qkntRVyDFXSavXk2fE20yVB6CU.jpg",
+            "hash": "thumbnail_qknt_R_Vy_DFX_Sav_Xk2f_E20y_VB_6_CU_94fff6ba72",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 234,
+            "height": 156,
+            "size": 6.44,
+            "sizeInBytes": 6440,
+            "url": "/uploads/thumbnail_qknt_R_Vy_DFX_Sav_Xk2f_E20y_VB_6_CU_94fff6ba72.jpg"
+          },
+          "small": {
+            "name": "small_qkntRVyDFXSavXk2fE20yVB6CU.jpg",
+            "hash": "small_qknt_R_Vy_DFX_Sav_Xk2f_E20y_VB_6_CU_94fff6ba72",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 500,
+            "height": 333,
+            "size": 17.7,
+            "sizeInBytes": 17705,
+            "url": "/uploads/small_qknt_R_Vy_DFX_Sav_Xk2f_E20y_VB_6_CU_94fff6ba72.jpg"
+          },
+          "large": {
+            "name": "large_qkntRVyDFXSavXk2fE20yVB6CU.jpg",
+            "hash": "large_qknt_R_Vy_DFX_Sav_Xk2f_E20y_VB_6_CU_94fff6ba72",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 1000,
+            "height": 667,
+            "size": 48.62,
+            "sizeInBytes": 48615,
+            "url": "/uploads/large_qknt_R_Vy_DFX_Sav_Xk2f_E20y_VB_6_CU_94fff6ba72.jpg"
+          },
+          "medium": {
+            "name": "medium_qkntRVyDFXSavXk2fE20yVB6CU.jpg",
+            "hash": "medium_qknt_R_Vy_DFX_Sav_Xk2f_E20y_VB_6_CU_94fff6ba72",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 750,
+            "height": 500,
+            "size": 31.33,
+            "sizeInBytes": 31326,
+            "url": "/uploads/medium_qknt_R_Vy_DFX_Sav_Xk2f_E20y_VB_6_CU_94fff6ba72.jpg"
+          }
+        },
+        "hash": "qknt_R_Vy_DFX_Sav_Xk2f_E20y_VB_6_CU_94fff6ba72",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 313.16,
+        "url": "/uploads/qknt_R_Vy_DFX_Sav_Xk2f_E20y_VB_6_CU_94fff6ba72.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2026-09-23T16:34:09.561Z",
+        "updatedAt": "2026-09-23T16:34:09.561Z",
+        "publishedAt": "2026-09-23T16:34:09.561Z"
+      },
+      "testimonial": {
+        "id": 41,
+        "documentId": "txq0jxdpvbiyksw1xg4fin38",
+        "name": "Deepak Salunkhe",
+        "role": "Oberoi Realty",
+        "quote": "My wife and I came to you to discuss the options that were available for our future financial planning. We were very impressed with the personalized professional service and advice that was given to us, and how you have tailored this specifically to suit our situation and future needs. We felt very comfortable to put our finances in your care and for you to guide us in the right direction. We found you to be the most professional of those we interviewed. I have no hesitation in recommending your services with complete trust and I look forward to a continued relationship with you.",
+        "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+        "featured": false,
+        "createdAt": "2026-09-23T16:34:06.572Z",
+        "updatedAt": "2026-09-24T18:06:59.425Z",
+        "publishedAt": "2026-09-24T18:06:59.429Z",
+        "order": 7,
+        "verificationState": "unreviewed"
+      }
+    },
+    {
+      "id": 36,
+      "documentId": "hhpcflyqnxiswuwaulz0navr",
+      "title": "Child Education Planning",
+      "slug": "child-education-planning",
+      "icon": "graduation",
+      "shortDesc": "Give their ambitions a financial plan.",
+      "longDesc": "Prepare for your child’s future education needs with a goal-based approach that considers the time available, expected costs and your family’s finances.",
+      "order": 5,
+      "sourceUrl": "https://ghanchiinvest.com/services/child-education-planning/",
+      "createdAt": "2026-09-23T16:34:09.845Z",
+      "updatedAt": "2026-09-25T06:33:25.874Z",
+      "publishedAt": "2026-09-25T06:33:25.886Z",
+      "deliverables": [
+        {
+          "id": 345,
+          "value": "Education goals"
+        },
+        {
+          "id": 346,
+          "value": "Time horizon"
+        },
+        {
+          "id": 347,
+          "value": "Cash-flow planning"
+        },
+        {
+          "id": 348,
+          "value": "Suitable solutions"
+        },
+        {
+          "id": 349,
+          "value": "Progress review"
+        }
+      ],
+      "image": {
+        "id": 6,
+        "documentId": "ba7nji6sydfwacyueajux6kz",
+        "name": "OqCGYrjHIzy11F9CWaDgfYAzKQ.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "focalPoint": null,
+        "width": 2400,
+        "height": 1350,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_OqCGYrjHIzy11F9CWaDgfYAzKQ.jpg",
+            "hash": "thumbnail_Oq_CG_Yrj_H_Izy11_F9_C_Wa_Dgf_Y_Az_KQ_0594d66add",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 245,
+            "height": 137,
+            "size": 9.64,
+            "sizeInBytes": 9641,
+            "url": "/uploads/thumbnail_Oq_CG_Yrj_H_Izy11_F9_C_Wa_Dgf_Y_Az_KQ_0594d66add.jpg"
+          },
+          "medium": {
+            "name": "medium_OqCGYrjHIzy11F9CWaDgfYAzKQ.jpg",
+            "hash": "medium_Oq_CG_Yrj_H_Izy11_F9_C_Wa_Dgf_Y_Az_KQ_0594d66add",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 750,
+            "height": 422,
+            "size": 55.13,
+            "sizeInBytes": 55131,
+            "url": "/uploads/medium_Oq_CG_Yrj_H_Izy11_F9_C_Wa_Dgf_Y_Az_KQ_0594d66add.jpg"
+          },
+          "small": {
+            "name": "small_OqCGYrjHIzy11F9CWaDgfYAzKQ.jpg",
+            "hash": "small_Oq_CG_Yrj_H_Izy11_F9_C_Wa_Dgf_Y_Az_KQ_0594d66add",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 500,
+            "height": 281,
+            "size": 30.18,
+            "sizeInBytes": 30176,
+            "url": "/uploads/small_Oq_CG_Yrj_H_Izy11_F9_C_Wa_Dgf_Y_Az_KQ_0594d66add.jpg"
+          },
+          "large": {
+            "name": "large_OqCGYrjHIzy11F9CWaDgfYAzKQ.jpg",
+            "hash": "large_Oq_CG_Yrj_H_Izy11_F9_C_Wa_Dgf_Y_Az_KQ_0594d66add",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 1000,
+            "height": 563,
+            "size": 86.47,
+            "sizeInBytes": 86468,
+            "url": "/uploads/large_Oq_CG_Yrj_H_Izy11_F9_C_Wa_Dgf_Y_Az_KQ_0594d66add.jpg"
+          }
+        },
+        "hash": "Oq_CG_Yrj_H_Izy11_F9_C_Wa_Dgf_Y_Az_KQ_0594d66add",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 350.57,
+        "url": "/uploads/Oq_CG_Yrj_H_Izy11_F9_C_Wa_Dgf_Y_Az_KQ_0594d66add.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2026-09-23T16:34:09.802Z",
+        "updatedAt": "2026-09-23T16:34:09.802Z",
+        "publishedAt": "2026-09-23T16:34:09.803Z"
+      },
+      "testimonial": null
+    },
+    {
+      "id": 34,
+      "documentId": "gcte7edq94hf3cafxd8y461d",
+      "title": "Personal Accidental Policy",
+      "slug": "personal-accidental-policy",
+      "icon": "alert",
+      "shortDesc": "Prepare for the unexpected.",
+      "longDesc": "Understand personal accident protection and the benefits available under policy terms for accidental injury, disability or death. Coverage depends on the selected policy.",
+      "order": 6,
+      "sourceUrl": "https://ghanchiinvest.com/services/personal-accidental-policy/",
+      "createdAt": "2026-09-23T16:34:10.092Z",
+      "updatedAt": "2026-09-25T06:33:25.765Z",
+      "publishedAt": "2026-09-25T06:33:25.776Z",
+      "deliverables": [
+        {
+          "id": 335,
+          "value": "Protection needs"
+        },
+        {
+          "id": 336,
+          "value": "Benefit options"
+        },
+        {
+          "id": 337,
+          "value": "Policy exclusions"
+        },
+        {
+          "id": 338,
+          "value": "Documentation assistance"
+        },
+        {
+          "id": 339,
+          "value": "Claim support"
+        }
+      ],
+      "image": {
+        "id": 7,
+        "documentId": "hxfrou7vg76fzxxzx1dy5f2t",
+        "name": "3NdwQXmM1SRuYwMwOwL4wEa9Y.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "focalPoint": null,
+        "width": 2399,
+        "height": 1358,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_3NdwQXmM1SRuYwMwOwL4wEa9Y.jpg",
+            "hash": "thumbnail_3_Ndw_Q_Xm_M1_S_Ru_Yw_Mw_Ow_L4w_Ea9_Y_a2ebd376b7",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 245,
+            "height": 138,
+            "size": 6.63,
+            "sizeInBytes": 6626,
+            "url": "/uploads/thumbnail_3_Ndw_Q_Xm_M1_S_Ru_Yw_Mw_Ow_L4w_Ea9_Y_a2ebd376b7.jpg"
+          },
+          "small": {
+            "name": "small_3NdwQXmM1SRuYwMwOwL4wEa9Y.jpg",
+            "hash": "small_3_Ndw_Q_Xm_M1_S_Ru_Yw_Mw_Ow_L4w_Ea9_Y_a2ebd376b7",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 500,
+            "height": 283,
+            "size": 23.02,
+            "sizeInBytes": 23017,
+            "url": "/uploads/small_3_Ndw_Q_Xm_M1_S_Ru_Yw_Mw_Ow_L4w_Ea9_Y_a2ebd376b7.jpg"
+          },
+          "medium": {
+            "name": "medium_3NdwQXmM1SRuYwMwOwL4wEa9Y.jpg",
+            "hash": "medium_3_Ndw_Q_Xm_M1_S_Ru_Yw_Mw_Ow_L4w_Ea9_Y_a2ebd376b7",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 750,
+            "height": 425,
+            "size": 47.12,
+            "sizeInBytes": 47123,
+            "url": "/uploads/medium_3_Ndw_Q_Xm_M1_S_Ru_Yw_Mw_Ow_L4w_Ea9_Y_a2ebd376b7.jpg"
+          },
+          "large": {
+            "name": "large_3NdwQXmM1SRuYwMwOwL4wEa9Y.jpg",
+            "hash": "large_3_Ndw_Q_Xm_M1_S_Ru_Yw_Mw_Ow_L4w_Ea9_Y_a2ebd376b7",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 1000,
+            "height": 566,
+            "size": 80.05,
+            "sizeInBytes": 80052,
+            "url": "/uploads/large_3_Ndw_Q_Xm_M1_S_Ru_Yw_Mw_Ow_L4w_Ea9_Y_a2ebd376b7.jpg"
+          }
+        },
+        "hash": "3_Ndw_Q_Xm_M1_S_Ru_Yw_Mw_Ow_L4w_Ea9_Y_a2ebd376b7",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 419.32,
+        "url": "/uploads/3_Ndw_Q_Xm_M1_S_Ru_Yw_Mw_Ow_L4w_Ea9_Y_a2ebd376b7.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2026-09-23T16:34:10.058Z",
+        "updatedAt": "2026-09-23T16:34:10.058Z",
+        "publishedAt": "2026-09-23T16:34:10.058Z"
+      },
+      "testimonial": {
+        "id": 42,
+        "documentId": "qjjzwpc2bcgv42373ley57q1",
+        "name": "Begum Dilshad",
+        "role": "Home Maker",
+        "quote": "It is so reassuring to know that all our insurance cover is now in place given the different elements involved. Before getting in touch with you I checked out other insurance companies for the necessary cover, but I must say they fell short compared with your wonderful ‘customer service’ and ‘great attention to detail’. One ‘very satisfied customer’.",
+        "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+        "featured": false,
+        "createdAt": "2026-09-23T16:34:06.591Z",
+        "updatedAt": "2026-09-24T18:06:59.449Z",
+        "publishedAt": "2026-09-24T18:06:59.453Z",
+        "order": 8,
+        "verificationState": "unreviewed"
+      }
+    },
+    {
+      "id": 35,
+      "documentId": "zjtryrje8bm6nch9ds2mwblg",
+      "title": "General Insurance",
+      "slug": "general-insurance",
+      "icon": "umbrella",
+      "shortDesc": "Protect the things you have worked for.",
+      "longDesc": "Explore insurance for your assets and other non-life risks. We help you understand your protection needs and the terms of the options available.",
+      "order": 7,
+      "sourceUrl": "https://ghanchiinvest.com/services/general-insurance/",
+      "createdAt": "2026-09-23T16:34:10.364Z",
+      "updatedAt": "2026-09-25T06:33:25.819Z",
+      "publishedAt": "2026-09-25T06:33:25.834Z",
+      "deliverables": [
+        {
+          "id": 340,
+          "value": "Risk assessment"
+        },
+        {
+          "id": 341,
+          "value": "Available cover options"
+        },
+        {
+          "id": 342,
+          "value": "Policy conditions"
+        },
+        {
+          "id": 343,
+          "value": "Renewal assistance"
+        },
+        {
+          "id": 344,
+          "value": "Claim support"
+        }
+      ],
+      "image": {
+        "id": 8,
+        "documentId": "k6lnaz8iot9miezoarh28vcy",
+        "name": "NF5tRpn3xrpV81CGf1SDQo60Lk.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "focalPoint": null,
+        "width": 2400,
+        "height": 1808,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_NF5tRpn3xrpV81CGf1SDQo60Lk.jpg",
+            "hash": "thumbnail_NF_5t_Rpn3xrp_V81_C_Gf1_SD_Qo60_Lk_32eca796ea",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 207,
+            "height": 156,
+            "size": 8.06,
+            "sizeInBytes": 8060,
+            "url": "/uploads/thumbnail_NF_5t_Rpn3xrp_V81_C_Gf1_SD_Qo60_Lk_32eca796ea.jpg"
+          },
+          "medium": {
+            "name": "medium_NF5tRpn3xrpV81CGf1SDQo60Lk.jpg",
+            "hash": "medium_NF_5t_Rpn3xrp_V81_C_Gf1_SD_Qo60_Lk_32eca796ea",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 750,
+            "height": 565,
+            "size": 52.22,
+            "sizeInBytes": 52221,
+            "url": "/uploads/medium_NF_5t_Rpn3xrp_V81_C_Gf1_SD_Qo60_Lk_32eca796ea.jpg"
+          },
+          "small": {
+            "name": "small_NF5tRpn3xrpV81CGf1SDQo60Lk.jpg",
+            "hash": "small_NF_5t_Rpn3xrp_V81_C_Gf1_SD_Qo60_Lk_32eca796ea",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 500,
+            "height": 377,
+            "size": 28.98,
+            "sizeInBytes": 28978,
+            "url": "/uploads/small_NF_5t_Rpn3xrp_V81_C_Gf1_SD_Qo60_Lk_32eca796ea.jpg"
+          },
+          "large": {
+            "name": "large_NF5tRpn3xrpV81CGf1SDQo60Lk.jpg",
+            "hash": "large_NF_5t_Rpn3xrp_V81_C_Gf1_SD_Qo60_Lk_32eca796ea",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 1000,
+            "height": 753,
+            "size": 81.89,
+            "sizeInBytes": 81893,
+            "url": "/uploads/large_NF_5t_Rpn3xrp_V81_C_Gf1_SD_Qo60_Lk_32eca796ea.jpg"
+          }
+        },
+        "hash": "NF_5t_Rpn3xrp_V81_C_Gf1_SD_Qo60_Lk_32eca796ea",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 343.67,
+        "url": "/uploads/NF_5t_Rpn3xrp_V81_C_Gf1_SD_Qo60_Lk_32eca796ea.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2026-09-23T16:34:10.330Z",
+        "updatedAt": "2026-09-23T16:34:10.330Z",
+        "publishedAt": "2026-09-23T16:34:10.331Z"
+      },
+      "testimonial": {
+        "id": 39,
+        "documentId": "vo1ew174urow20tit4mujnhw",
+        "name": "Aaloak Singh Negi",
+        "role": "TCS",
+        "quote": "Once you are with Ghanch investments, rest assured you are financially in safe hands. When I wanted to buy insurance I was confused with all kinds of products available in the market, Chandrakant explained to me whatever I wanted to know with patience, answering all my questions and clearing all my doubts. I was able to make an informed decision and choose the right product for me and my family.",
+        "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+        "featured": false,
+        "createdAt": "2026-09-23T16:34:06.529Z",
+        "updatedAt": "2026-09-24T18:06:59.376Z",
+        "publishedAt": "2026-09-24T18:06:59.380Z",
+        "order": 5,
+        "verificationState": "unreviewed"
+      }
+    },
+    {
+      "id": 39,
+      "documentId": "ucioaltbqqzyvaemixaz8ndv",
+      "title": "Employer Employee Insurance",
+      "slug": "employer-employee-insurance",
+      "icon": "building",
+      "shortDesc": "Consider protection for your employees.",
+      "longDesc": "Explore employer–employee insurance arrangements in the context of your business and employees’ needs. Eligibility, benefits and conditions depend on the selected policy.",
+      "order": 8,
+      "sourceUrl": "https://ghanchiinvest.com/services/employer-employee-insurance/",
+      "createdAt": "2026-09-23T16:34:10.449Z",
+      "updatedAt": "2026-09-25T15:30:02.936Z",
+      "publishedAt": "2026-09-25T15:30:02.961Z",
+      "deliverables": [
+        {
+          "id": 360,
+          "value": "Business needs"
+        },
+        {
+          "id": 361,
+          "value": "Employee protection"
+        },
+        {
+          "id": 362,
+          "value": "Policy structure"
+        },
+        {
+          "id": 363,
+          "value": "Documentation"
+        },
+        {
+          "id": 364,
+          "value": "Ongoing servicing"
+        }
+      ],
+      "image": {
+        "id": 4,
+        "documentId": "azsk3r5qz9igxtn82zw4y0s1",
+        "name": "Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "focalPoint": null,
+        "width": 2400,
+        "height": 1800,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg",
+            "hash": "thumbnail_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 208,
+            "height": 156,
+            "size": 6.23,
+            "sizeInBytes": 6229,
+            "url": "/uploads/thumbnail_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470.jpg"
+          },
+          "medium": {
+            "name": "medium_Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg",
+            "hash": "medium_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 750,
+            "height": 563,
+            "size": 43.68,
+            "sizeInBytes": 43676,
+            "url": "/uploads/medium_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470.jpg"
+          },
+          "small": {
+            "name": "small_Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg",
+            "hash": "small_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 500,
+            "height": 375,
+            "size": 23.32,
+            "sizeInBytes": 23319,
+            "url": "/uploads/small_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470.jpg"
+          },
+          "large": {
+            "name": "large_Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg",
+            "hash": "large_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 1000,
+            "height": 750,
+            "size": 70.38,
+            "sizeInBytes": 70383,
+            "url": "/uploads/large_Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470.jpg"
+          }
+        },
+        "hash": "Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 354.06,
+        "url": "/uploads/Xg3na_OB_3jlkrg_Vd_I79zf_T_Gm_Upxo_0960482470.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2026-09-23T16:34:09.306Z",
+        "updatedAt": "2026-09-23T16:34:09.306Z",
+        "publishedAt": "2026-09-23T16:34:09.306Z"
+      },
+      "testimonial": {
+        "id": 40,
+        "documentId": "m7gq8fgv70c70zok5s3yfdwo",
+        "name": "Parvez Shaikh",
+        "role": "East-west Freight Carriers Ltd",
+        "quote": "The level of service and professionalism I’ve received from Ghanchi’s and the experienced professionals with them is unparalleled. I’ve purchased several insurance products from them over the years and I have always felt confident that I was making a wise investment. Admittedly, I don’t know much about insurance or investments, but Chandrakant has always taken the time to educate me and inform me about my various options. You can take heart in the fact that Ghanchi Investments isn’t just trying to sell you something, they legitimately care about their clients and their well-being.",
+        "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+        "featured": false,
+        "createdAt": "2026-09-23T16:34:06.551Z",
+        "updatedAt": "2026-09-24T18:06:59.400Z",
+        "publishedAt": "2026-09-24T18:06:59.405Z",
+        "order": 6,
+        "verificationState": "unreviewed"
+      }
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 34,
+      "documentId": "pppdrjxk63jk4i5raor4pszw",
+      "name": "Neeta Agrawal",
+      "role": "Syntel",
+      "quote": "Ghanchi investments have been great in designing a comprehensive investment plan for me and plotting milestones. I don’t think I can ask for better services, the expertise and attention to detail with which you have handled our financial affairs could not be faulted. May you prosper, along with your client.",
+      "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+      "featured": true,
+      "createdAt": "2026-09-23T16:34:06.418Z",
+      "updatedAt": "2026-09-24T18:06:59.242Z",
+      "publishedAt": "2026-09-24T18:06:59.250Z",
+      "order": 0,
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 35,
+      "documentId": "j4h2vd7pl38th0z6tn7u6rwy",
+      "name": "Sumit Jain",
+      "role": "L&T Infotech",
+      "quote": "I want to make it short and sweet. Chandrakant is not an agent for me, nor I’m a client for him. I say this because he provides his valuable suggestion after good research to me not thinking of me as his client but as a FAMILY member and I too in return take it without questioning as I trust him with my family’s health.",
+      "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+      "featured": false,
+      "createdAt": "2026-09-23T16:34:06.441Z",
+      "updatedAt": "2026-09-24T18:06:59.275Z",
+      "publishedAt": "2026-09-24T18:06:59.279Z",
+      "order": 1,
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 36,
+      "documentId": "z6hj5mqd4nn24yi3reh9o7qt",
+      "name": "Ranbir Singh",
+      "role": "USA",
+      "quote": "Thank you for all the financial planning help you provided for the last 6 yrs, Chandrakant is a great person and with great character. He is very trustworthy and provides excellent service. Chandrakant has made the process of dealing with financial planning easy and painless. This is a process I normally dread but he made it easy. He is a great man and I would recommend Chandrakant to any of my friends and family.",
+      "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+      "featured": false,
+      "createdAt": "2026-09-23T16:34:06.462Z",
+      "updatedAt": "2026-09-24T18:06:59.300Z",
+      "publishedAt": "2026-09-24T18:06:59.304Z",
+      "order": 2,
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 37,
+      "documentId": "g2tps8j90fancodut7wma0vw",
+      "name": "Vikram Sawant",
+      "role": "Senior Planner, Max Fashion, Landmark Group, Dubai, UAE",
+      "quote": "I’m a active investor from Dubai and using Mr Chandrakant’s service since last 4 years. He is a very professional financial advisor who understands your need and provide you customised investment solutions. He would never push you to sell something rather guide you to invest wisely.",
+      "sourceUrl": "https://ghanchiinvest.com/",
+      "featured": false,
+      "createdAt": "2026-09-23T16:34:06.485Z",
+      "updatedAt": "2026-09-24T18:06:59.324Z",
+      "publishedAt": "2026-09-24T18:06:59.328Z",
+      "order": 3,
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 38,
+      "documentId": "uujvbafvxgrp11bd2q8pft2a",
+      "name": "Manju Rajvanshi",
+      "role": "St. Xavier’s High School",
+      "quote": "Due to excellent knowledge of LIC and mediclaim, Chandrakant Ghanchi guided me and made me independent. I have excellent LIC and mediclaim cover.",
+      "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+      "featured": false,
+      "createdAt": "2026-09-23T16:34:06.507Z",
+      "updatedAt": "2026-09-24T18:06:59.349Z",
+      "publishedAt": "2026-09-24T18:06:59.353Z",
+      "order": 4,
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 39,
+      "documentId": "vo1ew174urow20tit4mujnhw",
+      "name": "Aaloak Singh Negi",
+      "role": "TCS",
+      "quote": "Once you are with Ghanch investments, rest assured you are financially in safe hands. When I wanted to buy insurance I was confused with all kinds of products available in the market, Chandrakant explained to me whatever I wanted to know with patience, answering all my questions and clearing all my doubts. I was able to make an informed decision and choose the right product for me and my family.",
+      "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+      "featured": false,
+      "createdAt": "2026-09-23T16:34:06.529Z",
+      "updatedAt": "2026-09-24T18:06:59.376Z",
+      "publishedAt": "2026-09-24T18:06:59.380Z",
+      "order": 5,
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 40,
+      "documentId": "m7gq8fgv70c70zok5s3yfdwo",
+      "name": "Parvez Shaikh",
+      "role": "East-west Freight Carriers Ltd",
+      "quote": "The level of service and professionalism I’ve received from Ghanchi’s and the experienced professionals with them is unparalleled. I’ve purchased several insurance products from them over the years and I have always felt confident that I was making a wise investment. Admittedly, I don’t know much about insurance or investments, but Chandrakant has always taken the time to educate me and inform me about my various options. You can take heart in the fact that Ghanchi Investments isn’t just trying to sell you something, they legitimately care about their clients and their well-being.",
+      "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+      "featured": false,
+      "createdAt": "2026-09-23T16:34:06.551Z",
+      "updatedAt": "2026-09-24T18:06:59.400Z",
+      "publishedAt": "2026-09-24T18:06:59.405Z",
+      "order": 6,
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 41,
+      "documentId": "txq0jxdpvbiyksw1xg4fin38",
+      "name": "Deepak Salunkhe",
+      "role": "Oberoi Realty",
+      "quote": "My wife and I came to you to discuss the options that were available for our future financial planning. We were very impressed with the personalized professional service and advice that was given to us, and how you have tailored this specifically to suit our situation and future needs. We felt very comfortable to put our finances in your care and for you to guide us in the right direction. We found you to be the most professional of those we interviewed. I have no hesitation in recommending your services with complete trust and I look forward to a continued relationship with you.",
+      "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+      "featured": false,
+      "createdAt": "2026-09-23T16:34:06.572Z",
+      "updatedAt": "2026-09-24T18:06:59.425Z",
+      "publishedAt": "2026-09-24T18:06:59.429Z",
+      "order": 7,
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 42,
+      "documentId": "qjjzwpc2bcgv42373ley57q1",
+      "name": "Begum Dilshad",
+      "role": "Home Maker",
+      "quote": "It is so reassuring to know that all our insurance cover is now in place given the different elements involved. Before getting in touch with you I checked out other insurance companies for the necessary cover, but I must say they fell short compared with your wonderful ‘customer service’ and ‘great attention to detail’. One ‘very satisfied customer’.",
+      "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+      "featured": false,
+      "createdAt": "2026-09-23T16:34:06.591Z",
+      "updatedAt": "2026-09-24T18:06:59.449Z",
+      "publishedAt": "2026-09-24T18:06:59.453Z",
+      "order": 8,
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 43,
+      "documentId": "u85gfyifvj90mymmdh196j93",
+      "name": "Ashu Rajvanshi",
+      "role": "Acupressure Therapist",
+      "quote": "Chandrakant Ghanchi has very good knowledge regarding LIC and mediclaim. His advice made me confident as my life and health; both were covered in an excellent manner.",
+      "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+      "featured": false,
+      "createdAt": "2026-09-23T16:34:06.610Z",
+      "updatedAt": "2026-09-24T18:06:59.475Z",
+      "publishedAt": "2026-09-24T18:06:59.479Z",
+      "order": 9,
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 44,
+      "documentId": "bgi8lum4tb27a67z5bryyu7m",
+      "name": "Firoz Shaikh",
+      "role": "Firoz Dance Academy",
+      "quote": "I appreciate Ghanchi Investments’ attention to my needs as a broker. Almost every time I talk with Mr. Ghanchi Chandrakant, he gives me an idea that makes me money. Ghanchi Investments makes it easy to want to do business with them. I am looking forward to their new website. I am sure that it will improve my ability to get the necessary work done in a quick and efficient manner.",
+      "sourceUrl": "https://ghanchiinvest.com/testimonials/",
+      "featured": false,
+      "createdAt": "2026-09-23T16:34:06.631Z",
+      "updatedAt": "2026-09-24T18:06:59.498Z",
+      "publishedAt": "2026-09-24T18:06:59.502Z",
+      "order": 10,
+      "verificationState": "unreviewed"
+    }
+  ],
+  "gallery-items": [
+    {
+      "id": 56,
+      "documentId": "efenior6pe9zr515c2uko0hk",
+      "title": "Awards archive — photograph 2",
+      "category": "awards",
+      "sourceUrl": "https://ghanchiinvest.com/awards/",
+      "order": 1,
+      "createdAt": "2026-09-23T16:34:12.036Z",
+      "updatedAt": "2026-09-24T18:06:59.555Z",
+      "publishedAt": "2026-09-24T18:06:59.560Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 57,
+      "documentId": "emdvk1vru2974vyv7mbukea5",
+      "title": "Awards archive — photograph 3",
+      "category": "awards",
+      "sourceUrl": "https://ghanchiinvest.com/awards/",
+      "order": 2,
+      "createdAt": "2026-09-23T16:34:12.263Z",
+      "updatedAt": "2026-09-24T18:06:59.580Z",
+      "publishedAt": "2026-09-24T18:06:59.584Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 59,
+      "documentId": "n7wu9xsdjzgwz2wt00t316yx",
+      "title": "Awards archive — photograph 5",
+      "category": "awards",
+      "sourceUrl": "https://ghanchiinvest.com/awards/",
+      "order": 4,
+      "createdAt": "2026-09-23T16:34:12.714Z",
+      "updatedAt": "2026-09-24T18:06:59.625Z",
+      "publishedAt": "2026-09-24T18:06:59.628Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 60,
+      "documentId": "ti5zk8gp9px581yj5i6dpbov",
+      "title": "Awards archive — photograph 6",
+      "category": "awards",
+      "sourceUrl": "https://ghanchiinvest.com/awards/",
+      "order": 5,
+      "createdAt": "2026-09-23T16:34:12.898Z",
+      "updatedAt": "2026-09-24T18:06:59.651Z",
+      "publishedAt": "2026-09-24T18:06:59.655Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 61,
+      "documentId": "yeqyfy6azky5q31lf607lkcn",
+      "title": "Awards archive — photograph 7",
+      "category": "awards",
+      "sourceUrl": "https://ghanchiinvest.com/awards/",
+      "order": 6,
+      "createdAt": "2026-09-23T16:34:13.085Z",
+      "updatedAt": "2026-09-24T18:06:59.673Z",
+      "publishedAt": "2026-09-24T18:06:59.677Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 62,
+      "documentId": "pq9prq1r0srjud9qusq2bm5s",
+      "title": "Awards archive — photograph 8",
+      "category": "awards",
+      "sourceUrl": "https://ghanchiinvest.com/awards/",
+      "order": 7,
+      "createdAt": "2026-09-23T16:34:13.254Z",
+      "updatedAt": "2026-09-24T18:06:59.697Z",
+      "publishedAt": "2026-09-24T18:06:59.701Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 63,
+      "documentId": "aea5nwe0p8t4kju9fi4ekrq1",
+      "title": "Certificates archive — document 1",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 0,
+      "createdAt": "2026-09-23T16:34:13.453Z",
+      "updatedAt": "2026-09-24T18:06:59.720Z",
+      "publishedAt": "2026-09-24T18:06:59.723Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 64,
+      "documentId": "q6ocy5j0kwc5px5aozxfquqv",
+      "title": "Certificates archive — document 2",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 1,
+      "createdAt": "2026-09-23T16:34:13.666Z",
+      "updatedAt": "2026-09-24T18:06:59.745Z",
+      "publishedAt": "2026-09-24T18:06:59.748Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 65,
+      "documentId": "um15btwpvjx6xcgm6h89zuu6",
+      "title": "Certificates archive — document 3",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 2,
+      "createdAt": "2026-09-23T16:34:13.871Z",
+      "updatedAt": "2026-09-24T18:06:59.770Z",
+      "publishedAt": "2026-09-24T18:06:59.773Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 66,
+      "documentId": "m4au4n5ceakjog2c66l3xu4a",
+      "title": "Certificates archive — document 4",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 3,
+      "createdAt": "2026-09-23T16:34:14.126Z",
+      "updatedAt": "2026-09-24T18:06:59.792Z",
+      "publishedAt": "2026-09-24T18:06:59.796Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 67,
+      "documentId": "s9hgm48hfa7w7ieizxqodsjc",
+      "title": "Certificates archive — document 5",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 4,
+      "createdAt": "2026-09-23T16:34:14.342Z",
+      "updatedAt": "2026-09-24T18:06:59.817Z",
+      "publishedAt": "2026-09-24T18:06:59.820Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 68,
+      "documentId": "la6cx53f02p1hysnv2etmhsc",
+      "title": "Certificates archive — document 6",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 5,
+      "createdAt": "2026-09-23T16:34:14.473Z",
+      "updatedAt": "2026-09-24T18:06:59.844Z",
+      "publishedAt": "2026-09-24T18:06:59.848Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 69,
+      "documentId": "boen8cjm15n8t2uxw5t43q01",
+      "title": "Certificates archive — document 7",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 6,
+      "createdAt": "2026-09-23T16:34:14.613Z",
+      "updatedAt": "2026-09-24T18:06:59.867Z",
+      "publishedAt": "2026-09-24T18:06:59.870Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 70,
+      "documentId": "jyiqhok6o7p3h5w4c72ofay3",
+      "title": "Certificates archive — document 8",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 7,
+      "createdAt": "2026-09-23T16:34:14.767Z",
+      "updatedAt": "2026-09-24T18:06:59.885Z",
+      "publishedAt": "2026-09-24T18:06:59.888Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 71,
+      "documentId": "zyi92xn2dz20n01v8osd9uy8",
+      "title": "Certificates archive — document 9",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 8,
+      "createdAt": "2026-09-23T16:34:14.934Z",
+      "updatedAt": "2026-09-24T18:06:59.907Z",
+      "publishedAt": "2026-09-24T18:06:59.910Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 72,
+      "documentId": "mmrgazbabbapr53guq7j2k2x",
+      "title": "Certificates archive — document 10",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 9,
+      "createdAt": "2026-09-23T16:34:15.184Z",
+      "updatedAt": "2026-09-24T18:06:59.928Z",
+      "publishedAt": "2026-09-24T18:06:59.931Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 73,
+      "documentId": "zdbyltgvpnto2ug8bnjgfr7s",
+      "title": "Certificates archive — document 11",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 10,
+      "createdAt": "2026-09-23T16:34:15.401Z",
+      "updatedAt": "2026-09-24T18:06:59.949Z",
+      "publishedAt": "2026-09-24T18:06:59.953Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 74,
+      "documentId": "lzjfg4nzwouh0d3i4gavdk3s",
+      "title": "Certificates archive — document 12",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 11,
+      "createdAt": "2026-09-23T16:34:15.635Z",
+      "updatedAt": "2026-09-24T18:06:59.976Z",
+      "publishedAt": "2026-09-24T18:06:59.979Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 75,
+      "documentId": "fca0khlpk7a1ljxubc1kyaw3",
+      "title": "Certificates archive — document 13",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 12,
+      "createdAt": "2026-09-23T16:34:15.858Z",
+      "updatedAt": "2026-09-24T18:06:59.996Z",
+      "publishedAt": "2026-09-24T18:06:59.999Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 76,
+      "documentId": "xjf2n5pi2cwa78aagk9n5lue",
+      "title": "Certificates archive — document 14",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 13,
+      "createdAt": "2026-09-23T16:34:16.114Z",
+      "updatedAt": "2026-09-24T18:07:00.021Z",
+      "publishedAt": "2026-09-24T18:07:00.024Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 77,
+      "documentId": "xaxa8c4v7kr8hp3nf4a9poib",
+      "title": "Certificates archive — document 15",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 14,
+      "createdAt": "2026-09-23T16:34:16.356Z",
+      "updatedAt": "2026-09-24T18:07:00.042Z",
+      "publishedAt": "2026-09-24T18:07:00.045Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 78,
+      "documentId": "e0ufjbw93jnbl6rkfxqz0vqg",
+      "title": "Certificates archive — document 16",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 15,
+      "createdAt": "2026-09-23T16:34:16.562Z",
+      "updatedAt": "2026-09-24T18:07:00.062Z",
+      "publishedAt": "2026-09-24T18:07:00.065Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 79,
+      "documentId": "qcrasdsgc6fjvdphv0uxq3nj",
+      "title": "Certificates archive — document 17",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 16,
+      "createdAt": "2026-09-23T16:34:16.733Z",
+      "updatedAt": "2026-09-24T18:07:00.082Z",
+      "publishedAt": "2026-09-24T18:07:00.085Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 80,
+      "documentId": "r0belqn6e08wi21bwdbzkfnj",
+      "title": "Certificates archive — document 18",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 17,
+      "createdAt": "2026-09-23T16:34:16.914Z",
+      "updatedAt": "2026-09-24T18:07:00.108Z",
+      "publishedAt": "2026-09-24T18:07:00.112Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 81,
+      "documentId": "ylx79kyq6qnweomlzuqtbiri",
+      "title": "Certificates archive — document 19",
+      "category": "certificates",
+      "sourceUrl": "https://ghanchiinvest.com/certificates/",
+      "order": 18,
+      "createdAt": "2026-09-23T16:34:17.088Z",
+      "updatedAt": "2026-09-24T18:07:00.128Z",
+      "publishedAt": "2026-09-24T18:07:00.131Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 82,
+      "documentId": "uzvrazayv8u8nxgx6yc5quol",
+      "title": "Awards archive — photograph 4",
+      "category": "awards",
+      "sourceUrl": "https://ghanchiinvest.com/awards/",
+      "order": 0,
+      "createdAt": "2026-09-23T16:34:12.495Z",
+      "updatedAt": "2026-09-25T16:09:50.496Z",
+      "publishedAt": "2026-09-25T16:09:50.504Z",
+      "verificationState": "unreviewed"
+    },
+    {
+      "id": 83,
+      "documentId": "ope4tpzhnaqsvzu7uf0gy8nm",
+      "title": "Awards archive — photograph 1",
+      "category": "awards",
+      "sourceUrl": "https://ghanchiinvest.com/awards/",
+      "order": 3,
+      "createdAt": "2026-09-23T16:34:11.890Z",
+      "updatedAt": "2026-09-25T16:09:50.539Z",
+      "publishedAt": "2026-09-25T16:09:50.543Z",
+      "verificationState": "unreviewed"
+    }
+  ],
+  "faq-items": [
+    {
+      "id": 2,
+      "documentId": "kzd7c5cvpt4xwd9duyrdykk9",
+      "question": "What does Ghanchi Investments do?",
+      "answer": "We provide goal-based financial planning and support across life insurance, health insurance, mutual funds, retirement, child education, personal accident, general insurance and employer–employee insurance.",
+      "category": "General",
+      "order": 1,
+      "createdAt": "2026-09-24T05:02:22.262Z",
+      "updatedAt": "2026-09-24T05:02:22.262Z",
+      "publishedAt": "2026-09-24T05:02:22.265Z"
+    },
+    {
+      "id": 8,
+      "documentId": "urrnt5usk7l0ltwxjjx04zc4",
+      "question": "How does financial planning begin?",
+      "answer": "We begin by understanding your goals, concerns, risk appetite and cash flows. Recommendations are customized around those needs.",
+      "category": "Planning",
+      "order": 1,
+      "createdAt": "2026-09-24T05:02:22.318Z",
+      "updatedAt": "2026-09-24T05:02:22.318Z",
+      "publishedAt": "2026-09-24T05:02:22.320Z"
+    },
+    {
+      "id": 14,
+      "documentId": "d2l3zdtc5cyzbxn8p5rsaonr",
+      "question": "How do I choose insurance cover?",
+      "answer": "Start with your needs and dependants, and review coverage, exclusions, waiting periods, premiums and eligibility. Benefits depend on the selected policy and its terms.",
+      "category": "Protection",
+      "order": 1,
+      "createdAt": "2026-09-24T05:02:22.400Z",
+      "updatedAt": "2026-09-24T05:02:22.400Z",
+      "publishedAt": "2026-09-24T05:02:22.403Z"
+    },
+    {
+      "id": 18,
+      "documentId": "cq3l66p6ufo1zdjtya01519c",
+      "question": "Where can I access my investments or renew a policy?",
+      "answer": "The Online Services page links to LIC, Fundz Bazar, NJ account portals and insurer renewal pages. These are external provider websites with their own terms and security controls.",
+      "category": "Online Services",
+      "order": 1,
+      "createdAt": "2026-09-24T05:02:22.457Z",
+      "updatedAt": "2026-09-24T05:02:22.457Z",
+      "publishedAt": "2026-09-24T05:02:22.460Z"
+    },
+    {
+      "id": 4,
+      "documentId": "b23uj6qoaguadb9uolt7pjwz",
+      "question": "Who do you work with?",
+      "answer": "Our clients include individuals, families, business owners, NRIs and professionals across India and abroad. Advice considers your specific needs rather than a standard package.",
+      "category": "General",
+      "order": 2,
+      "createdAt": "2026-09-24T05:02:22.282Z",
+      "updatedAt": "2026-09-24T05:02:22.282Z",
+      "publishedAt": "2026-09-24T05:02:22.285Z"
+    },
+    {
+      "id": 10,
+      "documentId": "x8oijmwgqmqps41usyflj33f",
+      "question": "Do you help implement the plan?",
+      "answer": "Yes. Ghanchi Investments assists with implementing recommendations and provides an annual review.",
+      "category": "Planning",
+      "order": 2,
+      "createdAt": "2026-09-24T05:02:22.346Z",
+      "updatedAt": "2026-09-24T05:02:22.346Z",
+      "publishedAt": "2026-09-24T05:02:22.351Z"
+    },
+    {
+      "id": 16,
+      "documentId": "mxmbwhy5yaoxkhthvjr36x7v",
+      "question": "Do you assist with claims?",
+      "answer": "Ghanchi Investments provides after-sales service and assistance with claim settlement. The insurer determines claim eligibility under the policy terms.",
+      "category": "Protection",
+      "order": 2,
+      "createdAt": "2026-09-24T05:02:22.438Z",
+      "updatedAt": "2026-09-24T05:02:22.438Z",
+      "publishedAt": "2026-09-24T05:02:22.442Z"
+    },
+    {
+      "id": 20,
+      "documentId": "txwdr5wafnkmx5n67zmrikqn",
+      "question": "Are the ratings updated live?",
+      "answer": "No. The displayed 5.0 rating is the owner-approved value from the existing Ghanchi website. Google synchronization has not been connected.",
+      "category": "Online Services",
+      "order": 2,
+      "createdAt": "2026-09-24T05:02:22.478Z",
+      "updatedAt": "2026-09-24T05:02:22.478Z",
+      "publishedAt": "2026-09-24T05:02:22.481Z"
+    },
+    {
+      "id": 6,
+      "documentId": "rkulagy0zkujfgm2epjv81qo",
+      "question": "Where are you based?",
+      "answer": "Our office is at Shop no. 27, Sector 11, Balaji Bhavan, CBD Belapur, Navi Mumbai, Maharashtra 400614. Call +91 9820926446 or +91 7977061717 to get in touch.",
+      "category": "General",
+      "order": 3,
+      "createdAt": "2026-09-24T05:02:22.301Z",
+      "updatedAt": "2026-09-24T05:02:22.301Z",
+      "publishedAt": "2026-09-24T05:02:22.303Z"
+    },
+    {
+      "id": 12,
+      "documentId": "me53f2n3ri2g4nip5ead6n1k",
+      "question": "What should I share in an enquiry?",
+      "answer": "Tell us your broad goal and the services you are interested in. Do not include passwords, account credentials or sensitive financial documents in the website form.",
+      "category": "Planning",
+      "order": 3,
+      "createdAt": "2026-09-24T05:02:22.373Z",
+      "updatedAt": "2026-09-24T05:02:22.373Z",
+      "publishedAt": "2026-09-24T05:02:22.377Z"
+    },
+    {
+      "id": 22,
+      "documentId": "gh3l4guy6hpo48elh22m1hna",
+      "question": "Do you guarantee investment returns?",
+      "answer": "No. Mutual fund investments are subject to market risks and past performance does not guarantee future returns. Review all scheme and policy documents before deciding.",
+      "category": "Online Services",
+      "order": 3,
+      "createdAt": "2026-09-24T05:02:22.502Z",
+      "updatedAt": "2026-09-24T05:02:22.502Z",
+      "publishedAt": "2026-09-24T05:02:22.506Z"
+    }
+  ],
+  "online-services": [
+    {
+      "id": 2,
+      "documentId": "zvfomdfuindqges73c7pqcyt",
+      "title": "Newsletters",
+      "description": "Browse our dated newsletter archive.",
+      "url": "/newsletters",
+      "type": "internal",
+      "order": 0,
+      "createdAt": "2026-09-23T16:34:11.595Z",
+      "updatedAt": "2026-09-23T16:34:11.595Z",
+      "publishedAt": "2026-09-23T16:34:11.597Z"
+    },
+    {
+      "id": 4,
+      "documentId": "yt006ahm4op9kmc9206e4fa9",
+      "title": "LIC Registered User",
+      "description": "Access LIC policy services.",
+      "url": "https://ebiz.licindia.in/D2CPM/#Login",
+      "type": "external",
+      "order": 1,
+      "createdAt": "2026-09-23T16:34:11.611Z",
+      "updatedAt": "2026-09-23T16:34:11.611Z",
+      "publishedAt": "2026-09-23T16:34:11.613Z"
+    },
+    {
+      "id": 6,
+      "documentId": "ievdnoxcjjv7fjioomqj8j4w",
+      "title": "LIC Pay Premium Direct",
+      "description": "Go to LIC’s direct premium payment portal.",
+      "url": "https://ebiz.licindia.in/D2CPM/#DirectPay",
+      "type": "external",
+      "order": 2,
+      "createdAt": "2026-09-23T16:34:11.628Z",
+      "updatedAt": "2026-09-23T16:34:11.628Z",
+      "publishedAt": "2026-09-23T16:34:11.630Z"
+    },
+    {
+      "id": 8,
+      "documentId": "v21u2cq5x31jbmrxn6th5qp9",
+      "title": "Fundz Bazar",
+      "description": "Sign in to your investment account.",
+      "url": "https://www.fundzbazar.com/signin",
+      "type": "external",
+      "order": 3,
+      "createdAt": "2026-09-23T16:34:11.644Z",
+      "updatedAt": "2026-09-23T16:34:11.644Z",
+      "publishedAt": "2026-09-23T16:34:11.645Z"
+    },
+    {
+      "id": 10,
+      "documentId": "yk1gnkw8f5xxmmwrz7eclcu0",
+      "title": "NJ E-Wealth Account",
+      "description": "Access your NJ investment account.",
+      "url": "https://www.njindiaonline.com/onlinetrading/login.fin?action=showLoginForm",
+      "type": "external",
+      "order": 4,
+      "createdAt": "2026-09-23T16:34:11.659Z",
+      "updatedAt": "2026-09-23T16:34:11.659Z",
+      "publishedAt": "2026-09-23T16:34:11.660Z"
+    },
+    {
+      "id": 12,
+      "documentId": "v4cofmiordyhyz0pwca6ul81",
+      "title": "NJ Client Desk",
+      "description": "Access portfolio information and reports.",
+      "url": "https://www.njindiaonline.in/cdesk/login.fin",
+      "type": "external",
+      "order": 5,
+      "createdAt": "2026-09-23T16:34:11.679Z",
+      "updatedAt": "2026-09-23T16:34:11.679Z",
+      "publishedAt": "2026-09-23T16:34:11.681Z"
+    },
+    {
+      "id": 14,
+      "documentId": "ia7hzvo8iwp6p852z8sbcuz8",
+      "title": "Niva Bupa Renewal",
+      "description": "Renew with Niva Bupa, formerly Max Bupa.",
+      "url": "https://transactions.nivabupa.com/renewal/renewpolicies.aspx",
+      "type": "external",
+      "order": 6,
+      "createdAt": "2026-09-23T16:34:11.695Z",
+      "updatedAt": "2026-09-23T16:34:11.695Z",
+      "publishedAt": "2026-09-23T16:34:11.696Z"
+    },
+    {
+      "id": 16,
+      "documentId": "qflbledmbn85m4w4amxq6f2w",
+      "title": "Star Health Renewal",
+      "description": "Visit Star Health’s renewal portal.",
+      "url": "https://retail.starhealth.in/renewal",
+      "type": "external",
+      "order": 7,
+      "createdAt": "2026-09-23T16:34:11.711Z",
+      "updatedAt": "2026-09-23T16:34:11.711Z",
+      "publishedAt": "2026-09-23T16:34:11.713Z"
+    },
+    {
+      "id": 18,
+      "documentId": "xwywv1d18218cawruolfsrjy",
+      "title": "HDFC Ergo Renewal",
+      "description": "Visit the renewal link listed by Ghanchi Investments.",
+      "url": "https://www.hdfcergo.com/OnlineInsurance/AHealthRWOnline/Integration/RenewalIndex/Ug3YxwhW8M3PqSP0TAQm0eIocenTPxdc9s9ne,Flu7Ch6PwBAV4gFGH,IhT0mnMI",
+      "type": "external",
+      "order": 8,
+      "createdAt": "2026-09-23T16:34:11.729Z",
+      "updatedAt": "2026-09-23T16:34:11.729Z",
+      "publishedAt": "2026-09-23T16:34:11.731Z"
+    },
+    {
+      "id": 20,
+      "documentId": "gta9tur2hpfr0biq1l6k6v5f",
+      "title": "Android App",
+      "description": "My Wealth on Google Play.",
+      "url": "https://play.google.com/store/apps/details?id=mobi.mywealth",
+      "type": "external",
+      "order": 9,
+      "createdAt": "2026-09-23T16:34:11.745Z",
+      "updatedAt": "2026-09-23T16:34:11.745Z",
+      "publishedAt": "2026-09-23T16:34:11.746Z"
+    },
+    {
+      "id": 22,
+      "documentId": "e433535jv96lur0p8uk27km6",
+      "title": "iOS App",
+      "description": "My Wealth on the App Store.",
+      "url": "https://apps.apple.com/in/app/my-wealth/id1116107323",
+      "type": "external",
+      "order": 10,
+      "createdAt": "2026-09-23T16:34:11.760Z",
+      "updatedAt": "2026-09-23T16:34:11.760Z",
+      "publishedAt": "2026-09-23T16:34:11.762Z"
+    }
+  ],
+  "newsletters": [
+    {
+      "id": 2,
+      "documentId": "nsgxc49xcc9rswjdfw1yf75v",
+      "title": "November 2021 Newsletter",
+      "issueMonth": "2021-11",
+      "url": "https://www.njwebnest.in/newsletter/November-2021.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.145Z",
+      "updatedAt": "2026-09-23T16:34:11.145Z",
+      "publishedAt": "2026-09-23T16:34:11.148Z"
+    },
+    {
+      "id": 4,
+      "documentId": "a01e7d0ieei10wc7z9e3j39z",
+      "title": "October 2021 Newsletter",
+      "issueMonth": "2021-10",
+      "url": "https://www.njwebnest.in/newsletter/October-2021.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.164Z",
+      "updatedAt": "2026-09-23T16:34:11.164Z",
+      "publishedAt": "2026-09-23T16:34:11.166Z"
+    },
+    {
+      "id": 6,
+      "documentId": "sxb1o93cgkuylgxp41effisu",
+      "title": "September 2021 Newsletter",
+      "issueMonth": "2021-09",
+      "url": "https://www.njwebnest.in/newsletter/September-2021.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.184Z",
+      "updatedAt": "2026-09-23T16:34:11.184Z",
+      "publishedAt": "2026-09-23T16:34:11.187Z"
+    },
+    {
+      "id": 8,
+      "documentId": "qxjeeaxcb3bupwlek45lmiu6",
+      "title": "August 2021 Newsletter",
+      "issueMonth": "2021-08",
+      "url": "https://www.njwebnest.in/newsletter/August-2021.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.203Z",
+      "updatedAt": "2026-09-23T16:34:11.203Z",
+      "publishedAt": "2026-09-23T16:34:11.205Z"
+    },
+    {
+      "id": 10,
+      "documentId": "xtnffn8en1jup59acnme0oe9",
+      "title": "July 2021 Newsletter",
+      "issueMonth": "2021-07",
+      "url": "https://www.njwebnest.in/newsletter/July-2021.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.221Z",
+      "updatedAt": "2026-09-23T16:34:11.221Z",
+      "publishedAt": "2026-09-23T16:34:11.223Z"
+    },
+    {
+      "id": 12,
+      "documentId": "qzp4nstnofn8gs6k03pbheip",
+      "title": "June 2021 Newsletter",
+      "issueMonth": "2021-06",
+      "url": "https://www.njwebnest.in/newsletter/June-2021.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.238Z",
+      "updatedAt": "2026-09-23T16:34:11.238Z",
+      "publishedAt": "2026-09-23T16:34:11.241Z"
+    },
+    {
+      "id": 14,
+      "documentId": "ddo2n8wqnnv1xyuelt7679xb",
+      "title": "May 2021 Newsletter",
+      "issueMonth": "2021-05",
+      "url": "https://www.njwebnest.in/newsletter/May-2021.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.258Z",
+      "updatedAt": "2026-09-23T16:34:11.258Z",
+      "publishedAt": "2026-09-23T16:34:11.260Z"
+    },
+    {
+      "id": 16,
+      "documentId": "sf3n1saz24isipb2d0qgixeu",
+      "title": "April 2021 Newsletter",
+      "issueMonth": "2021-04",
+      "url": "https://www.njwebnest.in/newsletter/April-2021.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.276Z",
+      "updatedAt": "2026-09-23T16:34:11.276Z",
+      "publishedAt": "2026-09-23T16:34:11.278Z"
+    },
+    {
+      "id": 18,
+      "documentId": "fs0tl9fup49yxw5x27fnnk2g",
+      "title": "March 2021 Newsletter",
+      "issueMonth": "2021-03",
+      "url": "https://www.njwebnest.in/newsletter/March-2021.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.295Z",
+      "updatedAt": "2026-09-23T16:34:11.295Z",
+      "publishedAt": "2026-09-23T16:34:11.297Z"
+    },
+    {
+      "id": 20,
+      "documentId": "juojl0yitfzwilg3s3c4l23g",
+      "title": "February 2021 Newsletter",
+      "issueMonth": "2021-02",
+      "url": "https://www.njwebnest.in/newsletter/February-2021.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.313Z",
+      "updatedAt": "2026-09-23T16:34:11.313Z",
+      "publishedAt": "2026-09-23T16:34:11.315Z"
+    },
+    {
+      "id": 22,
+      "documentId": "idzcktmhob80lbawbb9rn31g",
+      "title": "January 2021 Newsletter",
+      "issueMonth": "2021-01",
+      "url": "https://www.njwebnest.in/newsletter/January-2021.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.333Z",
+      "updatedAt": "2026-09-23T16:34:11.333Z",
+      "publishedAt": "2026-09-23T16:34:11.335Z"
+    },
+    {
+      "id": 24,
+      "documentId": "fbxp6i6319eali5fb0pnqiqo",
+      "title": "December 2020 Newsletter",
+      "issueMonth": "2020-12",
+      "url": "https://www.njwebnest.in/newsletter/December-2020.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.351Z",
+      "updatedAt": "2026-09-23T16:34:11.351Z",
+      "publishedAt": "2026-09-23T16:34:11.353Z"
+    },
+    {
+      "id": 26,
+      "documentId": "nust46u55kyyryx4tq12mlfk",
+      "title": "November 2020 Newsletter",
+      "issueMonth": "2020-11",
+      "url": null,
+      "createdAt": "2026-09-23T16:34:11.370Z",
+      "updatedAt": "2026-09-23T16:34:11.370Z",
+      "publishedAt": "2026-09-23T16:34:11.372Z"
+    },
+    {
+      "id": 28,
+      "documentId": "mrg6h1rtord4bu8zmn9t9ayw",
+      "title": "October 2020 Newsletter",
+      "issueMonth": "2020-10",
+      "url": "https://www.njwebnest.in/newsletter/October-2020.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.387Z",
+      "updatedAt": "2026-09-23T16:34:11.387Z",
+      "publishedAt": "2026-09-23T16:34:11.390Z"
+    },
+    {
+      "id": 30,
+      "documentId": "r1uljwoqgnxtgjwso3e3b3pt",
+      "title": "September 2020 Newsletter",
+      "issueMonth": "2020-09",
+      "url": "https://www.njwebnest.in/newsletter/September-2020.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.407Z",
+      "updatedAt": "2026-09-23T16:34:11.407Z",
+      "publishedAt": "2026-09-23T16:34:11.409Z"
+    },
+    {
+      "id": 32,
+      "documentId": "vx93y2clqngq593i9t2118ni",
+      "title": "August 2020 Newsletter",
+      "issueMonth": "2020-08",
+      "url": "https://www.njwebnest.in/newsletter/August-2020.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.426Z",
+      "updatedAt": "2026-09-23T16:34:11.426Z",
+      "publishedAt": "2026-09-23T16:34:11.428Z"
+    },
+    {
+      "id": 34,
+      "documentId": "fb70u9slbrnahixwdiz45f54",
+      "title": "July 2020 Newsletter",
+      "issueMonth": "2020-07",
+      "url": "https://www.njwebnest.in/newsletter/July-2020.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.443Z",
+      "updatedAt": "2026-09-23T16:34:11.443Z",
+      "publishedAt": "2026-09-23T16:34:11.446Z"
+    },
+    {
+      "id": 36,
+      "documentId": "ofoy98qx5kmf5q2xsj3r9ffz",
+      "title": "June 2020 Newsletter",
+      "issueMonth": "2020-06",
+      "url": null,
+      "createdAt": "2026-09-23T16:34:11.462Z",
+      "updatedAt": "2026-09-23T16:34:11.462Z",
+      "publishedAt": "2026-09-23T16:34:11.464Z"
+    },
+    {
+      "id": 38,
+      "documentId": "z4g3bg05prmqwlsrt3l12qss",
+      "title": "May 2020 Newsletter",
+      "issueMonth": "2020-05",
+      "url": "https://www.njwebnest.in/newsletter/May-2020.php?pcode=43fca2ba1767b870e183646de3ed607c",
+      "createdAt": "2026-09-23T16:34:11.481Z",
+      "updatedAt": "2026-09-23T16:34:11.481Z",
+      "publishedAt": "2026-09-23T16:34:11.483Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "documentId": "c8fjcwaq4trxmr3sl9e387rf",
+      "name": "Retirement Planning",
+      "slug": "retirement-planning",
+      "createdAt": "2026-09-23T16:34:06.361Z",
+      "updatedAt": "2026-09-23T16:34:06.361Z",
+      "publishedAt": "2026-09-23T16:34:06.366Z"
+    },
+    {
+      "id": 4,
+      "documentId": "mjr1yysrw59xpk6viz9jvlvx",
+      "name": "Insurance",
+      "slug": "insurance",
+      "createdAt": "2026-09-23T16:34:06.394Z",
+      "updatedAt": "2026-09-23T16:34:06.394Z",
+      "publishedAt": "2026-09-23T16:34:06.397Z"
+    }
+  ]
+}

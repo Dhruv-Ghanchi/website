@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-30",
+  "reports": [
+    "01-homepage-scroll-map.md",
+    "02-developer-vs-client.md",
+    "03-section-decision-matrix.md",
+    "04-recommended-information-architecture.md",
+    "FINAL-AUDIT.md",
+    "IMPLEMENTATION-HANDOFF.md"
+  ],
+  "inventorySections": 13,
+  "primaryDecisions": 13,
+  "canonicalRoutes": 25,
+  "homepageViewports": 4,
+  "publicContentCounts": {
+    "services": 9,
+    "testimonials": 11,
+    "awardPhotos": 8,
+    "certificateScans": 19,
+    "newsletters": 19
+  },
+  "estimatedBudgets": {
+    "desktop": 9100,
+    "mobile": 9600,
+    "desktopReductionPercent": 59.6,
+    "mobileReductionPercent": 60.4
+  },
+  "auditValidation": "pass",
+  "typecheck": "pass",
+  "build": "pass",
+  "fullPlaywright": {
+    "passed": 33,
+    "failed": 6
+  },
+  "isolated1200RouteRetest": "pass",
+  "followupInteractions": "pass at all four widths",
+  "legacyContentValidation": "fails: content.validateContent is not a function",
+  "implementationApproved": false
+}
