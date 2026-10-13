@@ -67,6 +67,14 @@ The `main` branch in https://github.com/Dhruv-Ghanchi/website.git preserves the 
 - `gallery-items` now have a `showOnHomepage` boolean toggle. Only toggled items render in the homepage "Recognition. Built on service." marquee (`getRecognitionGallery`); `/about-us/awards` and `/about-us/certificates` still list all published records via `getGalleryItems`. Existing records were backfilled to `true`.
 - Owner verified the promotional claims used on the site: "serving since 2009", "15+ years", "1,200+ clients", "12+ awards", "5.0/5" (Google rating reported on the existing website, not a live feed), and "financial advisor" wording. These are approved; do not re-flag them as unverified.
 
+## Deployment pipeline
+
+- Frontend is on Vercel (project `ghanchi-investments`, team `dhruvghanchi`): pushes to `ghanchi-investments` build a Preview; `main` builds Production. Live URL: https://ghanchi-investments.vercel.app. Vercel env `STRAPI_URL` must be a publicly reachable Strapi — a LAN IP breaks builds. Promote a preview with `npx vercel promote <deployment-url>` instead of pushing `main`.
+- CMS is hosted on Render at https://ghanchi-cms.onrender.com and autodeploys `main` of `Dhruv-Ghanchi/website-cms`. Content and media never travel through git: `public/uploads/*` and the sqlite DB are gitignored.
+- Render uses Postgres + Cloudinary (`CLOUDINARY_NAME/KEY/SECRET` set there); local dev uses sqlite + local uploads when those vars are absent. `config/plugins.ts` picks Cloudinary whenever `CLOUDINARY_NAME` is set.
+- Sync content/media local → hosted with `npx strapi transfer --to $REMOTE_STRAPI_URL/admin --to-token $REMOTE_TRANSFER_TOKEN` (envs live in `ghanchi-cms/.env`; the token is an unlimited Push transfer token). Transfer replaces all remote entities/assets/links/config with local — remote is a mirror, local is the source of truth.
+- Render free tier sleeps after ~15 min idle; builds/transfers that hit it cold can fail with 520/timeout — warm it with a request first. A keep-alive ping service is a reasonable future addition.
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know
