@@ -4,9 +4,9 @@ import Link from 'next/link';
 import { ArrowUpRight, Check, Copy } from 'lucide-react';
 import { motion } from 'motion/react';
 import { useEffect, useId, useRef, useState, type FormEvent } from 'react';
-import type { Service, Testimonial as TestimonialRecord } from '@/lib/content';
+import type { Service } from '@/lib/content';
 import type { ContactPageContent, NewsletterFormCopy, SiteSettings } from '@/lib/strapi';
-import { Dots, Logo, Person, useReducedMotion } from '@/components/ui';
+import { Logo, useReducedMotion } from '@/components/ui';
 
 function useSubmission(endpoint: string, successMessage: string, genericErrorMessage: string) {
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
@@ -50,7 +50,7 @@ export function ContactIntro({ siteSettings, contactPage }: { siteSettings: Site
     </motion.div>
   </div></section>;
 }
-export function ContactSection({ asPage = false, siteSettings, contactPage, services, testimonials }: { asPage?: boolean; siteSettings: SiteSettings; contactPage: ContactPageContent; services: Service[]; testimonials: TestimonialRecord[] }) {
+export function ContactSection({ asPage = false, siteSettings, contactPage, services }: { asPage?: boolean; siteSettings: SiteSettings; contactPage: ContactPageContent; services: Service[] }) {
   const id = useId();
   const formRef = useRef<HTMLFormElement>(null);
   useEffect(() => {
@@ -64,7 +64,6 @@ export function ContactSection({ asPage = false, siteSettings, contactPage, serv
   const Heading = 'h2';
   const form = contactPage.formCopy;
   const { status, message, submit, ready } = useSubmission('/api/contact', form.successMessage, form.genericErrorMessage);
-  const testimonial = testimonials[Math.min(4, testimonials.length - 1)];
   const busy = status === 'loading';
   const reduced = useReducedMotion();
   function onSubmit(event: FormEvent<HTMLFormElement>) {
@@ -83,7 +82,7 @@ export function ContactSection({ asPage = false, siteSettings, contactPage, serv
   const isVideoBackground = !!siteSettings.contactBackground && /\.(mp4|webm|mov)$/i.test(siteSettings.contactBackground);
   return <section className={`contact-section ${asPage ? 'contact-section-page' : ''}`} id="contact" aria-labelledby={`${id}-heading`} style={siteSettings.contactBackground && !isVideoBackground ? { backgroundImage: `linear-gradient(90deg, rgba(29, 76, 89, .24), rgba(26, 75, 108, .15)), url("${siteSettings.contactBackground}")` } : undefined}>
     {isVideoBackground && <><video className="contact-bg-video" src={siteSettings.contactBackground} autoPlay muted loop playsInline aria-hidden="true"/><div className="contact-bg-tint"/></>}
-    <motion.div className="contact-section-copy" initial={reduced ? false : { opacity: 0, y: 36 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: .1 }} transition={{ duration: .7, ease: [0.22, 1, 0.36, 1] }}><div><Heading id={`${id}-heading`}>{contactPage.sectionHeading.split('\n').map((line, i) => <span key={i}>{line}<br/></span>)}</Heading><ul className="contact-section-benefits">{contactPage.benefits.map(benefit => <li key={benefit}><span><Check size={14} aria-hidden="true"/></span>{benefit}</li>)}</ul></div>{testimonial && <div className="contact-section-testimonial"><Dots/><blockquote>“{testimonial.quote}”</blockquote><Person {...testimonial}/></div>}</motion.div>
+    <motion.div className="contact-section-copy" initial={reduced ? false : { opacity: 0, y: 36 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: .1 }} transition={{ duration: .7, ease: [0.22, 1, 0.36, 1] }}><div><Heading id={`${id}-heading`}>{contactPage.sectionHeading.split('\n').map((line, i) => <span key={i}>{line}<br/></span>)}</Heading><ul className="contact-section-benefits">{contactPage.benefits.map(benefit => <li key={benefit}><span><Check size={14} aria-hidden="true"/></span>{benefit}</li>)}</ul></div></motion.div>
     <motion.div className="contact-section-right" initial={reduced ? false : { opacity: 0, y: 40, scale: .98 }} whileInView={{ opacity: 1, y: 0, scale: 1 }} viewport={{ once: true, amount: .08 }} transition={{ duration: .7, delay: .08, ease: [0.22, 1, 0.36, 1] }}><form ref={formRef} className="contact-form" action="/api/contact" method="post" onSubmit={onSubmit} noValidate={ready} aria-label="Contact Ghanchi Investments" aria-busy={busy}>
       <Logo src={siteSettings.logo} alt={siteSettings.logoAlt} link={false}/><p className="contact-form-intro">{form.introText}</p><Honeypot/>
       <div className="contact-form-fields"><div className="contact-form-row"><label htmlFor={`${id}-name`}>{form.nameLabel}<input id={`${id}-name`} name="name" placeholder={form.namePlaceholder} autoComplete="name" required minLength={2} maxLength={100} onInput={event => event.currentTarget.setCustomValidity('')}/></label><label htmlFor={`${id}-email`}>{form.emailLabel}<input id={`${id}-email`} name="email" type="email" placeholder={form.emailPlaceholder} autoComplete="email" required maxLength={254}/></label></div>
@@ -93,7 +92,7 @@ export function ContactSection({ asPage = false, siteSettings, contactPage, serv
       <label htmlFor={`${id}-message`}>{form.messageLabel}<textarea id={`${id}-message`} name="message" placeholder={form.messagePlaceholder} required minLength={10} maxLength={3000} rows={4} onInput={event => event.currentTarget.setCustomValidity('')}/></label>
       <label className="contact-form-consent"><input type="checkbox" name="consent" required/><span>{form.consentText} <Link href="/privacy-policy">privacy policy</Link> and <Link href="/terms-of-service">terms of service</Link>.</span></label></div>
       <div className="contact-form-actions"><p>{form.actionsNote.split('\n').map((line, i) => <span key={i}>{line}<br/></span>)}</p><button type="submit" disabled={!ready || busy || status === 'success'}>{busy ? form.sendingLabel : status === 'success' ? form.successLabel : form.submitLabel}<span aria-hidden="true"><ArrowUpRight size={13}/></span></button></div><div className={`contact-form-message ${status}`} role={status === 'error' ? 'alert' : 'status'} aria-live={status === 'error' ? 'assertive' : 'polite'}>{message}</div>
-    </form><div className="contact-section-stats">{contactPage.stats.map(stat => <div key={stat.label}><strong>{stat.value.toLocaleString('en-IN')}{stat.suffix}</strong><span>{stat.label.split('\n').map((line, i) => <span key={i}>{line}<br/></span>)}</span></div>)}</div></motion.div>
+    </form></motion.div>
   </section>;
 }
 export function NewsletterForm({ copy }: { copy: NewsletterFormCopy }) {

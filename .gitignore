@@ -11,4 +11,6 @@ graft/
 ~$*
 tests/.fixture-data.json
 docs/brand-authenticity-audit.zip
+docs/audit/GHANCHI-INVESTMENTS-AUDIT-DOCUMENTS.zip
 docs/brand-authenticity-audit/evidence/screenshots/
+.vercel

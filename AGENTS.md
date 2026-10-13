@@ -46,6 +46,27 @@ The `main` branch in https://github.com/Dhruv-Ghanchi/website.git preserves the 
 - Hero and footer motion tests remain authoritative for pinning/reversal. The large footer wordmark and layered text hover must not be removed during rebranding.
 - The owner selected integration with an existing Strapi application, not creation of another CMS. Obtain its source/repository location before schema changes. Do not provision infrastructure or mutate hosted content without separate authorization.
 
+## Approved homepage simplification
+
+- The owner approved removing Comparison and FeaturedCase from homepage rendering and replacing the nine large service stacks. Other audit proposals remain unapproved.
+- The owner rejected the compact 3x3 grid and clarified that one-screen height is NOT a limit. Preserve the original Kora heading/intro typography and spacing; prioritize a distinctive animated presentation over density.
+- Keep `ServicesSection` inside `.home-intro` after `Hero`: its opaque background replaces Comparison as the sticky hero/statement handoff. Do not leave the old comparison scroll allocation behind.
+- The latest approved service reference is a responsive gallery of portrait image tiles with rounded corners, a lower-right circular cutout, and a diagonal animated arrow on hover/focus. The orbital selector is superseded. Render the actual CMS collection without assuming nine items; preserve direct canonical links, image focal points, missing-image fallback and reduced motion.
+- Phase cards retain their original palette, typography, radii and numbering, but use testimonial-style hover/focus/tap expansion (desktop flex 1/2), with every phase preview always mounted.
+- Current source connects to the existing Strapi application at `C:/Users/Ghanchi/Desktop/ghanchi-cms`; older future-CMS notes above are historical. For local verification, run that existing application and set `STRAPI_URL=http://localhost:1337` for the frontend/test process without editing environment files.
+- Mobile (up to 560px) already uses a static statement and hides the hero spacer. Desktop/tablet retain pinning and reversal; motion tests distinguish these existing behaviors.
+
+## CMS handoff for the homepage updates
+
+- No schema migration is required for the service tiles or phase interaction.
+- CMS image records for the service tiles and article covers have been updated: new Indian-themed `files` rows were added in Strapi and the corresponding `files_related_mph` links were repointed. Old image files remain in `public/uploads` and the Media Library but are no longer referenced by the updated services/articles; remove them through the Strapi admin when convenient.
+- Maintain published services through existing `title`, unique stable `slug`, `order`, and `image` fields. The frontend reads the collection in `order` order and revalidates after 60 seconds; additions/removals/reordering do not require frontend layout edits.
+- Review portrait crops for each service image. Set `alternativeText` and `focalPoint` on the Strapi media asset; the frontend maps these to image alt/focal properties. Several current assets lack authored alt text and use the existing generated fallback. Keep the shared `icon` field for missing-image fallback and other pages.
+- Keep `home-page.servicesIntro` and existing phase titles/icons/text editable as before. Hover and arrow animation are frontend-only. Comparison and FeaturedCase fields/assets remain stored but are no longer rendered on the homepage; do not delete them automatically.
+- Hero background now uses the `heroImage` media field in `site-setting`; `home-hero.tsx` renders a `<video>` when the URL ends in `.mp4`/`.webm`/`.mov` and an `<img>` otherwise. The testimonials background video still uses the original non-Indian asset; replace it in `site-setting.testimonialBackground` once a new asset is ready.
+- `gallery-items` now have a `showOnHomepage` boolean toggle. Only toggled items render in the homepage "Recognition. Built on service." marquee (`getRecognitionGallery`); `/about-us/awards` and `/about-us/certificates` still list all published records via `getGalleryItems`. Existing records were backfilled to `true`.
+- Owner verified the promotional claims used on the site: "serving since 2009", "15+ years", "1,200+ clients", "12+ awards", "5.0/5" (Google rating reported on the existing website, not a live feed), and "financial advisor" wording. These are approved; do not re-flag them as unverified.
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know

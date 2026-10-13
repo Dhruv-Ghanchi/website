@@ -1,0 +1,525 @@
+{
+  "reduced-1440": {
+    "contactIntro": {
+      "copyOpacity": 0,
+      "detailsOpacity": 0,
+      "h1": "Contact."
+    },
+    "videos": [
+      {
+        "cls": "(hero/process)",
+        "autoplayAttr": false,
+        "paused": false,
+        "src": "hero-background.mp4"
+      },
+      {
+        "cls": "testimonial-bg",
+        "autoplayAttr": true,
+        "paused": true,
+        "src": "Family_sharing_moment_in_living_20260925221352_5760013d25.mp4"
+      },
+      {
+        "cls": "(hero/process)",
+        "autoplayAttr": false,
+        "paused": true,
+        "src": "process_video_trimmed_dd720c0ab1.mp4"
+      },
+      {
+        "cls": "contact-bg-video",
+        "autoplayAttr": true,
+        "paused": true,
+        "src": "Glass_shards_floating_upward_in_20260925223704_7099eeadd5.mp4"
+      }
+    ],
+    "marquee": {
+      "animationName": "none",
+      "animating": "running"
+    },
+    "contactVideos": [
+      {
+        "paused": true
+      }
+    ]
+  },
+  "reduced-390": {
+    "contactIntro": {
+      "copyOpacity": 0,
+      "detailsOpacity": 0,
+      "h1": "Contact."
+    },
+    "videos": [
+      {
+        "cls": "(hero/process)",
+        "autoplayAttr": false,
+        "paused": false,
+        "src": "hero-background.mp4"
+      },
+      {
+        "cls": "testimonial-bg",
+        "autoplayAttr": true,
+        "paused": true,
+        "src": "Family_sharing_moment_in_living_20260925221352_5760013d25.mp4"
+      },
+      {
+        "cls": "(hero/process)",
+        "autoplayAttr": false,
+        "paused": true,
+        "src": "process_video_trimmed_dd720c0ab1.mp4"
+      },
+      {
+        "cls": "contact-bg-video",
+        "autoplayAttr": true,
+        "paused": true,
+        "src": "Glass_shards_floating_upward_in_20260925223704_7099eeadd5.mp4"
+      }
+    ],
+    "marquee": {
+      "animationName": "none",
+      "animating": "running"
+    },
+    "contactVideos": [
+      {
+        "paused": true
+      }
+    ]
+  },
+  "normalMotion": {
+    "heroVideo": {
+      "paused": false,
+      "autoplay": true
+    },
+    "videosAfterScroll": [
+      {
+        "cls": "(unnamed)",
+        "autoplay": true,
+        "paused": true,
+        "controls": false,
+        "src": "hero-background.mp4"
+      },
+      {
+        "cls": "testimonial-bg",
+        "autoplay": true,
+        "paused": true,
+        "controls": false,
+        "src": "Family_sharing_moment_in_living_20260925221352_5760013d25.mp4"
+      },
+      {
+        "cls": "(unnamed)",
+        "autoplay": false,
+        "paused": true,
+        "controls": false,
+        "src": "process_video_trimmed_dd720c0ab1.mp4"
+      },
+      {
+        "cls": "contact-bg-video",
+        "autoplay": true,
+        "paused": true,
+        "controls": false,
+        "src": "Glass_shards_floating_upward_in_20260925223704_7099eeadd5.mp4"
+      }
+    ]
+  },
+  "contrast": [
+    {
+      "sel": ".hero-actions .button",
+      "color": "rgb(255, 255, 250)",
+      "bg": "rgb(118, 193, 67)",
+      "fontSize": "15px",
+      "text": "Our Services"
+    },
+    {
+      "sel": ".button-mint",
+      "color": "rgb(255, 255, 250)",
+      "bg": "rgb(118, 193, 67)",
+      "fontSize": "15px",
+      "text": "Our Services"
+    },
+    {
+      "sel": ".contact-form button[type=\"submit\"]",
+      "color": "rgb(245, 245, 233)",
+      "bg": "rgb(36, 69, 120)",
+      "fontSize": "13px",
+      "text": "Send enquiry"
+    },
+    {
+      "sel": ".service-tile-title",
+      "color": "rgb(255, 255, 250)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "text": "Financial Planning"
+    },
+    {
+      "sel": ".trust-badge",
+      "color": "rgb(255, 255, 250)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fontSize": "15px",
+      "text": "NA\nSJ\nRS\nVS\nMR\n\nTrusted by 1,200+ clients\n\n5.0/5 · Google ra"
+    },
+    {
+      "sel": ".nav-call",
+      "color": "rgb(36, 69, 120)",
+      "bg": "rgb(245, 245, 233)",
+      "fontSize": "15px",
+      "text": ""
+    },
+    {
+      "sel": ".team-pill-name small",
+      "color": "rgba(36, 69, 120, 0.85)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fontSize": "15px",
+      "text": "Director, Founder and Financial Advisor"
+    },
+    {
+      "sel": ".footer-disclosure",
+      "color": "rgb(79, 91, 116)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "text": "Mutual fund investments are subject to market risks. Read al"
+    },
+    {
+      "sel": ".recognition-intro p",
+      "color": "rgba(36, 69, 120, 0.85)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "text": "Explore our awards and certificates archive, reflecting our "
+    }
+  ],
+  "tiles-1440": [
+    {
+      "x": 164,
+      "y": 3236,
+      "w": 260
+    },
+    {
+      "x": 448,
+      "y": 3236,
+      "w": 260
+    },
+    {
+      "x": 732,
+      "y": 3236,
+      "w": 260
+    },
+    {
+      "x": 1016,
+      "y": 3236,
+      "w": 260
+    },
+    {
+      "x": 164,
+      "y": 3611,
+      "w": 260
+    },
+    {
+      "x": 448,
+      "y": 3611,
+      "w": 260
+    },
+    {
+      "x": 732,
+      "y": 3611,
+      "w": 260
+    },
+    {
+      "x": 1016,
+      "y": 3611,
+      "w": 260
+    },
+    {
+      "x": 164,
+      "y": 3987,
+      "w": 260
+    }
+  ],
+  "tiles-810": [
+    {
+      "x": 133,
+      "y": 3095,
+      "w": 260
+    },
+    {
+      "x": 417,
+      "y": 3095,
+      "w": 260
+    },
+    {
+      "x": 133,
+      "y": 3471,
+      "w": 260
+    },
+    {
+      "x": 417,
+      "y": 3471,
+      "w": 260
+    },
+    {
+      "x": 133,
+      "y": 3846,
+      "w": 260
+    },
+    {
+      "x": 417,
+      "y": 3846,
+      "w": 260
+    },
+    {
+      "x": 133,
+      "y": 4221,
+      "w": 260
+    },
+    {
+      "x": 417,
+      "y": 4221,
+      "w": 260
+    },
+    {
+      "x": 133,
+      "y": 4597,
+      "w": 260
+    }
+  ],
+  "tiles-390": [
+    {
+      "x": 20,
+      "y": 1280,
+      "w": 166
+    },
+    {
+      "x": 204,
+      "y": 1280,
+      "w": 166
+    },
+    {
+      "x": 20,
+      "y": 1548,
+      "w": 166
+    },
+    {
+      "x": 204,
+      "y": 1548,
+      "w": 166
+    },
+    {
+      "x": 20,
+      "y": 1816,
+      "w": 166
+    },
+    {
+      "x": 204,
+      "y": 1816,
+      "w": 166
+    },
+    {
+      "x": 20,
+      "y": 2084,
+      "w": 166
+    },
+    {
+      "x": 204,
+      "y": 2084,
+      "w": 166
+    },
+    {
+      "x": 20,
+      "y": 2352,
+      "w": 166
+    }
+  ],
+  "forms": {
+    "contactIntroVisible": 1,
+    "validity": {
+      "invalid": [
+        "name",
+        "email",
+        "phone",
+        "services",
+        "message",
+        "consent"
+      ],
+      "msg": ""
+    },
+    "apiNoConsent": {
+      "status": 403,
+      "body": "{\"message\":\"This request must come from this website.\"}"
+    }
+  },
+  "galleryItems": [
+    {
+      "title": "Awards archive — photograph 2",
+      "category": "awards",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Awards archive — photograph 3",
+      "category": "awards",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Awards archive — photograph 5",
+      "category": "awards",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Awards archive — photograph 6",
+      "category": "awards",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Awards archive — photograph 7",
+      "category": "awards",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Awards archive — photograph 8",
+      "category": "awards",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 1",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 2",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 3",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 4",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 5",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 6",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 7",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 8",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 9",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 10",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 11",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 12",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 13",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 14",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 15",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 16",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 17",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 18",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Certificates archive — document 19",
+      "category": "certificates",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Awards archive — photograph 4",
+      "category": "awards",
+      "showOnHomepage": true,
+      "hasImage": true
+    },
+    {
+      "title": "Awards archive — photograph 1",
+      "category": "awards",
+      "showOnHomepage": true,
+      "hasImage": true
+    }
+  ],
+  "serviceCount": 9,
+  "teamMembers": [
+    {
+      "name": "Chandrakant B. Ghanchi",
+      "role": "Director, Founder and Financial Advisor"
+    },
+    {
+      "name": "Hitesh Mhadaye",
+      "role": "Customer Relationship Manager (CRM)"
+    },
+    {
+      "name": "Faiziya Tazeemtark",
+      "role": "Office Administrator"
+    }
+  ]
+}

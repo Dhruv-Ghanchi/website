@@ -165,13 +165,17 @@ export async function getOnlineServices(): Promise<OnlineService[]> {
 }
 
 // ---------- Gallery ----------
-type RawGalleryItem = { id: number; title: string; image: StrapiMedia | null; category: 'awards' | 'certificates'; sourceUrl: string; order: number };
+type RawGalleryItem = { id: number; title: string; image: StrapiMedia | null; category: 'awards' | 'certificates'; sourceUrl: string; order: number; showOnHomepage: boolean };
 function mapGalleryItem(raw: RawGalleryItem): GalleryItem {
   return { id: String(raw.id), title: raw.title, image: mediaUrl(raw.image), sourceUrl: raw.sourceUrl };
 }
 export async function getGalleryItems(category: 'awards' | 'certificates'): Promise<GalleryItem[]> {
   const data = await strapiFetch<RawGalleryItem[]>(`gallery-items?filters[category][$eq]=${category}&populate=*&sort=order:asc&pagination[pageSize]=100`);
   return data.map(mapGalleryItem);
+}
+export async function getRecognitionGallery(): Promise<GalleryItem[]> {
+  const data = await strapiFetch<RawGalleryItem[]>(`gallery-items?filters[showOnHomepage][$eq]=true&populate=*&sort=order:asc&pagination[pageSize]=100`);
+  return data.map(mapGalleryItem).filter(item => item.image);
 }
 
 // ---------- Navigation ----------

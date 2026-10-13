@@ -14,6 +14,16 @@ for (const width of [1440, 1200, 810, 390]) {
     await expect(page.locator('.contact-form button[type="submit"]')).toBeEnabled();
     await expect(page.locator('.hero-copy h1')).toHaveCSS('font-variation-settings', '"wght" 585');
     const height = await page.locator('.hero-scroll').evaluate(el => el.getBoundingClientRect().height);
+    if (width === 390) {
+      await page.locator('.hero-statement').scrollIntoViewIfNeeded();
+      await expect(page.locator('.hero-statement')).toHaveCSS('position', 'relative');
+      await expect(page.locator('.hero-statement .statement-word').last()).toHaveCSS('opacity', '1');
+      await expect(page.locator('.hero-scroll-space')).not.toBeVisible();
+      await scrollTo(page, 0);
+      await expect(page.locator('.hero-copy h1')).toBeVisible();
+      expect(errors).toEqual([]);
+      return;
+    }
     await scrollTo(page, height + 1100);
     await expect(page.locator('.hero-statement')).toBeVisible();
     const words = page.locator('.hero-statement .statement-word');
@@ -24,10 +34,10 @@ for (const width of [1440, 1200, 810, 390]) {
     const background = await page.locator('.hero-background').boundingBox();
     expect(background!.y).toBeLessThanOrEqual(0);
     expect(background!.y + background!.height).toBeGreaterThanOrEqual(width === 390 ? 844 : 1000);
-    const comparison = await page.locator('.comparison-scroll').evaluate(el => el.getBoundingClientRect().top + window.scrollY);
-    await scrollTo(page, comparison - 300);
+    const services = await page.locator('#services').evaluate(el => el.getBoundingClientRect().top + window.scrollY);
+    await scrollTo(page, services - 500);
     expect((await page.locator('.hero-statement').boundingBox())?.y).toBeCloseTo(0, 0);
-    expect((await page.locator('.comparison-scroll').boundingBox())?.y).toBeCloseTo(300, 0);
+    expect((await page.locator('#services').boundingBox())?.y).toBeCloseTo(500, 0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBe(width);
     await scrollTo(page, 0);
     await expect(words.first()).toHaveCSS('opacity', '0');
