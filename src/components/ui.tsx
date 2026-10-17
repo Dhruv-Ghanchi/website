@@ -23,7 +23,15 @@ export function Reveal({ children, className = '', delay = 0 }: { children: Reac
 }
 export function Button({ children, href = '/contact-us', variant = 'mint', className = '', dot = false }: { children: ReactNode; href?: string; variant?: 'mint' | 'dark' | 'cream' | 'ghost'; className?: string; dot?: boolean }) {
   const reduced = useReducedMotion();
-  return <motion.div className={`button-motion ${className}`} whileHover={reduced ? {} : { scale: 1.03 }} whileTap={reduced ? {} : { scale: 0.97 }} transition={{ type: 'spring', stiffness: 300, damping: 20 }}><Link className={`button button-${variant}`} href={href}><span className="button-label">{children}</span>{dot && <span className="button-dot" aria-hidden="true"><ArrowUpRight size={13} /></span>}</Link></motion.div>;
+  return <motion.div className={`button-motion ${className}`} whileHover={reduced ? {} : { scale: 1.03 }} whileTap={reduced ? {} : { scale: 0.97 }} transition={{ type: 'spring', stiffness: 300, damping: 20 }}>
+    <Link className={`button button-${variant}`} href={href}>
+      <span className="button-label button-text">
+        <span className="button-text-default">{children}</span>
+        <span className="button-text-hover" aria-hidden="true">{children}</span>
+      </span>
+      {dot && <span className="button-dot" aria-hidden="true"><ArrowUpRight size={13} /></span>}
+    </Link>
+  </motion.div>;
 }
 export function BrandMark({ className = '' }: { className?: string }) {
   return <span className={`brand-mark ${className}`} aria-hidden="true"><svg viewBox="0 0 28 28" fill="none"><rect x="9" y="3" width="10" height="22" rx="5" stroke="currentColor" strokeWidth="1.8" transform="rotate(45 14 14)"/><rect x="9" y="3" width="10" height="22" rx="5" stroke="currentColor" strokeWidth="1.8" transform="rotate(-45 14 14)"/></svg></span>;

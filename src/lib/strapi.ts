@@ -88,7 +88,8 @@ type RawCategory = { id: number; name: string; slug: string };
 function mapCategory(raw: RawCategory): Category { return { id: raw.slug, name: raw.name }; }
 export async function getCategories(): Promise<Category[]> {
   const data = await strapiFetch<RawCategory[]>('categories?pagination[pageSize]=100');
-  return data.map(mapCategory);
+  const mapped = data.map(mapCategory);
+  return Array.from(new Map(mapped.map(c => [c.id, c])).values());
 }
 
 // ---------- Articles ----------

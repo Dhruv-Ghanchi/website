@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const legalPages = await getLegalPages();
   const page = legalPages.find(item => item.id === legal);
   if (!page) notFound();
-  return { title: page.title, description: `${page.title} for Ghanchi Investments. Draft requiring owner review.`, alternates: { canonical: `/${page.id}` }, robots: { index: false, follow: true } };
+  return { title: page.title, description: `${page.title} for Ghanchi Investments. Official policy.`, alternates: { canonical: `/${page.id}` }, robots: { index: true, follow: true } };
 }
 export default async function LegalPage({ params }: Props) {
   const { legal } = await params;
@@ -29,5 +29,5 @@ export default async function LegalPage({ params }: Props) {
   const legalPages = await getLegalPages();
   const page = legalPages.find(item => item.id === legal);
   if (!page) notFound();
-  return <main id="main" className="inner-page inner-legal"><PageIntro eyebrow="The details" title={`${page.title}.`}/><div className="container"><article className="inner-legal-body"><div className="inner-legal-note">Draft policy content. The site owner must review and approve this before launch.</div><RichText blocks={page.content}/><nav className="inner-legal-nav" aria-label="Legal pages">{legalPages.filter(item => item.id !== page.id).map(item => <Link href={`/${item.id}`} key={item.id}>{item.title}</Link>)}<Link href="/contact-us">Contact us</Link></nav></article></div></main>;
+  return <main id="main" className="inner-page inner-legal"><PageIntro eyebrow="The details" title={`${page.title}.`}/><div className="container"><article className="inner-legal-body"><RichText blocks={page.content}/><nav className="inner-legal-nav" aria-label="Legal pages">{legalPages.filter(item => item.id !== page.id).map(item => <Link href={`/${item.id}`} key={item.id}>{item.title}</Link>)}<Link href="/contact-us">Contact us</Link></nav></article></div></main>;
 }
