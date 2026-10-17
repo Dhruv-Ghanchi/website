@@ -45,17 +45,16 @@ for (const width of [1440, 1200, 810, 390]) {
   });
 }
 
-test('footer scales with scroll, reverses, and animates navigation on hover and focus', async ({ page }) => {
+test('footer renders plainly on scroll and animates navigation on hover and focus', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto('/');
   const footer = page.locator('.site-footer');
   const card = page.locator('.footer-card');
   const top = await footer.evaluate(el => el.getBoundingClientRect().top + scrollY);
-  const scale = () => card.evaluate(el => new DOMMatrixReadOnly(getComputedStyle(el).transform).a);
   await scrollTo(page, top - 1000);
-  await expect.poll(scale).toBeCloseTo(0.85, 2);
+  await expect(card).toHaveCSS('transform', 'none');
   await scrollTo(page, await page.evaluate(() => document.documentElement.scrollHeight));
-  await expect.poll(scale).toBeCloseTo(1, 2);
+  await expect(card).toHaveCSS('transform', 'none');
   const link = page.getByRole('navigation', { name: 'Footer navigation' }).getByRole('link', { name: 'Services', exact: true });
   await link.hover();
   await expect(link.locator('.footer-nav-hover')).toHaveCSS('opacity', '1');
@@ -63,8 +62,6 @@ test('footer scales with scroll, reverses, and animates navigation on hover and 
   await link.focus();
   await expect(link.locator('.footer-nav-hover')).toHaveCSS('opacity', '1');
   await link.blur();
-  await scrollTo(page, top - 1000);
-  await expect.poll(scale).toBeCloseTo(0.85, 2);
 });
 
 for (const width of [1440, 390]) {

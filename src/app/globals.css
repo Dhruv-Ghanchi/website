@@ -2936,30 +2936,12 @@ dialog::backdrop {
   isolation: isolate;
 }
 
-.footer-reveal {
-  position: absolute;
-  inset: -100svh 0 0;
-  overflow: clip;
-  pointer-events: none;
-}
-
-.footer-circle {
-  position: absolute;
-  top: calc(50% + 50svh - 300px);
-  left: calc(50% - 300px);
-  width: 600px;
-  height: 600px;
-  border-radius: 50%;
-  background: var(--accent);
-}
-
 .footer-card {
   position: relative;
   border-radius: 40px;
   background: var(--cream);
   padding: 120px 40px 0;
   overflow: clip;
-  transform-origin: center;
 }
 
 .footer-card .newsletter-form {
@@ -3220,13 +3202,6 @@ dialog::backdrop {
 .footer-bottom>span {
   padding-bottom: 20px;
   white-space: nowrap;
-}
-
-@media (max-width: 560px),
-(prefers-reduced-motion: reduce) {
-  .footer-reveal {
-    display: none;
-  }
 }
 
 .not-found {
@@ -4681,7 +4656,6 @@ dialog::backdrop {
 
   .footer-card {
     padding: 60px 20px 0;
-    transform: none !important;
   }
 
   .footer-top {
@@ -4799,8 +4773,7 @@ dialog::backdrop {
   .hero-media,
   .hero-foreground,
   .hero-word,
-  .statement-word,
-  .footer-card {
+  .statement-word {
     transform: none !important;
     filter: none !important;
     opacity: 1 !important;
