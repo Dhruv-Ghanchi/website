@@ -3112,10 +3112,10 @@ dialog::backdrop {
 }
 
 .footer-links nav {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 10px 20px;
   font-size: 30px;
   letter-spacing: -.04em;
 }
@@ -4692,6 +4692,7 @@ dialog::backdrop {
   }
 
   .footer-links nav {
+    grid-template-columns: 1fr;
     font-size: 20px;
   }
 

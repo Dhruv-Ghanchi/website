@@ -46,23 +46,6 @@ for (const width of [1440, 1200, 810, 390]) {
     await page.setViewportSize({ width, height: 1000 });
     await page.goto('/');
     await expect(page.locator('.contact-form button[type="submit"]')).toBeEnabled();
-    for (const title of ['Assess', 'Plan', 'Review', 'Understand']) {
-      const button = page.getByRole('button', { name: new RegExp(`Phase \\d: ${title}`) });
-      await button.click();
-      await expect(button).toHaveAttribute('aria-expanded', 'true');
-      await expect(page.locator('.phase-trigger[aria-expanded="true"]')).toHaveCount(1);
-    }
-    await page.getByRole('button', { name: 'Watch how we work' }).click();
-    const processVideo = page.locator('.process-video video');
-    if (await processVideo.count()) {
-      await expect(processVideo).toHaveJSProperty('paused', false);
-      await expect(processVideo).toHaveJSProperty('controls', true);
-      await processVideo.evaluate((video: HTMLVideoElement) => video.pause());
-      await expect(page.getByRole('button', { name: 'Watch how we work' })).toBeVisible();
-    } else {
-      await expect(page.getByRole('dialog', { name: 'How we work' })).toBeVisible();
-      await page.keyboard.press('Escape');
-    }
     const founder = teamMembers[0];
     await expect(page.locator('.team-pill-list')).toBeVisible();
     await expect(page.locator('.team-pill')).toHaveCount(teamMembers.length);
@@ -158,50 +141,10 @@ for (const width of [1440, 1200, 1024, 810, 390]) {
     await expect(page).toHaveURL(new URL(destination!, page.url()).href);
   });
 
-  test(`phase cards retain previews and testimonial expansion at ${width}px`, async ({ page }, testInfo) => {
-    await page.setViewportSize({ width, height: 1000 });
-    await page.goto('/');
-    await expect(page.locator('.contact-form button[type="submit"]')).toBeEnabled();
-    const row = page.locator('.process-accordion');
-    if ((await row.count()) === 0) return;
-    const cards = row.locator('.phase-card-wrap');
-    await row.scrollIntoViewIfNeeded();
-    await expect(row).toHaveCSS('opacity', '1');
-    await expect(cards).toHaveCount(4);
-    for (const card of await cards.all()) {
-      await expect(card.locator('h3')).toBeVisible();
-      await expect(card.locator('.phase-content p')).toBeVisible();
-    }
-    await row.locator('.phase-content').evaluateAll(elements => elements.forEach(el => el.setAttribute('data-mounted', 'original')));
-    await cards.nth(2).hover();
-    await expect(cards.nth(2).locator('button')).toHaveAttribute('aria-expanded', 'true');
-    await expect(cards.nth(2).locator('.phase-card')).toHaveCSS('background-color', 'rgb(36, 69, 120)');
-    await expect(cards.first().locator('.phase-card')).toHaveCSS('background-color', 'rgb(255, 255, 250)');
-    await expect(cards.nth(2).locator('h3')).toHaveCSS('font-size', '20px');
-    if (width > 810) {
-      await expect(cards.nth(2)).toHaveCSS('flex-grow', '2');
-      await expect(cards.first()).toHaveCSS('flex-grow', '1');
-      await expect.poll(async () => (await cards.nth(2).boundingBox())!.width / (await cards.first().boundingBox())!.width).toBeCloseTo(2, 1);
-    }
-    await page.mouse.move(0, 0);
-    await expect(cards.nth(2).locator('button')).toHaveAttribute('aria-expanded', 'true');
-    await cards.first().locator('button').focus();
-    await page.keyboard.press('Tab');
-    await expect(cards.nth(1).locator('button')).toBeFocused();
-    await expect(cards.nth(1).locator('button')).toHaveAttribute('aria-expanded', 'true');
-    await cards.last().locator('button').click();
-    await expect(cards.last().locator('button')).toHaveAttribute('aria-expanded', 'true');
-    await expect(row.locator('.phase-content[data-mounted="original"]')).toHaveCount(4);
-    await expect(row.locator('[aria-expanded="true"]')).toHaveCount(1);
-    expect(await row.locator('.phase-content h3').evaluateAll(headings => headings.every(el => el.scrollWidth <= el.clientWidth + 1))).toBe(true);
-    expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBe(width);
-    await page.waitForTimeout(400);
-    await row.screenshot({ path: testInfo.outputPath(`phases-${width}.png`), style: '.site-header, nextjs-portal { visibility: hidden !important; }' });
-  });
 }
 
 for (const width of [1440, 390]) {
-  test(`service tiles and phases respect reduced motion at ${width}px`, async ({ page }) => {
+  test(`service tiles respect reduced motion at ${width}px`, async ({ page }) => {
     await page.emulateMedia({ reducedMotion: 'reduce' });
     await page.setViewportSize({ width, height: 900 });
     await page.goto('/');
@@ -210,9 +153,6 @@ for (const width of [1440, 390]) {
     await tile.hover();
     await expect(tile.locator('img')).toHaveCSS('transform', 'none');
     expect(await tile.locator('.service-arrow-in').evaluate(el => parseFloat(getComputedStyle(el).transitionDuration))).toBeLessThan(.01);
-    await page.locator('.phase-trigger').last().click();
-    await expect(page.locator('.phase-card-wrap').last()).toHaveCSS('transform', 'none');
-    await expect(page.locator('.phase-content')).toHaveCount(4);
   });
 }
 
@@ -285,8 +225,8 @@ test('approved section removals retain the homepage content sequence', async ({ 
   await expect(page.locator('.home-intro > #services')).toHaveCount(1);
   await expect(page.locator('.home-intro + .testimonials-section')).toHaveCount(1);
   await expect(page.locator('.testimonials-section + .team-section')).toHaveCount(1);
-  await expect(page.locator('.team-section + #process')).toHaveCount(1);
-  await expect(page.locator('#process + .faq-section')).toHaveCount(1);
+  await expect(page.locator('.team-section + .faq-section')).toHaveCount(1);
+  await expect(page.locator('#process')).toHaveCount(0);
 });
 test('unknown content returns 404', async ({ page }) => {
   for (const route of ['/cases/not-a-case', '/services/not-a-service', '/blog/not-an-article', '/about-us/not-a-section', '/not-a-page']) expect((await page.goto(route))?.status()).toBe(404);
