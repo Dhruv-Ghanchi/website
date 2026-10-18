@@ -659,6 +659,17 @@ h4 {
   color: var(--white);
 }
 
+.nav-app-download .nav-dropdown-menu {
+  left: auto;
+  right: -12px;
+}
+
+.nav-icon-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .mobile-nav-group {
   border-bottom: 1px solid var(--line);
 }
@@ -2997,6 +3008,7 @@ dialog::backdrop {
 
 .footer-message .person {
   margin: 30px 0 32px;
+  font-size: 15px;
 }
 
 .footer-phones {
@@ -3017,8 +3029,7 @@ dialog::backdrop {
   display: flex;
   gap: 10px;
   align-items: center;
-  font-size: 25px;
-  letter-spacing: -.03em;
+  font-size: 15px;
 }
 
 .footer-email>button {
@@ -3501,6 +3512,7 @@ dialog::backdrop {
   .mobile-navigation {
     display: flex;
     position: absolute;
+    z-index: 96;
     top: calc(100% - 1px);
     left: 0;
     right: 0;
@@ -4045,12 +4057,17 @@ dialog::backdrop {
 
   .hero-background {
     inset: 10px;
+    border-radius: 26px;
+  }
+
+  .hero-shade {
+    background: linear-gradient(180deg, rgb(0 0 0 / 35%), rgb(0 0 0 / 65%));
   }
 
   .hero-foreground {
     position: relative;
     inset: auto;
-    padding: 130px 30px 30px;
+    padding: 120px 24px 40px;
   }
 
   .hero-statement {
@@ -4069,15 +4086,10 @@ dialog::backdrop {
     display: none;
   }
 
-  .statement-word {
-    opacity: 1 !important;
-    filter: none !important;
-  }
-
   .hero-copy h1 {
-    font-size: 35px;
-    line-height: 1.05;
-    letter-spacing: -.04em;
+    font-size: 32px;
+    line-height: 1.15;
+    letter-spacing: -.03em;
   }
 
   .hero-copy p {
@@ -4677,10 +4689,6 @@ dialog::backdrop {
     margin-bottom: 50px;
   }
 
-  .footer-email {
-    font-size: 18px;
-  }
-
   .footer-links {
     gap: 50px;
     grid-template-columns: 1fr;
@@ -5058,8 +5066,36 @@ dialog::backdrop {
   }
 }
 
+.team-founder-spotlight {
+  margin-top: 60px;
+  padding-bottom: 44px;
+  border-bottom: 1px solid #ffffff40;
+}
+
+.team-founder-spotlight .person {
+  gap: 24px;
+}
+
+.team-founder-spotlight .person-image img,
+.team-founder-spotlight .person-initials {
+  width: 120px;
+  height: 120px;
+  font-size: 32px;
+}
+
+.team-founder-spotlight .person strong {
+  font-size: 28px;
+  letter-spacing: -.03em;
+}
+
+.team-founder-spotlight .person small {
+  font-size: 16px;
+  margin-top: 8px;
+  color: #244578d9;
+}
+
 .team-pill-wrap {
-  margin-top: 80px;
+  margin-top: 48px;
 }
 
 .team-pill-heading {

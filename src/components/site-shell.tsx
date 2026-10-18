@@ -4,12 +4,27 @@ import { useEffect, useId, useRef, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { AnimatePresence, motion, MotionConfig, useMotionValueEvent, useScroll, useTransform } from 'motion/react';
-import { ArrowUpRight, Check, ChevronDown, Copy, Facebook, Instagram, Linkedin, Mail, Menu, Minus, Phone, Youtube, X } from 'lucide-react';
+import { ArrowUpRight, Check, ChevronDown, Copy, Download, Facebook, Instagram, Linkedin, Mail, Menu, Minus, Phone, Youtube, X } from 'lucide-react';
 import type { LegalPage, NavItem, TeamMember } from '@/lib/content';
 import type { SiteSettings } from '@/lib/strapi';
-import { BrandMark, Logo, Person } from './ui';
+import { BrandMark, Logo, Person, WhatsAppIcon } from './ui';
 import { NewsletterForm } from './contact';
 
+const WHATSAPP_NUMBER = '919820926446';
+const ANDROID_APP_URL = 'https://play.google.com/store/apps/details?id=mobi.mywealth';
+const IOS_APP_URL = 'https://apps.apple.com/in/app/my-wealth/id1116107323';
+
+function AppDownloadMenu() {
+  const [hovering, setHovering] = useState(false);
+  const id = useId();
+  return <div className="nav-dropdown nav-app-download" onMouseEnter={() => setHovering(true)} onMouseLeave={() => setHovering(false)}>
+    <button type="button" className="nav-call" aria-haspopup="true" aria-expanded={hovering} aria-controls={id} aria-label="Download our app"><Download size={18}/></button>
+    <AnimatePresence initial={false}>{hovering && <motion.div id={id} className="nav-dropdown-menu" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 8 }} transition={{ duration: 0.15 }}>
+      <a href={ANDROID_APP_URL} target="_blank" rel="noreferrer">Android App<ArrowUpRight size={14}/></a>
+      <a href={IOS_APP_URL} target="_blank" rel="noreferrer">iOS App<ArrowUpRight size={14}/></a>
+    </motion.div>}</AnimatePresence>
+  </div>;
+}
 
 const pillTransition = { type: 'spring' as const, stiffness: 500, damping: 40 };
 function NavDropdown({ item, mobile = false, onOpenChange, hoveredHref, onHover, registerRef }: { item: NavItem; mobile?: boolean; onOpenChange?: (open: boolean) => void; hoveredHref?: string | null; onHover?: (href: string | null) => void; registerRef?: (href: string, el: HTMLElement | null) => void }) {
@@ -71,7 +86,10 @@ export function Header({ navigation, founder, siteSettings }: { navigation: NavI
         <AnimatePresence>{pillRect && <motion.div key="navPill" className="nav-hover-pill" initial={{ opacity: 0, left: pillRect.left, top: pillRect.top, width: pillRect.width, height: pillRect.height }} animate={{ opacity: 1, left: pillRect.left, top: pillRect.top, width: pillRect.width, height: pillRect.height }} exit={{ opacity: 0 }} transition={pillTransition} aria-hidden="true"/>}</AnimatePresence>
         {navigation.map(item => <NavDropdown key={item.href} item={item} hoveredHref={hoveredHref} onHover={handleNavHover} registerRef={registerNavItem} onOpenChange={isOpen => setActiveDropdown(prev => isOpen ? item.href : (prev === item.href ? null : prev))}/>)}
       </nav>
-      <a className="nav-call" href={`tel:${siteSettings.contactInfo.phone1.replaceAll(' ', '')}`} aria-label={`Call ${siteSettings.contactInfo.phone1}`}><Phone size={18}/></a>
+      <div className="nav-icon-group">
+        <AppDownloadMenu/>
+        <a className="nav-call" href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp"><WhatsAppIcon size={18}/></a>
+      </div>
       <button ref={menuButton} className="menu-toggle" aria-label={open ? 'Close navigation' : 'Open navigation'} aria-expanded={open} aria-controls="mobile-navigation" onClick={() => setOpen(!open)}>{open ? <X size={24}/> : <Menu size={24}/>}</button>
     </div>
     <motion.div style={{ opacity: pathname === '/' ? opacity : 1, pointerEvents: ctaHidden ? 'none' : 'auto' }} className="header-call">
@@ -93,5 +111,5 @@ export function Footer({ navigation, legalPages, siteSettings, founder }: { navi
   const { contactInfo } = siteSettings;
   const copyEmail = async () => { try { await navigator.clipboard.writeText(contactInfo.email1); setCopyStatus('Copied!'); } catch { setCopyStatus('Select the email address to copy it.'); } };
   const socialIcons = { Facebook, Instagram, LinkedIn: Linkedin, YouTube: Youtube };
-  return <footer className="site-footer"><div className="footer-card"><div className="footer-top"><div><h2>Subscribe to<br className="desktop-break"/> our newsletter.</h2><NewsletterForm copy={siteSettings.newsletterFormCopy}/></div><div className="footer-message"><h3>Let’s plan your financial future together.</h3><Person image={founder?.headshot || ''} name={founder?.name || 'Chandrakant B. Ghanchi'} role={founder?.role || 'Founder & Financial Planner'} focalX={founder?.headshotFocalX} focalY={founder?.headshotFocalY} badge/><div className="footer-phones"><a href={`tel:${contactInfo.phone1.replaceAll(' ', '')}`} className="footer-phone">{contactInfo.phone1}</a><a href={`tel:${contactInfo.phone2.replaceAll(' ', '')}`} className="footer-phone">{contactInfo.phone2}</a></div><div className="footer-email"><button type="button" onClick={copyEmail} aria-label="Copy email address">{copyStatus === 'Copied!' ? <Check size={17}/> : <Copy size={17}/>}</button><a href={`mailto:${contactInfo.email1}`}>{contactInfo.email1}</a><span className="footer-copy-status" role="status">{copyStatus}</span></div><a className="footer-secondary-email" href={`mailto:${contactInfo.email2}`}>{contactInfo.email2}</a></div></div><div className="footer-links"><div className="footer-navigation"><p className="eyebrow">{siteSettings.footerNavigationLabel}</p><nav aria-label="Footer navigation">{navigation.map(link => <Link href={link.href} key={link.href}><span className="footer-nav-dot" aria-hidden="true"/><span className="footer-nav-text"><span className="footer-nav-default">{link.title}</span><span className="footer-nav-hover" aria-hidden="true">{link.title}</span></span></Link>)}</nav></div><div className="footer-social-legal"><p className="eyebrow">{siteSettings.footerSocialsLabel}</p><div className="social-links">{siteSettings.socialLinks.map(({ name, href }) => { const Icon = socialIcons[name as keyof typeof socialIcons]; if (!Icon) return null; return <a key={name} href={href} aria-label={name} target="_blank" rel="noreferrer"><Icon className="social-icon-default" size={20}/><Icon className="social-icon-hover" size={20} aria-hidden="true"/></a>; })}</div><p className="eyebrow legal-label">{siteSettings.footerLegalLabel}</p><div className="legal-links">{legalPages.map(page => <Link href={`/${page.id}`} key={page.id}>{page.title}</Link>)}</div></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} {siteSettings.siteName}</span></div></div></footer>;
+  return <footer className="site-footer"><div className="footer-card"><div className="footer-top"><div><h2>Subscribe to<br className="desktop-break"/> our newsletter.</h2><NewsletterForm copy={siteSettings.newsletterFormCopy}/></div><div className="footer-message"><h3>Let’s plan your financial future together.</h3><Person image={founder?.headshot || ''} name={founder?.name || 'Chandrakant B. Ghanchi'} role={founder?.role || 'Founder & Financial Planner'} focalX={founder?.headshotFocalX} focalY={founder?.headshotFocalY}/><div className="footer-phones"><a href={`tel:${contactInfo.phone1.replaceAll(' ', '')}`} className="footer-phone">{contactInfo.phone1}</a><a href={`tel:${contactInfo.phone2.replaceAll(' ', '')}`} className="footer-phone">{contactInfo.phone2}</a></div><div className="footer-email"><button type="button" onClick={copyEmail} aria-label="Copy email address">{copyStatus === 'Copied!' ? <Check size={17}/> : <Copy size={17}/>}</button><a href={`mailto:${contactInfo.email1}`}>{contactInfo.email1}</a><span className="footer-copy-status" role="status">{copyStatus}</span></div><a className="footer-secondary-email" href={`mailto:${contactInfo.email2}`}>{contactInfo.email2}</a></div></div><div className="footer-links"><div className="footer-navigation"><p className="eyebrow">{siteSettings.footerNavigationLabel}</p><nav aria-label="Footer navigation">{navigation.map(link => <Link href={link.href} key={link.href}><span className="footer-nav-dot" aria-hidden="true"/><span className="footer-nav-text"><span className="footer-nav-default">{link.title}</span><span className="footer-nav-hover" aria-hidden="true">{link.title}</span></span></Link>)}</nav></div><div className="footer-social-legal"><p className="eyebrow">{siteSettings.footerSocialsLabel}</p><div className="social-links">{siteSettings.socialLinks.map(({ name, href }) => { const Icon = socialIcons[name as keyof typeof socialIcons]; if (!Icon) return null; return <a key={name} href={href} aria-label={name} target="_blank" rel="noreferrer"><Icon className="social-icon-default" size={20}/><Icon className="social-icon-hover" size={20} aria-hidden="true"/></a>; })}</div><p className="eyebrow legal-label">{siteSettings.footerLegalLabel}</p><div className="legal-links">{legalPages.map(page => <Link href={`/${page.id}`} key={page.id}>{page.title}</Link>)}</div></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} {siteSettings.siteName}</span></div></div></footer>;
 }

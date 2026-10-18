@@ -45,9 +45,11 @@ export function ProcessSection({ phases, processHeading, processSubheading, oper
 }
 function initials(name: string) { return name.split(' ').slice(0, 2).map(part => part[0]).join(''); }
 export function TeamSection({ teamMembers, teamHeading, hiringCopy, recognition }: { teamMembers: TeamMember[]; teamHeading: string; hiringCopy: HomePageContent['hiringCopy']; recognition: GalleryItem[] }) {
+  const [founder, ...team] = teamMembers;
   return <section className="team-section rounded-section section-space" id="team"><div className="container">
     <Reveal><h2 className="section-title">{teamHeading}</h2></Reveal>
-    <Reveal className="team-pill-wrap"><h3 className="team-pill-heading">Our team</h3><div className="team-pill-list">{teamMembers.map((member) => <div className="team-pill" key={member.id}><div className="team-pill-avatar">{member.headshot ? <img src={member.headshot} alt={member.name} loading="lazy"/> : <span aria-hidden="true">{initials(member.name)}</span>}</div><span className="team-pill-name"><strong>{member.name}</strong><small>{member.role}</small></span><Plus className="team-pill-plus" size={21} aria-hidden="true"/></div>)}</div></Reveal>
+    {founder && <Reveal className="team-founder-spotlight"><Person image={founder.headshot || ''} name={founder.name} role={founder.role} focalX={founder.headshotFocalX} focalY={founder.headshotFocalY}/></Reveal>}
+    <Reveal className="team-pill-wrap"><h3 className="team-pill-heading">Our team</h3><div className="team-pill-list">{team.map((member) => <div className="team-pill" key={member.id}><div className="team-pill-avatar">{member.headshot ? <img src={member.headshot} alt={member.name} loading="lazy"/> : <span aria-hidden="true">{initials(member.name)}</span>}</div><span className="team-pill-name"><strong>{member.name}</strong><small>{member.role}</small></span><Plus className="team-pill-plus" size={21} aria-hidden="true"/></div>)}</div></Reveal>
     <Reveal className="recognition-block">
       <div className="recognition-intro"><div><h3>{hiringCopy.heading.split('\n').map((line, i) => <span key={i}>{line}<br/></span>)}</h3><p>{hiringCopy.text}</p></div><div className="recognition-actions"><Button variant="dark" href="/about-us/awards" dot>View Awards</Button><Button variant="dark" href="/about-us/certificates" dot>View Certificates</Button></div></div>
       {recognition.length > 0 && <div className="recognition-marquee" aria-label="Recognition and certificates"><div className="recognition-track">{recognition.map(item => <a href={item.image} target="_blank" rel="noreferrer" key={item.id} className="recognition-thumb" title={item.title}><img src={item.image} alt={item.title}/></a>)}{recognition.map(item => <a href={item.image} target="_blank" rel="noreferrer" key={`dup-${item.id}`} className="recognition-thumb" title={item.title} aria-hidden="true"><img src={item.image} alt=""/></a>)}</div></div>}
@@ -59,7 +61,12 @@ function Counter({ value, suffix, decimals = 0 }: Stat) {
   const inView = useInView(ref, { once: true });
   const reduced = useReducedMotion();
   const [number, setNumber] = useState(0);
-  useEffect(() => { if (!inView) return; const control = animate(0, value, { duration: reduced ? 0 : 1.7, onUpdate: latest => setNumber(latest) }); return () => control.stop(); }, [inView, value, reduced]);
+  useEffect(() => {
+    if (!inView) return;
+    if (reduced) { setNumber(value); return; }
+    const control = animate(0, value, { duration: 1.7, onUpdate: latest => setNumber(latest) });
+    return () => control.stop();
+  }, [inView, value, reduced]);
   return <span ref={ref}>{number.toLocaleString('en-IN', { minimumFractionDigits: decimals, maximumFractionDigits: decimals })}{suffix}</span>;
 }
 export function TestimonialsSection({ testimonials, siteSettings, teamMembers, founderCallout }: { testimonials: Testimonial[]; siteSettings: SiteSettings; teamMembers: TeamMember[]; founderCallout: HomePageContent['founderCallout'] }) {

@@ -18,7 +18,7 @@ function LogoTicker({ clientLocations }: { clientLocations: string[] }) {
 }
 function StatementWord({ word, index, progress, mobile }: { word: string; index: number; progress: MotionValue<number>; mobile: boolean }) {
   const reduced = useReducedMotion();
-  const center = (mobile ? 0.5 : 0) + (index - 4) * 0.075;
+  const center = (index - 4) * 0.075;
   const opacity = useTransform(() => {
     const position = progress.get() - center;
     const stops = [-0.225, -0.175, -0.15, -0.1, -0.075, -0.05, -0.025, 0, 0.025, 0.05, 0.075, 0.1, 0.15, 0.175, 0.225];
@@ -30,6 +30,15 @@ function StatementWord({ word, index, progress, mobile }: { word: string; index:
     return values[next - 1] + fraction * (values[next] - values[next - 1]);
   });
   const filter = useTransform(opacity, [0, 1], ['blur(5px)', 'blur(0px)']);
+  if (mobile) {
+    return <motion.span
+      className="statement-word"
+      initial={reduced ? false : { opacity: 0, filter: 'blur(5px)' }}
+      whileInView={{ opacity: 1, filter: 'blur(0px)' }}
+      viewport={{ once: true, amount: 0.6 }}
+      transition={{ duration: 0.5, delay: index * 0.045 }}
+    >{word}</motion.span>;
+  }
   return <motion.span className="statement-word" style={reduced ? {} : { opacity, filter }}>{word}</motion.span>;
 }
 type HeroProps = {

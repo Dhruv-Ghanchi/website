@@ -7,7 +7,7 @@ import { useReducedMotion } from '@/components/ui';
 import type { Testimonial } from '@/lib/content';
 import type { SiteSettings } from '@/lib/strapi';
 
-const ROTATE_INTERVAL_MS = 4000;
+const ROTATE_INTERVAL_MS = 5000;
 const RADIUS = 205;
 const CENTER_Y = 320;
 const ANGLE_STEP = 42; // degrees between avatar slots

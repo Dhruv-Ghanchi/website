@@ -748,14 +748,21 @@
 
 .inner-page .inner-founder-label strong {
   display: block;
-  font-weight: 500;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 34px;
 }
 
 .inner-page .inner-founder-label span {
   display: block;
-  font-size: 13px;
+  font-size: 15px;
   color: var(--muted);
   margin-top: 6px;
+}
+
+.inner-page .inner-founder-label .social-links {
+  margin-top: 18px;
 }
 
 .inner-page .inner-founder-letter h2 {
@@ -770,14 +777,6 @@
   line-height: 1.85;
   color: var(--muted);
   margin-bottom: 22px;
-}
-
-.inner-page .inner-founder-signature {
-  font-family: Georgia, serif;
-  font-style: italic;
-  font-size: 34px;
-  display: block;
-  margin-top: 28px;
 }
 
 .inner-page .inner-values-wrap {
@@ -881,17 +880,6 @@
   color: var(--muted);
   line-height: 1.7;
   margin-top: 18px;
-}
-
-.inner-page .inner-team-socials {
-  display: flex;
-  gap: 15px;
-  margin-top: 15px;
-  font-size: 13px;
-}
-
-.inner-page .inner-team-socials a {
-  text-decoration: underline;
 }
 
 .inner-page .inner-services-grid {
